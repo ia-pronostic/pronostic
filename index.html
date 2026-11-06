@@ -1,0 +1,56 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pronósticos</title><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#0f9d58"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Pronósticos">
+<style>
+:root{--bg:#f4f6f5;--fg:#16181a;--mut:#667;--card:#fff;--bd:#e2e8e5;--g:#0f9d58;--c1:#0f9d58;--c2:#9aa5a0;--c3:#3b82f6;--sh:0 4px 18px rgba(20,60,40,.08)}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1110;--fg:#eef2f0;--mut:#98a39e;--card:#171d1b;--bd:#27302d;--sh:none}}
+*{box-sizing:border-box}html,body{margin:0}body{font:16px/1.4 -apple-system,system-ui,sans-serif;background:var(--bg);color:var(--fg);padding-bottom:calc(env(safe-area-inset-bottom) + 20px)}
+header{padding:calc(env(safe-area-inset-top) + 12px) 16px 14px;background:linear-gradient(135deg,#0f9d58,#0b7a8a);color:#fff;border-radius:0 0 22px 22px;position:sticky;top:0;z-index:3}
+h1{margin:0;font-size:20px}header small{opacity:.85}select{width:100%;margin-top:10px;padding:10px;border-radius:12px;border:0;font:inherit}
+#rf{border:0;background:rgba(255,255,255,.22);color:#fff;font-size:20px;width:38px;height:38px;border-radius:50%}main{padding:12px}h2{font-size:14px;text-transform:capitalize;color:var(--mut);margin:18px 4px 8px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:14px;margin-bottom:10px;box-shadow:var(--sh)}
+.top{display:flex;justify-content:space-between;font-size:12px;color:var(--mut)}h3{margin:4px 0 10px;font-size:17px}h3 small{color:var(--mut);font-weight:400}
+.bar{display:flex;height:26px;border-radius:9px;overflow:hidden;gap:2px}.bar i{display:flex;align-items:center;justify-content:center;color:#fff;font:600 12px system-ui;min-width:34px}
+.lab{display:flex;justify-content:space-between;font-size:11px;color:var(--mut);margin:3px 2px 8px}.pick{font-size:15px}
+details{margin-top:8px}summary{color:var(--g);font-weight:600;cursor:pointer}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0;font-size:13px}
+.grid div{background:var(--bg);border-radius:12px;padding:8px}table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:5px 4px;text-align:center;border-bottom:1px solid var(--bd)}td:first-child,th:first-child{text-align:left}
+.pos{color:var(--g);font-weight:700}.foot{font-size:12px;color:var(--mut);margin:18px 6px;text-align:center}
+</style></head><body>
+<header><div style="display:flex;justify-content:space-between;align-items:center"><h1>⚽ Pronósticos</h1><button id="rf" aria-label="Actualizar">↻</button></div><small id="upd">Cargando…</small><select id="lg"><option value="">Todas las ligas</option></select></header>
+<main id="list"></main>
+<p class="foot">Estimaciones estadísticas basadas en resultados anteriores: no garantizan nada, y las casas ya incluyen su margen en las cuotas. Solo mayores de 18. Juega con responsabilidad.<br>Datos: football-data.co.uk y ESPN. En Champions, Europa y Conference solo se estiman goles (sin remates, tarjetas ni cuotas).</p>
+<script>
+const $=s=>document.querySelector(s),pc=x=>Math.round(x*100)+'%',n1=x=>String(x).replace('.',',');
+let D=null;const ORDER=['Champions League','Europa League','Conference League','LaLiga','Premier League','Bundesliga','Serie A','Ligue 1'],
+cmp=(a,b)=>{const i=x=>{const k=ORDER.indexOf(x);return k<0?99:k};return i(a)-i(b)||a.localeCompare(b)},
+fd=d=>new Date(d+'T12:00').toLocaleDateString('es-ES',{weekday:'short',day:'numeric',month:'short'});
+const raw=(()=>{const h=location.hostname,p=location.pathname.split('/')[1];return h.endsWith('.github.io')&&p?`https://raw.githubusercontent.com/${h.split('.')[0]}/${p}/main/data.json`:null})();
+async function fetchData(){const t=Math.floor(Date.now()/60000);
+ if(raw)try{const r=await fetch(raw+'?t='+t,{cache:'no-store'});if(r.ok)return await r.json()}catch(e){}
+ return await (await fetch('data.json?t='+t,{cache:'no-store'})).json()}
+async function load(){try{D=await fetchData();
+ $('#upd').textContent='Datos del '+D.updated+' · próximos 7 días · hora de España';
+ const ct={},cur=$('#lg').value;D.matches.forEach(m=>ct[m.league]=(ct[m.league]||0)+1);
+ $('#lg').innerHTML='<option value="">Todas las ligas ('+D.matches.length+')</option>'+Object.keys(ct).sort(cmp).map(l=>`<option value="${l}"${l===cur?' selected':''}>${l} (${ct[l]})</option>`).join('');render()}
+ catch(e){$('#list').textContent='No se pudo cargar. Comprueba tu conexión.'}}
+const card=m=>{const nm=[m.home,'Empate',m.away],o=m.odds;
+ return `<div class="card"><div class="top"><span>${fd(m.date)}</span><span>${m.time}</span></div>
+ <h3>${m.home} <small>vs</small> ${m.away}</h3>
+ <div class="bar"><i style="flex:${m.p[0]};background:var(--c1)">${pc(m.p[0])}</i><i style="flex:${m.p[1]};background:var(--c2)">${pc(m.p[1])}</i><i style="flex:${m.p[2]};background:var(--c3)">${pc(m.p[2])}</i></div>
+ <div class="lab"><span>1 Local</span><span>X Empate</span><span>2 Visitante</span></div>
+ <div class="pick">Pronóstico: <b>${m.pick===1?'Empate':'Gana '+nm[m.pick]}</b>${m.value.length?' · 💎 valor en '+m.value.map(i=>['1','X','2'][i]).join(', '):''}</div>
+ <details><summary>Ver detalle</summary><div class="grid">
+ <div><b>⚽ Goles</b><br>Esperados: ${n1(m.goals.exp)}<br>+2,5: ${pc(m.goals.o25)}<br>Ambos marcan: ${pc(m.goals.btts)}</div>
+ <div><b>🎯 A puerta</b><br>${m.sot?`Local ${n1(m.sot.home)}<br>Visit. ${n1(m.sot.away)}<br>+8,5: ${pc(m.sot.o85)}`:'sin datos'}</div>
+ <div><b>🟨 Tarjetas</b><br>${m.cards?`Local ${n1(m.cards.home)}<br>Visit. ${n1(m.cards.away)}<br>+3,5: ${pc(m.cards.o35)}<br>+4,5: ${pc(m.cards.o45)}`:'sin datos'}</div></div>
+ ${o?`<table><tr><th>Casa</th><th>1</th><th>X</th><th>2</th></tr>${Object.entries(o.books).map(([k,v])=>`<tr><td>${k}</td>${v.map(x=>`<td>${n1(x.toFixed(2))}</td>`).join('')}</tr>`).join('')}
+ <tr><td><b>Mejor cuota</b></td>${o.best.map(x=>`<td><b>${n1(x.toFixed(2))}</b></td>`).join('')}</tr>
+ <tr><td>Valor esperado</td>${o.ev.map(x=>`<td class="${x>.05?'pos':''}">${x>0?'+':''}${Math.round(x*100)}%</td>`).join('')}</tr></table>`:'<p class="foot">Sin cuotas disponibles.</p>'}</details></div>`};
+function render(){const l=$('#lg').value,by={};let h='';
+ D.matches.filter(m=>!l||m.league===l).forEach(m=>(by[m.league]=by[m.league]||[]).push(m));
+ for(const k of Object.keys(by).sort(cmp))h+=`<h2>🏆 ${k} · ${by[k].length}</h2>`+by[k].map(card).join('');
+ $('#list').innerHTML=h||`<p class="foot">No hay partidos en los próximos 7 días (o aún no se ha ejecutado la primera actualización).<br>${(D.info||[]).join('<br>')}</p>`}
+$('#lg').onchange=render;$('#rf').onclick=()=>{$('#upd').textContent='Actualizando…';load()};setInterval(load,300000);load();document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
+if('serviceWorker' in navigator){const had=!!navigator.serviceWorker.controller;navigator.serviceWorker.register('sw.js');navigator.serviceWorker.addEventListener('controllerchange',()=>{if(had)location.reload()})}
+</script></body></html>
