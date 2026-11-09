@@ -1,6 +1,6 @@
 """Genera data.json con pronósticos de los próximos partidos.
 Datos gratuitos de football-data.co.uk (resultados, remates, tarjetas y cuotas de varias casas)."""
-import io, json, math, re, urllib.request, datetime as dt
+import io, json, math, re, urllib.request, urllib.error, datetime as dt
 import numpy as np, pandas as pd
 from zoneinfo import ZoneInfo
 
@@ -9,7 +9,7 @@ LEAGUES = {"SP1": "LaLiga", "SP2": "LaLiga 2", "E0": "Premier League", "E1": "Ch
            "I1": "Serie A", "F1": "Ligue 1", "N1": "Eredivisie", "P1": "Primeira Liga",
            "B1": "Liga belga", "SC0": "Premiership escocesa", "T1": "Süper Lig", "G1": "Super League griega"}
 COMP = {"uefa.champions": "Champions League", "uefa.europa": "Europa League", "uefa.europa.conf": "Conference League"}
-ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard?limit=1000&dates={}"  # fuente no oficial de ESPN
+ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard?dates={}"  # fuente no oficial de ESPN
 MAD = ZoneInfo("Europe/Madrid")
 WINDOW = 7  # días hacia delante
 BOOKS = {"B365": "Bet365", "BW": "Betway", "IW": "Interwetten", "PS": "Pinnacle", "WH": "William Hill",
@@ -18,7 +18,11 @@ HALFLIFE = 150  # días: los partidos recientes pesan más
 
 def get(url):
     raw = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=60).read()
-    return pd.read_csv(io.BytesIO(raw), encoding="latin-1", on_bad_lines="skip")
+    try: text = raw.decode("utf-8-sig")          # quita el carácter invisible (BOM) del principio
+    except UnicodeDecodeError: text = raw.decode("latin-1")
+    df = pd.read_csv(io.StringIO(text), on_bad_lines="skip")
+    df.columns = [str(c).strip().lstrip("\ufeff").replace("ï»¿", "") for c in df.columns]
+    return df
 
 def history(div, today):
     y = today.year if today.month >= 7 else today.year - 1
@@ -93,10 +97,20 @@ def build_match(r, mg, ms, mc, league=None, when=None):
     else: m["value"] = []
     return m
 
-def espn_events(slug, d1, d2):
-    url = ESPN.format(slug, f"{d1:%Y%m%d}-{d2:%Y%m%d}")
-    raw = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=60).read()
-    return json.loads(raw).get("events", [])
+def espn_events(slug, d1, d2):  # se pide por tramos de 10 días
+    evs, seen, errs, d = [], set(), [], d1
+    while d <= d2:
+        e = min(d + dt.timedelta(days=9), d2)
+        url = ESPN.format(slug, f"{d:%Y%m%d}-{e:%Y%m%d}")
+        try:
+            raw = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=60).read()
+            for ev in json.loads(raw).get("events", []):
+                if ev.get("id") not in seen: seen.add(ev.get("id")); evs.append(ev)
+        except urllib.error.HTTPError as ex:
+            errs.append(f"HTTP {ex.code} {ex.read()[:120]!r} url={url}")
+        d = e + dt.timedelta(days=1)
+    if errs and not evs: raise RuntimeError(errs[0])
+    return evs
 
 def parse(ev):
     c = ev["competitions"][0]
@@ -108,7 +122,7 @@ def parse(ev):
 
 def uefa(today, info):  # Champions / Europa / Conference: solo modelo de goles (sin remates, tarjetas ni cuotas)
     out = []
-    start = dt.date(today.year if today.month >= 7 else today.year - 1, 7, 1)
+    start = dt.date(today.year if today.month >= 7 else today.year - 1, 8, 15)
     for slug, name in COMP.items():
         try: evs = [parse(e) for e in espn_events(slug, start, today + dt.timedelta(days=WINDOW))]
         except Exception as e:
