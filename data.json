@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 08:40 UTC",
+ "updated": "2026-11-09 10:06 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -334,15 +334,15 @@
    "home": "Sabadell",
    "away": "Sociedad B",
    "p": [
-    0.547,
+    0.548,
     0.237,
-    0.216
+    0.215
    ],
    "pick": 0,
    "goals": {
     "exp": 2.73,
     "o25": 0.513,
-    "btts": 0.519
+    "btts": 0.518
    },
    "sot": {
     "home": 5.9,
@@ -352,8 +352,8 @@
    "cards": {
     "home": 2.8,
     "away": 3.2,
-    "o35": 0.851,
-    "o45": 0.718
+    "o35": 0.847,
+    "o45": 0.712
    },
    "odds": {
     "books": {
@@ -374,9 +374,9 @@
      5.0
     ],
     "ev": [
-     -0.07,
-     -0.123,
-     0.079
+     -0.068,
+     -0.124,
+     0.075
     ]
    },
    "value": [
