@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 15:01 UTC",
+ "updated": "2026-11-09 15:34 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,103 +15,16 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260113-20260122",
-  "ATP: 10 partidos (2900 resultados usados)",
-  "WTA: 26 partidos (4332 resultados usados)"
+  "ATP: 9 partidos (2904 resultados usados)",
+  "WTA: 26 partidos (4332 resultados usados)",
+  "Nations League (lista manual): 16 partidos añadidos"
  ],
  "matches": [
   {
    "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-09",
-   "time": "12:50",
-   "home": "Yannick Hanfmann",
-   "away": "Alex Michelsen",
-   "p": [
-    0.401,
-    0.599
-   ],
-   "pick": 1,
-   "elo": [
-    1511,
-    1581
-   ],
-   "n": [
-    29,
-    23
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-09",
-   "time": "13:05",
-   "home": "Cameron Norrie",
-   "away": "James Duckworth",
-   "p": [
-    0.527,
-    0.473
-   ],
-   "pick": 0,
-   "elo": [
-    1500,
-    1481
-   ],
-   "n": [
-    20,
-    26
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-09",
-   "time": "14:00",
-   "home": "Borna Gojo",
-   "away": "Tomas Machac",
-   "p": [
-    0.552,
-    0.448
-   ],
-   "pick": 0,
-   "elo": [
-    1561,
-    1524
-   ],
-   "n": [
-    10,
-    17
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-09",
-   "time": "14:30",
-   "home": "Ugo Humbert",
-   "away": "Adolfo Daniel Vallejo",
-   "p": [
-    0.492,
-    0.508
-   ],
-   "pick": 1,
-   "elo": [
-    1496,
-    1501
-   ],
-   "n": [
-    23,
-    27
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "16:00",
+   "time": "16:30",
    "home": "Dalila Jakupovic",
    "away": "Laura Pigossi",
    "p": [
@@ -133,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "16:00",
+   "time": "16:30",
    "home": "Varvara Lepchenko",
    "away": "Polona Hercog",
    "p": [
@@ -155,7 +68,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "16:00",
+   "time": "16:30",
    "home": "Luisina Giovannini",
    "away": "Tatjana Maria",
    "p": [
@@ -170,72 +83,6 @@
    "n": [
     10,
     33
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "17:30",
-   "home": "Veronika Erjavec",
-   "away": "Elizabeth Mandlik",
-   "p": [
-    0.465,
-    0.535
-   ],
-   "pick": 1,
-   "elo": [
-    1444,
-    1469
-   ],
-   "n": [
-    15,
-    14
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "17:30",
-   "home": "Antonella Esquivel Useche",
-   "away": "Sofia Costoulas",
-   "p": [
-    0.61,
-    0.39
-   ],
-   "pick": 0,
-   "elo": [
-    1500,
-    1422
-   ],
-   "n": [
-    0,
-    16
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "17:30",
-   "home": "Marina Bassols Ribera",
-   "away": "Maria Herazo Gonzalez",
-   "p": [
-    0.517,
-    0.483
-   ],
-   "pick": 0,
-   "elo": [
-    1510,
-    1498
-   ],
-   "n": [
-    27,
-    4
    ],
    "value": []
   },
@@ -265,21 +112,21 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "19:00",
-   "home": "Julia Grabher",
-   "away": "Tamara Zidansek",
+   "time": "18:00",
+   "home": "Veronika Erjavec",
+   "away": "Elizabeth Mandlik",
    "p": [
-    0.628,
-    0.372
+    0.465,
+    0.535
    ],
-   "pick": 0,
+   "pick": 1,
    "elo": [
-    1602,
-    1511
+    1444,
+    1469
    ],
    "n": [
-    33,
-    22
+    15,
+    14
    ],
    "value": []
   },
@@ -287,21 +134,43 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "19:00",
-   "home": "Yuliana Lizarazo",
-   "away": "Irene Burillo",
+   "time": "18:00",
+   "home": "Antonella Esquivel Useche",
+   "away": "Sofia Costoulas",
    "p": [
-    0.406,
-    0.594
+    0.61,
+    0.39
    ],
-   "pick": 1,
+   "pick": 0,
    "elo": [
-    1472,
-    1538
+    1500,
+    1422
    ],
    "n": [
-    2,
-    17
+    0,
+    16
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "18:00",
+   "home": "Marina Bassols Ribera",
+   "away": "Maria Herazo Gonzalez",
+   "p": [
+    0.517,
+    0.483
+   ],
+   "pick": 0,
+   "elo": [
+    1510,
+    1498
+   ],
+   "n": [
+    27,
+    4
    ],
    "value": []
   },
@@ -324,6 +193,50 @@
    "n": [
     15,
     0
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "19:30",
+   "home": "Julia Grabher",
+   "away": "Tamara Zidansek",
+   "p": [
+    0.628,
+    0.372
+   ],
+   "pick": 0,
+   "elo": [
+    1602,
+    1511
+   ],
+   "n": [
+    33,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "19:30",
+   "home": "Yuliana Lizarazo",
+   "away": "Irene Burillo",
+   "p": [
+    0.406,
+    0.594
+   ],
+   "pick": 1,
+   "elo": [
+    1472,
+    1538
+   ],
+   "n": [
+    2,
+    17
    ],
    "value": []
   },
@@ -424,94 +337,6 @@
    "n": [
     25,
     21
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-10",
-   "time": "06:00",
-   "home": "Quentin Halys",
-   "away": "Lorenzo Sonego",
-   "p": [
-    0.595,
-    0.405
-   ],
-   "pick": 0,
-   "elo": [
-    1579,
-    1512
-   ],
-   "n": [
-    31,
-    29
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-10",
-   "time": "06:00",
-   "home": "Miomir Kecmanovic",
-   "away": "Arthur Rinderknech",
-   "p": [
-    0.363,
-    0.637
-   ],
-   "pick": 1,
-   "elo": [
-    1420,
-    1518
-   ],
-   "n": [
-    23,
-    19
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-10",
-   "time": "06:00",
-   "home": "Aleksandr Shevchenko",
-   "away": "Adrian Mannarino",
-   "p": [
-    0.368,
-    0.632
-   ],
-   "pick": 1,
-   "elo": [
-    1466,
-    1561
-   ],
-   "n": [
-    18,
-    35
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-10",
-   "time": "06:00",
-   "home": "Zizou Bergs",
-   "away": "Holger Rune",
-   "p": [
-    0.584,
-    0.416
-   ],
-   "pick": 0,
-   "elo": [
-    1547,
-    1488
-   ],
-   "n": [
-    27,
-    6
    ],
    "value": []
   },
@@ -693,6 +518,116 @@
   },
   {
    "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "13:00",
+   "home": "Aleksandr Shevchenko",
+   "away": "Adrian Mannarino",
+   "p": [
+    0.368,
+    0.632
+   ],
+   "pick": 1,
+   "elo": [
+    1466,
+    1561
+   ],
+   "n": [
+    18,
+    35
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "13:00",
+   "home": "Juan Manuel Cerundolo",
+   "away": "Alex Michelsen",
+   "p": [
+    0.416,
+    0.584
+   ],
+   "pick": 1,
+   "elo": [
+    1535,
+    1594
+   ],
+   "n": [
+    31,
+    24
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "14:30",
+   "home": "Quentin Halys",
+   "away": "Lorenzo Sonego",
+   "p": [
+    0.595,
+    0.405
+   ],
+   "pick": 0,
+   "elo": [
+    1579,
+    1512
+   ],
+   "n": [
+    31,
+    29
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "16:00",
+   "home": "Miomir Kecmanovic",
+   "away": "Arthur Rinderknech",
+   "p": [
+    0.363,
+    0.637
+   ],
+   "pick": 1,
+   "elo": [
+    1420,
+    1518
+   ],
+   "n": [
+    23,
+    19
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "18:00",
+   "home": "Zizou Bergs",
+   "away": "Holger Rune",
+   "p": [
+    0.584,
+    0.416
+   ],
+   "pick": 0,
+   "elo": [
+    1547,
+    1488
+   ],
+   "n": [
+    27,
+    6
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-10",
    "time": "21:00",
@@ -732,6 +667,50 @@
    "n": [
     26,
     28
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Ugo Humbert",
+   "away": "Borna Gojo",
+   "p": [
+    0.41,
+    0.59
+   ],
+   "pick": 1,
+   "elo": [
+    1512,
+    1575
+   ],
+   "n": [
+    24,
+    11
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Cameron Norrie",
+   "away": "Taylor Fritz",
+   "p": [
+    0.268,
+    0.732
+   ],
+   "pick": 1,
+   "elo": [
+    1515,
+    1689
+   ],
+   "n": [
+    21,
+    42
    ],
    "value": []
   },
@@ -866,6 +845,342 @@
     23
    ],
    "value": []
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-12",
+   "time": "18:00",
+   "home": "Turkey",
+   "away": "Belgium",
+   "p": [
+    0.35,
+    0.258,
+    0.393
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-12",
+   "time": "20:45",
+   "home": "Italy",
+   "away": "France",
+   "p": [
+    0.289,
+    0.252,
+    0.46
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.73,
+    "o25": 0.513,
+    "btts": 0.545
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-12",
+   "time": "20:45",
+   "home": "Czechia",
+   "away": "Spain",
+   "p": [
+    0.1,
+    0.164,
+    0.736
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 3.15,
+    "o25": 0.61,
+    "btts": 0.485
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-12",
+   "time": "20:45",
+   "home": "England",
+   "away": "Croatia",
+   "p": [
+    0.597,
+    0.219,
+    0.184
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.86,
+    "o25": 0.546,
+    "btts": 0.524
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Netherlands",
+   "away": "Greece",
+   "p": [
+    0.736,
+    0.164,
+    0.1
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 3.15,
+    "o25": 0.61,
+    "btts": 0.485
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Serbia",
+   "away": "Germany",
+   "p": [
+    0.242,
+    0.241,
+    0.517
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.77,
+    "o25": 0.523,
+    "btts": 0.538
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-14",
+   "time": "18:00",
+   "home": "Norway",
+   "away": "Wales",
+   "p": [
+    0.608,
+    0.215,
+    0.176
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.88,
+    "o25": 0.55,
+    "btts": 0.521
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-14",
+   "time": "18:00",
+   "home": "Georgia",
+   "away": "Hungary",
+   "p": [
+    0.35,
+    0.258,
+    0.393
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-14",
+   "time": "20:45",
+   "home": "Portugal",
+   "away": "Denmark",
+   "p": [
+    0.62,
+    0.212,
+    0.169
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.9,
+    "o25": 0.554,
+    "btts": 0.519
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-15",
+   "time": "20:45",
+   "home": "Belgium",
+   "away": "Italy",
+   "p": [
+    0.404,
+    0.257,
+    0.339
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-15",
+   "time": "20:45",
+   "home": "France",
+   "away": "Turkey",
+   "p": [
+    0.755,
+    0.155,
+    0.09
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 3.21,
+    "o25": 0.623,
+    "btts": 0.477
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-15",
+   "time": "20:45",
+   "home": "Spain",
+   "away": "England",
+   "p": [
+    0.586,
+    0.223,
+    0.191
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.85,
+    "o25": 0.542,
+    "btts": 0.526
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-15",
+   "time": "20:45",
+   "home": "Croatia",
+   "away": "Czechia",
+   "p": [
+    0.62,
+    0.212,
+    0.169
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.9,
+    "o25": 0.554,
+    "btts": 0.519
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "20:45",
+   "home": "Germany",
+   "away": "Netherlands",
+   "p": [
+    0.426,
+    0.256,
+    0.318
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.71,
+    "o25": 0.509,
+    "btts": 0.547
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "20:45",
+   "home": "Greece",
+   "away": "Serbia",
+   "p": [
+    0.404,
+    0.257,
+    0.339
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "20:45",
+   "home": "Switzerland",
+   "away": "Scotland",
+   "p": [
+    0.54,
+    0.236,
+    0.224
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.79,
+    "o25": 0.529,
+    "btts": 0.535
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
   }
  ]
 }
