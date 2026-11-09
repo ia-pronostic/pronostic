@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 15:34 UTC",
+ "updated": "2026-11-09 16:09 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -24,7 +24,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "16:30",
+   "time": "16:35",
    "home": "Dalila Jakupovic",
    "away": "Laura Pigossi",
    "p": [
@@ -46,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "16:30",
+   "time": "16:35",
    "home": "Varvara Lepchenko",
    "away": "Polona Hercog",
    "p": [
@@ -68,7 +68,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "16:30",
+   "time": "16:35",
    "home": "Luisina Giovannini",
    "away": "Tatjana Maria",
    "p": [
