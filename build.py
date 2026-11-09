@@ -1,6 +1,6 @@
 """Genera data.json con pronósticos de los próximos partidos.
 Datos gratuitos de football-data.co.uk (resultados, remates, tarjetas y cuotas de varias casas)."""
-import io, json, math, re, urllib.request, urllib.error, datetime as dt
+import io, json, math, re, unicodedata, urllib.request, urllib.error, datetime as dt
 import numpy as np, pandas as pd
 from zoneinfo import ZoneInfo
 
@@ -128,6 +128,42 @@ def parse(ev):
     return dict(when=pd.Timestamp(ev["date"]), HomeTeam=h["team"]["displayName"], AwayTeam=a["team"]["displayName"],
                 hs=h.get("score"), as_=a.get("score"), done=bool(st.get("completed")) or st.get("state") == "post")
 
+# --- UEFA Nations League (masculina), noviembre 2026. Horas de España (hora de México +7 h).
+# Fuente: calendario de ClaroSports y de ESPN Deportes. Son los partidos principales: si ESPN funciona, añadirá el resto.
+NL_MANUAL = [
+ ("2026-11-12", "18:00", "Turkey", "Belgium"), ("2026-11-12", "20:45", "Italy", "France"),
+ ("2026-11-12", "20:45", "Czechia", "Spain"), ("2026-11-12", "20:45", "England", "Croatia"),
+ ("2026-11-13", "20:45", "Netherlands", "Greece"), ("2026-11-13", "20:45", "Serbia", "Germany"),
+ ("2026-11-14", "18:00", "Norway", "Wales"), ("2026-11-14", "18:00", "Georgia", "Hungary"),
+ ("2026-11-14", "20:45", "Portugal", "Denmark"),
+ ("2026-11-15", "20:45", "Belgium", "Italy"), ("2026-11-15", "20:45", "France", "Turkey"),
+ ("2026-11-15", "20:45", "Spain", "England"), ("2026-11-15", "20:45", "Croatia", "Czechia"),
+ ("2026-11-16", "20:45", "Germany", "Netherlands"), ("2026-11-16", "20:45", "Greece", "Serbia"),
+ ("2026-11-16", "20:45", "Switzerland", "Scotland"),
+ ("2026-11-17", "20:45", "Denmark", "Norway"), ("2026-11-17", "20:45", "Wales", "Portugal"),
+ ("2026-11-17", "20:45", "Hungary", "Northern Ireland"),
+]
+# Nivel aproximado de cada selección (estimación propia, NO es un dato oficial). Solo se usa si no hay resultados reales.
+NL_ELO = {"Spain": 2150, "France": 2080, "England": 2030, "Portugal": 2000, "Netherlands": 1980, "Germany": 1960, "Italy": 1930,
+          "Croatia": 1900, "Belgium": 1890, "Denmark": 1850, "Switzerland": 1840, "Norway": 1830, "Turkey": 1800, "Serbia": 1760,
+          "Scotland": 1760, "Czechia": 1750, "Hungary": 1730, "Greece": 1720, "Wales": 1690, "Georgia": 1640, "Northern Ireland": 1580}
+
+def norm(x): return unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode().lower()
+
+def elo_goals(h, a):
+    x = (NL_ELO.get(h, 1700) + 70 - NL_ELO.get(a, 1700)) / 400  # +70 por jugar en casa
+    return 1.35 * 2 ** x, 1.35 * 2 ** -x
+
+def nl_manual(today, have):
+    out = []
+    for d, t, h, a in NL_MANUAL:
+        if not (str(today) <= d <= str(today + dt.timedelta(days=WINDOW))) or (d, norm(h)[:4], norm(a)[:4]) in have: continue
+        m = build_match(pd.Series({"HomeTeam": h, "AwayTeam": a}), elo_goals, None, None, league="Nations League", when=(d, t))
+        m["cat"] = "selecciones"
+        m["nota"] = "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+        out.append(m)
+    return out
+
 def phi(z): return 0.5 * (1 + math.erf(z / math.sqrt(2)))
 
 def madrid(ts):
@@ -248,6 +284,10 @@ def main():
                      (nba, (today, info)), (tennis, (today, info))):
         try: out += fn(*args)
         except Exception as e: info.append(f"{fn.__name__}: error {e}")
+    have = {(m["date"], norm(m["home"])[:4], norm(m["away"])[:4]) for m in out if m.get("cat") == "selecciones"}
+    extra = nl_manual(today, have)
+    out += extra
+    info.append(f"Nations League (lista manual): {len(extra)} partidos añadidos")
     out = [m for m in out if str(today) <= m["date"] <= str(end)]
     out.sort(key=lambda m: (m["date"], m["time"]))
     if not out and any("error" in i for i in info):

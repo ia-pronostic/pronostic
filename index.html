@@ -53,7 +53,7 @@ const card=m=>{const two=m.p.length===2,nm=two?[m.home,m.away]:[m.home,'Empate',
  <div class="bar">${m.p.map((x,i)=>`<i style="flex:${x};background:${cl[i]}">${pc(x)}</i>`).join('')}</div>
  <div class="lab">${two?`<span>${m.home}</span><span>${m.away}</span>`:'<span>1 Local</span><span>X Empate</span><span>2 Visitante</span>'}</div>
  <div class="pick">Pronóstico: <b>${!two&&m.pick===1?'Empate':'Gana '+nm[m.pick]}</b>${m.value&&m.value.length?' · 💎 valor en '+m.value.map(i=>['1','X','2'][i]).join(', '):''}</div>
- <details><summary>Ver detalle</summary>${det}</details></div>`};
+ <details><summary>Ver detalle</summary>${m.nota?`<p class="foot">⚠️ ${m.nota}</p>`:''}${det}</details></div>`};
 function render(){const l=$('#lg').value,by={};let h='';
  list().filter(m=>!l||m.league===l).forEach(m=>(by[m.league]=by[m.league]||[]).push(m));
  for(const k of Object.keys(by).sort(cmp))h+=`<h2>🏆 ${k} · ${by[k].length}</h2>`+by[k].map(card).join('');
