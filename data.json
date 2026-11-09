@@ -1,12 +1,329 @@
 {
- "updated": "2026-11-09 08:19 UTC",
+ "updated": "2026-11-09 08:40 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20260815-20260824",
   "Europa League: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20260815-20260824",
-  "Conference League: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260815-20260824"
+  "Conference League: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260815-20260824",
+  "Clubes UEFA: 0 partidos (0 resultados usados)",
+  "Nations League: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20251109-20251118",
+  "Amistosos: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard?dates=20251109-20251118",
+  "Mundial: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251109-20251118",
+  "Clasificación Mundial (UEFA): error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.worldq.uefa/scoreboard?dates=20251109-20251118",
+  "Selecciones: 0 partidos (0 resultados usados)",
+  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260113-20260122",
+  "ATP: 10 partidos (2900 resultados usados)",
+  "WTA: 26 partidos (4332 resultados usados)"
  ],
  "matches": [
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-09",
+   "time": "12:30",
+   "home": "Yannick Hanfmann",
+   "away": "Alex Michelsen",
+   "p": [
+    0.401,
+    0.599
+   ],
+   "pick": 1,
+   "elo": [
+    1511,
+    1581
+   ],
+   "n": [
+    29,
+    23
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-09",
+   "time": "13:00",
+   "home": "Cameron Norrie",
+   "away": "James Duckworth",
+   "p": [
+    0.527,
+    0.473
+   ],
+   "pick": 0,
+   "elo": [
+    1500,
+    1481
+   ],
+   "n": [
+    20,
+    26
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-09",
+   "time": "14:00",
+   "home": "Borna Gojo",
+   "away": "Tomas Machac",
+   "p": [
+    0.552,
+    0.448
+   ],
+   "pick": 0,
+   "elo": [
+    1561,
+    1524
+   ],
+   "n": [
+    10,
+    17
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-09",
+   "time": "14:30",
+   "home": "Ugo Humbert",
+   "away": "Adolfo Daniel Vallejo",
+   "p": [
+    0.492,
+    0.508
+   ],
+   "pick": 1,
+   "elo": [
+    1496,
+    1501
+   ],
+   "n": [
+    23,
+    27
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "16:00",
+   "home": "Dalila Jakupovic",
+   "away": "Laura Pigossi",
+   "p": [
+    0.646,
+    0.354
+   ],
+   "pick": 0,
+   "elo": [
+    1491,
+    1386
+   ],
+   "n": [
+    9,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "16:00",
+   "home": "Varvara Lepchenko",
+   "away": "Polona Hercog",
+   "p": [
+    0.457,
+    0.543
+   ],
+   "pick": 1,
+   "elo": [
+    1440,
+    1470
+   ],
+   "n": [
+    21,
+    13
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "16:00",
+   "home": "Luisina Giovannini",
+   "away": "Tatjana Maria",
+   "p": [
+    0.353,
+    0.647
+   ],
+   "pick": 1,
+   "elo": [
+    1515,
+    1620
+   ],
+   "n": [
+    10,
+    33
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "17:30",
+   "home": "Veronika Erjavec",
+   "away": "Elizabeth Mandlik",
+   "p": [
+    0.465,
+    0.535
+   ],
+   "pick": 1,
+   "elo": [
+    1444,
+    1469
+   ],
+   "n": [
+    15,
+    14
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "17:30",
+   "home": "Antonella Esquivel Useche",
+   "away": "Sofia Costoulas",
+   "p": [
+    0.61,
+    0.39
+   ],
+   "pick": 0,
+   "elo": [
+    1500,
+    1422
+   ],
+   "n": [
+    0,
+    16
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "17:30",
+   "home": "Marina Bassols Ribera",
+   "away": "Maria Herazo Gonzalez",
+   "p": [
+    0.517,
+    0.483
+   ],
+   "pick": 0,
+   "elo": [
+    1510,
+    1498
+   ],
+   "n": [
+    27,
+    4
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-09",
+   "time": "18:00",
+   "home": "Max Dahlin",
+   "away": "Tomas Martin Etcheverry",
+   "p": [
+    0.551,
+    0.449
+   ],
+   "pick": 0,
+   "elo": [
+    1483,
+    1448
+   ],
+   "n": [
+    1,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "19:00",
+   "home": "Julia Grabher",
+   "away": "Tamara Zidansek",
+   "p": [
+    0.628,
+    0.372
+   ],
+   "pick": 0,
+   "elo": [
+    1602,
+    1511
+   ],
+   "n": [
+    33,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "19:00",
+   "home": "Yuliana Lizarazo",
+   "away": "Irene Burillo",
+   "p": [
+    0.406,
+    0.594
+   ],
+   "pick": 1,
+   "elo": [
+    1472,
+    1538
+   ],
+   "n": [
+    2,
+    17
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-09",
+   "time": "19:30",
+   "home": "Toby Samuel",
+   "away": "Leo Borg",
+   "p": [
+    0.574,
+    0.426
+   ],
+   "pick": 0,
+   "elo": [
+    1552,
+    1500
+   ],
+   "n": [
+    15,
+    0
+   ],
+   "value": []
+  },
   {
    "league": "LaLiga 2",
    "date": "2026-11-09",
@@ -62,6 +379,490 @@
    "value": [
     2
    ]
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "21:00",
+   "home": "Karolina Muchova",
+   "away": "Aryna Sabalenka",
+   "p": [
+    0.552,
+    0.448
+   ],
+   "pick": 0,
+   "elo": [
+    1653,
+    1616
+   ],
+   "n": [
+    22,
+    23
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "22:30",
+   "home": "Elina Svitolina",
+   "away": "Mirra Andreeva",
+   "p": [
+    0.472,
+    0.528
+   ],
+   "pick": 1,
+   "elo": [
+    1598,
+    1618
+   ],
+   "n": [
+    25,
+    21
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Quentin Halys",
+   "away": "Lorenzo Sonego",
+   "p": [
+    0.595,
+    0.405
+   ],
+   "pick": 0,
+   "elo": [
+    1579,
+    1512
+   ],
+   "n": [
+    31,
+    29
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Miomir Kecmanovic",
+   "away": "Arthur Rinderknech",
+   "p": [
+    0.363,
+    0.637
+   ],
+   "pick": 1,
+   "elo": [
+    1420,
+    1518
+   ],
+   "n": [
+    23,
+    19
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Aleksandr Shevchenko",
+   "away": "Luca Van Assche",
+   "p": [
+    0.358,
+    0.642
+   ],
+   "pick": 1,
+   "elo": [
+    1466,
+    1568
+   ],
+   "n": [
+    18,
+    26
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Zizou Bergs",
+   "away": "Holger Rune",
+   "p": [
+    0.584,
+    0.416
+   ],
+   "pick": 0,
+   "elo": [
+    1547,
+    1488
+   ],
+   "n": [
+    27,
+    6
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Rebeka Masarova",
+   "away": "Bianca Andreescu",
+   "p": [
+    0.226,
+    0.774
+   ],
+   "pick": 1,
+   "elo": [
+    1466,
+    1680
+   ],
+   "n": [
+    20,
+    29
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Leolia Jeanjean",
+   "away": "Jazmin Ortenzi",
+   "p": [
+    0.648,
+    0.352
+   ],
+   "pick": 0,
+   "elo": [
+    1597,
+    1491
+   ],
+   "n": [
+    30,
+    16
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Leyre Romero Gormaz",
+   "away": "Carole Monnet",
+   "p": [
+    0.629,
+    0.371
+   ],
+   "pick": 0,
+   "elo": [
+    1624,
+    1532
+   ],
+   "n": [
+    32,
+    27
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Andrea Lazaro Garcia",
+   "away": "Katrina Scott",
+   "p": [
+    0.654,
+    0.346
+   ],
+   "pick": 0,
+   "elo": [
+    1545,
+    1435
+   ],
+   "n": [
+    17,
+    11
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Julia Riera",
+   "away": "Alice Tubello",
+   "p": [
+    0.432,
+    0.568
+   ],
+   "pick": 1,
+   "elo": [
+    1552,
+    1599
+   ],
+   "n": [
+    21,
+    21
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Julieta Pareja",
+   "away": "Lucia Bronzetti",
+   "p": [
+    0.522,
+    0.478
+   ],
+   "pick": 0,
+   "elo": [
+    1533,
+    1517
+   ],
+   "n": [
+    8,
+    30
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Carolina Alves",
+   "away": "Laura Samson",
+   "p": [
+    0.399,
+    0.601
+   ],
+   "pick": 1,
+   "elo": [
+    1495,
+    1567
+   ],
+   "n": [
+    7,
+    28
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "home": "Valentina Mediorreal Arias",
+   "away": "Maria Lourdes Carle",
+   "p": [
+    0.478,
+    0.522
+   ],
+   "pick": 1,
+   "elo": [
+    1470,
+    1485
+   ],
+   "n": [
+    2,
+    20
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "21:00",
+   "home": "Jessica Pegula",
+   "away": "Marta Kostyuk",
+   "p": [
+    0.605,
+    0.395
+   ],
+   "pick": 0,
+   "elo": [
+    1649,
+    1574
+   ],
+   "n": [
+    30,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-10",
+   "time": "22:30",
+   "home": "Linda Noskova",
+   "away": "Coco Gauff",
+   "p": [
+    0.446,
+    0.554
+   ],
+   "pick": 1,
+   "elo": [
+    1686,
+    1724
+   ],
+   "n": [
+    26,
+    28
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Elina Svitolina",
+   "away": "Aryna Sabalenka",
+   "p": [
+    0.474,
+    0.526
+   ],
+   "pick": 1,
+   "elo": [
+    1598,
+    1616
+   ],
+   "n": [
+    25,
+    23
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Coco Gauff",
+   "away": "Marta Kostyuk",
+   "p": [
+    0.703,
+    0.297
+   ],
+   "pick": 0,
+   "elo": [
+    1724,
+    1574
+   ],
+   "n": [
+    28,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Linda Noskova",
+   "away": "Jessica Pegula",
+   "p": [
+    0.554,
+    0.446
+   ],
+   "pick": 0,
+   "elo": [
+    1686,
+    1649
+   ],
+   "n": [
+    26,
+    30
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Karolina Muchova",
+   "away": "Elina Svitolina",
+   "p": [
+    0.577,
+    0.423
+   ],
+   "pick": 0,
+   "elo": [
+    1653,
+    1598
+   ],
+   "n": [
+    22,
+    25
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Karolina Muchova",
+   "away": "Mirra Andreeva",
+   "p": [
+    0.55,
+    0.45
+   ],
+   "pick": 0,
+   "elo": [
+    1653,
+    1618
+   ],
+   "n": [
+    22,
+    21
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Mirra Andreeva",
+   "away": "Aryna Sabalenka",
+   "p": [
+    0.502,
+    0.498
+   ],
+   "pick": 0,
+   "elo": [
+    1618,
+    1616
+   ],
+   "n": [
+    21,
+    23
+   ],
+   "value": []
   }
  ]
 }
