@@ -9,7 +9,8 @@ LEAGUES = {"SP1": "LaLiga", "SP2": "LaLiga 2", "E0": "Premier League", "E1": "Ch
            "I1": "Serie A", "F1": "Ligue 1", "N1": "Eredivisie", "P1": "Primeira Liga",
            "B1": "Liga belga", "SC0": "Premiership escocesa", "T1": "Süper Lig", "G1": "Super League griega"}
 COMP = {"uefa.champions": "Champions League", "uefa.europa": "Europa League", "uefa.europa.conf": "Conference League"}
-ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard?dates={}"  # fuente no oficial de ESPN
+ESPN = "https://site.api.espn.com/apis/site/v2/sports/{}/scoreboard?dates={}"  # fuente no oficial de ESPN
+NAT = {"uefa.nations": "Nations League", "fifa.friendly": "Amistosos", "fifa.world": "Mundial", "fifa.worldq.uefa": "Clasificación Mundial (UEFA)"}
 MAD = ZoneInfo("Europe/Madrid")
 WINDOW = 7  # días hacia delante
 BOOKS = {"B365": "Bet365", "BW": "Betway", "IW": "Interwetten", "PS": "Pinnacle", "WH": "William Hill",
@@ -97,17 +98,22 @@ def build_match(r, mg, ms, mc, league=None, when=None):
     else: m["value"] = []
     return m
 
-def espn_events(slug, d1, d2):  # se pide por tramos de 10 días
+def espn_events(path, d1, d2, step=10):  # path: "soccer/uefa.champions", "basketball/nba", "tennis/atp"
     evs, seen, errs, d = [], set(), [], d1
     while d <= d2:
-        e = min(d + dt.timedelta(days=9), d2)
-        url = ESPN.format(slug, f"{d:%Y%m%d}-{e:%Y%m%d}")
+        e = min(d + dt.timedelta(days=step - 1), d2)
+        url = ESPN.format(path, f"{d:%Y%m%d}-{e:%Y%m%d}")
         try:
             raw = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=60).read()
-            for ev in json.loads(raw).get("events", []):
-                if ev.get("id") not in seen: seen.add(ev.get("id")); evs.append(ev)
+            got = json.loads(raw).get("events", [])
         except urllib.error.HTTPError as ex:
-            errs.append(f"HTTP {ex.code} {ex.read()[:120]!r} url={url}")
+            got = []
+            if step > 10:  # si el tramo largo falla, se reintenta en tramos de 10 días
+                try: got = espn_events(path, d, e, 10)
+                except Exception as ex2: errs.append(str(ex2))
+            else: errs.append(f"HTTP {ex.code} {ex.read()[:120]!r} url={url}")
+        for ev in got:
+            if ev.get("id") not in seen: seen.add(ev.get("id")); evs.append(ev)
         d = e + dt.timedelta(days=1)
     if errs and not evs: raise RuntimeError(errs[0])
     return evs
@@ -120,31 +126,98 @@ def parse(ev):
     return dict(when=pd.Timestamp(ev["date"]), HomeTeam=h["team"]["displayName"], AwayTeam=a["team"]["displayName"],
                 hs=h.get("score"), as_=a.get("score"), done=bool(st.get("completed")) or st.get("state") == "post")
 
-def uefa(today, info):  # Champions / Europa / Conference: solo modelo de goles (sin remates, tarjetas ni cuotas)
+def phi(z): return 0.5 * (1 + math.erf(z / math.sqrt(2)))
+
+def madrid(ts):
+    ts = ts if ts.tzinfo else ts.tz_localize("UTC")
+    return ts.tz_convert(MAD)
+
+def in_window(w, today): return today <= w.date() <= today + dt.timedelta(days=WINDOW)
+
+def soccer_group(slugs, today, info, start, cat, label):  # solo modelo de goles (sin remates, tarjetas ni cuotas)
+    evs = []
+    for slug, name in slugs.items():
+        try: evs += [dict(parse(e), comp=name) for e in espn_events("soccer/" + slug, start, today + dt.timedelta(days=WINDOW), 30 if cat == "selecciones" else 10)]
+        except Exception as e: info.append(f"{name}: error {e}")
+    done = [e for e in evs if e["done"] and e["hs"] not in (None, "") and e["as_"] not in (None, "")]
+    mg = None
+    if done:
+        df = pd.DataFrame(done)
+        df["FTHG"] = pd.to_numeric(df.hs); df["FTAG"] = pd.to_numeric(df.as_)
+        df["Date"] = df.when.dt.tz_convert(None)
+        df["w"] = 0.5 ** ((pd.Timestamp(today) - df.Date).dt.days.clip(lower=0) / HALFLIFE)
+        mg = model(df, "FTHG", "FTAG", 15)
+    mg = mg or (lambda h, a: (1.5, 1.2))
     out = []
-    start = dt.date(today.year if today.month >= 7 else today.year - 1, 8, 15)
-    for slug, name in COMP.items():
-        try: evs = [parse(e) for e in espn_events(slug, start, today + dt.timedelta(days=WINDOW))]
+    for e in evs:
+        w = madrid(e["when"])
+        if e["done"] or not in_window(w, today): continue
+        try:
+            m = build_match(pd.Series({"HomeTeam": e["HomeTeam"], "AwayTeam": e["AwayTeam"]}), mg, None, None,
+                            league=e["comp"], when=(w.strftime("%Y-%m-%d"), w.strftime("%H:%M")))
+            m["cat"] = cat; out.append(m)
+        except Exception as ex: print("error", e["HomeTeam"], ex)
+    info.append(f"{label}: {len(out)} partidos ({len(done)} resultados usados)")
+    return out
+
+def nba(today, info):
+    evs = [parse(e) for e in espn_events("basketball/nba", today - dt.timedelta(days=300), today + dt.timedelta(days=WINDOW))]
+    done = [e for e in evs if e["done"] and e["hs"] not in (None, "") and e["as_"] not in (None, "")]
+    if len(done) < 40:
+        info.append(f"NBA: pocos resultados ({len(done)})"); return []
+    df = pd.DataFrame(done)
+    df["FTHG"] = pd.to_numeric(df.hs); df["FTAG"] = pd.to_numeric(df.as_); df["Date"] = df.when.dt.tz_convert(None)
+    df["w"] = 0.5 ** ((pd.Timestamp(today) - df.Date).dt.days.clip(lower=0) / HALFLIFE)
+    mg, out = model(df, "FTHG", "FTAG", 40), []
+    for e in evs:
+        w = madrid(e["when"])
+        if e["done"] or not in_window(w, today): continue
+        eh, ea = mg(e["HomeTeam"], e["AwayTeam"]); tot = eh + ea; line = math.floor(tot) + 0.5
+        ph = phi((eh - ea) / 12.5)  # el margen típico en la NBA varía unos 12,5 puntos
+        out.append({"cat": "basket", "league": "NBA", "date": w.strftime("%Y-%m-%d"), "time": w.strftime("%H:%M"),
+                    "home": e["HomeTeam"], "away": e["AwayTeam"], "p": [round(ph, 3), round(1 - ph, 3)], "pick": 0 if ph >= .5 else 1,
+                    "pts": {"home": round(eh, 1), "away": round(ea, 1), "total": round(tot, 1), "line": line,
+                            "over": round(1 - phi((line - tot) / 19), 3)}, "value": []})
+    info.append(f"NBA: {len(out)} partidos ({len(done)} resultados usados)")
+    return out
+
+def tennis(today, info):  # Elo sencillo con los resultados de los últimos 150 días
+    out = []
+    for tour, name in (("atp", "ATP"), ("wta", "WTA")):
+        try: evs = espn_events(f"tennis/{tour}", today - dt.timedelta(days=150), today + dt.timedelta(days=WINDOW))
         except Exception as e:
             info.append(f"{name}: error {e}"); continue
-        done = [e for e in evs if e["done"] and e["hs"] not in (None, "") and e["as_"] not in (None, "")]
-        mg = None
-        if done:
-            df = pd.DataFrame(done)
-            df["FTHG"] = pd.to_numeric(df.hs); df["FTAG"] = pd.to_numeric(df.as_)
-            df["Date"] = df.when.dt.tz_convert(None)
-            df["w"] = 0.5 ** ((pd.Timestamp(today) - df.Date).dt.days.clip(lower=0) / HALFLIFE)
-            mg = model(df, "FTHG", "FTAG", 15)
-        mg = mg or (lambda h, a: (1.5, 1.2))
-        n = 0
-        for e in evs:
-            w = e["when"].tz_convert(MAD)
-            if e["done"] or not (today <= w.date() <= today + dt.timedelta(days=WINDOW)): continue
-            try:
-                out.append(build_match(pd.Series({"HomeTeam": e["HomeTeam"], "AwayTeam": e["AwayTeam"]}), mg, None, None,
-                                       league=name, when=(w.strftime("%Y-%m-%d"), w.strftime("%H:%M")))); n += 1
-            except Exception as ex: print("error", e["HomeTeam"], ex)
-        info.append(f"{name}: {n} partidos ({len(done)} resultados usados)")
+        ms, seen = [], set()
+        for ev in evs:
+            for g in ev.get("groupings", []):
+                if "singles" not in str((g.get("grouping") or {}).get("slug", "")): continue
+                for c in g.get("competitions", []):
+                    cp = c.get("competitors", [])
+                    if c.get("id") in seen or len(cp) != 2: continue
+                    seen.add(c.get("id"))
+                    try: names = [x["athlete"]["displayName"] for x in cp]
+                    except Exception: continue
+                    st = (c.get("status") or {}).get("type", {})
+                    ms.append(dict(when=pd.Timestamp(c.get("date") or ev["date"]), names=names, win=[bool(x.get("winner")) for x in cp],
+                                   done=bool(st.get("completed")) or st.get("state") == "post"))
+        ms.sort(key=lambda x: x["when"])
+        R, N = {}, {}
+        for m in ms:
+            if m["done"] and sum(m["win"]) == 1:
+                a, b = m["names"]; ra, rb = R.get(a, 1500.0), R.get(b, 1500.0)
+                pa = 1 / (1 + 10 ** ((rb - ra) / 400)); d = 32 * ((1.0 if m["win"][0] else 0.0) - pa)
+                R[a], R[b] = ra + d, rb - d; N[a] = N.get(a, 0) + 1; N[b] = N.get(b, 0) + 1
+        n0 = len(out)
+        for m in ms:
+            w = madrid(m["when"])
+            if m["done"] or not in_window(w, today): continue
+            a, b = m["names"]
+            if "TBD" in (a, b): continue
+            ra, rb = R.get(a, 1500.0), R.get(b, 1500.0); pa = 1 / (1 + 10 ** ((rb - ra) / 400))
+            out.append({"cat": "tenis", "league": name, "date": w.strftime("%Y-%m-%d"), "time": w.strftime("%H:%M"), "home": a, "away": b,
+                        "p": [round(pa, 3), round(1 - pa, 3)], "pick": 0 if pa >= .5 else 1,
+                        "elo": [round(ra), round(rb)], "n": [N.get(a, 0), N.get(b, 0)], "value": []})
+        info.append(f"{name}: {len(out) - n0} partidos ({sum(1 for m in ms if m['done'])} resultados usados)")
     return out
 
 def main():
@@ -164,7 +237,12 @@ def main():
         for _, r in g.iterrows():
             try: out.append(build_match(r, mg, ms, mc))
             except Exception as e: print("error", r.HomeTeam, r.AwayTeam, e)
-    out += uefa(today, info)
+    start = dt.date(today.year if today.month >= 7 else today.year - 1, 8, 15)
+    for fn, args in ((soccer_group, (COMP, today, info, start, "futbol", "Clubes UEFA")),
+                     (soccer_group, (NAT, today, info, today - dt.timedelta(days=365), "selecciones", "Selecciones")),
+                     (nba, (today, info)), (tennis, (today, info))):
+        try: out += fn(*args)
+        except Exception as e: info.append(f"{fn.__name__}: error {e}")
     out = [m for m in out if str(today) <= m["date"] <= str(end)]
     out.sort(key=lambda m: (m["date"], m["time"]))
     if not out and any("error" in i for i in info):
