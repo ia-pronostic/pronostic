@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 10:06 UTC",
+ "updated": "2026-11-09 15:01 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -23,7 +23,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-09",
-   "time": "12:30",
+   "time": "12:50",
    "home": "Yannick Hanfmann",
    "away": "Alex Michelsen",
    "p": [
@@ -45,7 +45,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-09",
-   "time": "13:00",
+   "time": "13:05",
    "home": "Cameron Norrie",
    "away": "James Duckworth",
    "p": [
@@ -477,19 +477,19 @@
    "date": "2026-11-10",
    "time": "06:00",
    "home": "Aleksandr Shevchenko",
-   "away": "Luca Van Assche",
+   "away": "Adrian Mannarino",
    "p": [
-    0.358,
-    0.642
+    0.368,
+    0.632
    ],
    "pick": 1,
    "elo": [
     1466,
-    1568
+    1561
    ],
    "n": [
     18,
-    26
+    35
    ],
    "value": []
   },
