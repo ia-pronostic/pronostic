@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 18:01 UTC",
+ "updated": "2026-11-09 19:00 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,32 +16,10 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260113-20260122",
   "ATP: 9 partidos (2904 resultados usados)",
-  "WTA: 25 partidos (4333 resultados usados)",
+  "WTA: 24 partidos (4334 resultados usados)",
   "Nations League (lista manual): 16 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "16:35",
-   "home": "Varvara Lepchenko",
-   "away": "Polona Hercog",
-   "p": [
-    0.457,
-    0.543
-   ],
-   "pick": 1,
-   "elo": [
-    1440,
-    1470
-   ],
-   "n": [
-    21,
-    13
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "WTA",
@@ -112,7 +90,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "18:20",
+   "time": "18:30",
    "home": "Veronika Erjavec",
    "away": "Elizabeth Mandlik",
    "p": [
@@ -134,7 +112,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "18:20",
+   "time": "19:20",
    "home": "Antonella Esquivel Useche",
    "away": "Sofia Costoulas",
    "p": [
@@ -197,28 +175,6 @@
    "value": []
   },
   {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "19:30",
-   "home": "Yuliana Lizarazo",
-   "away": "Irene Burillo",
-   "p": [
-    0.406,
-    0.594
-   ],
-   "pick": 1,
-   "elo": [
-    1472,
-    1538
-   ],
-   "n": [
-    2,
-    17
-   ],
-   "value": []
-  },
-  {
    "league": "LaLiga 2",
    "date": "2026-11-09",
    "time": "20:30",
@@ -273,6 +229,28 @@
    "value": [
     2
    ]
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "20:30",
+   "home": "Yuliana Lizarazo",
+   "away": "Irene Burillo",
+   "p": [
+    0.406,
+    0.594
+   ],
+   "pick": 1,
+   "elo": [
+    1472,
+    1538
+   ],
+   "n": [
+    2,
+    17
+   ],
+   "value": []
   },
   {
    "cat": "tenis",
