@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 19:00 UTC",
+ "updated": "2026-11-09 20:00 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,10 +16,54 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260113-20260122",
   "ATP: 9 partidos (2904 resultados usados)",
-  "WTA: 24 partidos (4334 resultados usados)",
+  "WTA: 26 partidos (4332 resultados usados)",
   "Nations League (lista manual): 16 partidos añadidos"
  ],
  "matches": [
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "16:35",
+   "home": "Dalila Jakupovic",
+   "away": "Laura Pigossi",
+   "p": [
+    0.646,
+    0.354
+   ],
+   "pick": 0,
+   "elo": [
+    1491,
+    1386
+   ],
+   "n": [
+    9,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "16:35",
+   "home": "Varvara Lepchenko",
+   "away": "Polona Hercog",
+   "p": [
+    0.457,
+    0.543
+   ],
+   "pick": 1,
+   "elo": [
+    1440,
+    1470
+   ],
+   "n": [
+    21,
+    13
+   ],
+   "value": []
+  },
   {
    "cat": "tenis",
    "league": "WTA",
@@ -44,53 +88,9 @@
   },
   {
    "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-09",
-   "time": "18:05",
-   "home": "Max Dahlin",
-   "away": "Tomas Martin Etcheverry",
-   "p": [
-    0.551,
-    0.449
-   ],
-   "pick": 0,
-   "elo": [
-    1483,
-    1448
-   ],
-   "n": [
-    1,
-    22
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "18:10",
-   "home": "Marina Bassols Ribera",
-   "away": "Maria Herazo Gonzalez",
-   "p": [
-    0.517,
-    0.483
-   ],
-   "pick": 0,
-   "elo": [
-    1510,
-    1498
-   ],
-   "n": [
-    27,
-    4
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "18:30",
+   "time": "18:00",
    "home": "Veronika Erjavec",
    "away": "Elizabeth Mandlik",
    "p": [
@@ -112,7 +112,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "19:20",
+   "time": "18:00",
    "home": "Antonella Esquivel Useche",
    "away": "Sofia Costoulas",
    "p": [
@@ -127,6 +127,50 @@
    "n": [
     0,
     16
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "18:00",
+   "home": "Marina Bassols Ribera",
+   "away": "Maria Herazo Gonzalez",
+   "p": [
+    0.517,
+    0.483
+   ],
+   "pick": 0,
+   "elo": [
+    1510,
+    1498
+   ],
+   "n": [
+    27,
+    4
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-09",
+   "time": "18:05",
+   "home": "Max Dahlin",
+   "away": "Tomas Martin Etcheverry",
+   "p": [
+    0.551,
+    0.449
+   ],
+   "pick": 0,
+   "elo": [
+    1483,
+    1448
+   ],
+   "n": [
+    1,
+    22
    ],
    "value": []
   },
@@ -171,6 +215,28 @@
    "n": [
     33,
     22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-09",
+   "time": "19:30",
+   "home": "Yuliana Lizarazo",
+   "away": "Irene Burillo",
+   "p": [
+    0.406,
+    0.594
+   ],
+   "pick": 1,
+   "elo": [
+    1472,
+    1538
+   ],
+   "n": [
+    2,
+    17
    ],
    "value": []
   },
@@ -229,28 +295,6 @@
    "value": [
     2
    ]
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "20:30",
-   "home": "Yuliana Lizarazo",
-   "away": "Irene Burillo",
-   "p": [
-    0.406,
-    0.594
-   ],
-   "pick": 1,
-   "elo": [
-    1472,
-    1538
-   ],
-   "n": [
-    2,
-    17
-   ],
-   "value": []
   },
   {
    "cat": "tenis",
