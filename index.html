@@ -19,6 +19,7 @@ details{margin-top:8px}summary{color:var(--g);font-weight:600;cursor:pointer}.gr
 </style></head><body>
 <header><div style="display:flex;justify-content:space-between;align-items:center"><h1>⚽ Pronósticos</h1><button id="rf" aria-label="Actualizar">↻</button></div><small id="upd">Cargando…</small><div class="cats" id="cats"></div><select id="lg"><option value="">Todas las ligas</option></select></header>
 <main id="list"></main>
+<details class="foot" id="dbg"><summary>Estado de las fuentes</summary><div id="info"></div></details>
 <p class="foot">Estimaciones estadísticas basadas en resultados anteriores: no garantizan nada, y las casas ya incluyen su margen en las cuotas. Solo mayores de 18. Juega con responsabilidad.<br>Datos: football-data.co.uk y ESPN. Ligas nacionales: goles, remates, tarjetas y cuotas. Champions, selecciones, NBA y tenis: modelos más simples (goles, puntos o nivel Elo) y sin cuotas.</p>
 <script>
 const $=s=>document.querySelector(s),pc=x=>Math.round(x*100)+'%',n1=x=>String(x).replace('.',',');
@@ -33,6 +34,7 @@ async function fetchData(){const t=Math.floor(Date.now()/60000);
  if(raw)try{const r=await fetch(raw+'?t='+t,{cache:'no-store'});if(r.ok)return await r.json()}catch(e){}
  return await (await fetch('data.json?t='+t,{cache:'no-store'})).json()}
 function paint(){
+ $('#info').innerHTML=(D.info||[]).join('<br>');
  $('#cats').innerHTML=CATS.map(([k,t])=>`<button data-k="${k}" class="${k===CAT?'on':''}">${t}${k?' ('+D.matches.filter(m=>cat(m)===k).length+')':''}</button>`).join('');
  const ct={},cur=$('#lg').value;list().forEach(m=>ct[m.league]=(ct[m.league]||0)+1);
  $('#lg').innerHTML=`<option value="">Todas las competiciones (${list().length})</option>`+Object.keys(ct).sort(cmp).map(l=>`<option value="${l}"${l===cur?' selected':''}>${l} (${ct[l]})</option>`).join('');render()}

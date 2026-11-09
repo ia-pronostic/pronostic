@@ -10,7 +10,9 @@ LEAGUES = {"SP1": "LaLiga", "SP2": "LaLiga 2", "E0": "Premier League", "E1": "Ch
            "B1": "Liga belga", "SC0": "Premiership escocesa", "T1": "Süper Lig", "G1": "Super League griega"}
 COMP = {"uefa.champions": "Champions League", "uefa.europa": "Europa League", "uefa.europa.conf": "Conference League"}
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/{}/scoreboard?dates={}"  # fuente no oficial de ESPN
-NAT = {"uefa.nations": "Nations League", "fifa.friendly": "Amistosos", "fifa.world": "Mundial", "fifa.worldq.uefa": "Clasificación Mundial (UEFA)"}
+NAT = {"uefa.nations": "Nations League", "concacaf.nations.league": "Concacaf Nations League",
+       "caf.nations_qual": "Clasificación Copa África", "fifa.friendly": "Amistosos", "fifa.world": "Mundial",
+       "fifa.worldq.uefa": "Clasificación Mundial (UEFA)", "fifa.worldq.conmebol": "Clasificación Mundial (CONMEBOL)"}
 MAD = ZoneInfo("Europe/Madrid")
 WINDOW = 7  # días hacia delante
 BOOKS = {"B365": "Bet365", "BW": "Betway", "IW": "Interwetten", "PS": "Pinnacle", "WH": "William Hill",
@@ -137,6 +139,9 @@ def in_window(w, today): return today <= w.date() <= today + dt.timedelta(days=W
 def soccer_group(slugs, today, info, start, cat, label):  # solo modelo de goles (sin remates, tarjetas ni cuotas)
     evs = []
     for slug, name in slugs.items():
+        try: espn_events("soccer/" + slug, today, today)  # comprobación rápida: ¿existe esta competición en ESPN?
+        except Exception as e:
+            info.append(f"{name}: no disponible ({str(e)[:90]})"); continue
         try: evs += [dict(parse(e), comp=name) for e in espn_events("soccer/" + slug, start, today + dt.timedelta(days=WINDOW), 30 if cat == "selecciones" else 10)]
         except Exception as e: info.append(f"{name}: error {e}")
     done = [e for e in evs if e["done"] and e["hs"] not in (None, "") and e["as_"] not in (None, "")]
