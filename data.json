@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 22:52 UTC",
+ "updated": "2026-11-09 23:46 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,8 +15,8 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260113-20260122",
-  "ATP: 9 partidos (2905 resultados usados)",
-  "WTA: 19 partidos (4339 resultados usados)",
+  "ATP: 9 partidos (2906 resultados usados)",
+  "WTA: 19 partidos (4340 resultados usados)",
   "Nations League (lista manual): 16 partidos añadidos"
  ],
  "matches": [
@@ -80,50 +80,6 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "20:55",
-   "home": "Yuliana Lizarazo",
-   "away": "Irene Burillo",
-   "p": [
-    0.406,
-    0.594
-   ],
-   "pick": 1,
-   "elo": [
-    1472,
-    1538
-   ],
-   "n": [
-    2,
-    17
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-09",
-   "time": "21:00",
-   "home": "Toby Samuel",
-   "away": "Leo Borg",
-   "p": [
-    0.574,
-    0.426
-   ],
-   "pick": 0,
-   "elo": [
-    1552,
-    1500
-   ],
-   "n": [
-    15,
-    0
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
    "time": "21:15",
    "home": "Karolina Muchova",
    "away": "Aryna Sabalenka",
@@ -146,7 +102,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-09",
-   "time": "22:30",
+   "time": "23:00",
    "home": "Elina Svitolina",
    "away": "Mirra Andreeva",
    "p": [
@@ -474,6 +430,28 @@
   },
   {
    "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-10",
+   "time": "19:30",
+   "home": "Toby Samuel",
+   "away": "Lorenzo Musetti",
+   "p": [
+    0.409,
+    0.591
+   ],
+   "pick": 1,
+   "elo": [
+    1565,
+    1629
+   ],
+   "n": [
+    16,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-10",
    "time": "21:00",
@@ -689,6 +667,28 @@
    "n": [
     21,
     23
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "06:00",
+   "home": "Julia Grabher",
+   "away": "Irene Burillo",
+   "p": [
+    0.589,
+    0.411
+   ],
+   "pick": 0,
+   "elo": [
+    1614,
+    1551
+   ],
+   "n": [
+    34,
+    18
    ],
    "value": []
   },
