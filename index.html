@@ -55,15 +55,16 @@ function paint(){$('#info').innerHTML=(D.info||[]).join('<br>');
  $('#cats').innerHTML=CATS.map(([k,t])=>`<button data-k="${k}" class="${k===CAT?'on':''}">${t}${k?' ('+D.matches.filter(m=>cat(m)===k).length+')':''}</button>`).join('');
  const ct={},cur=$('#lg').value;list().forEach(m=>ct[m.league]=(ct[m.league]||0)+1);
  $('#lg').innerHTML=`<option value="">Todas las competiciones (${list().length})</option>`+Object.keys(ct).sort(cmp).map(l=>`<option value="${l}"${l===cur?' selected':''}>${l} (${ct[l]})</option>`).join('');render()}
-async function load(){try{D=await fetchData();$('#upd').textContent='Datos del '+D.updated+' · próximos 7 días · hora de España';paint()}
- catch(e){$('#list').textContent='No se pudo cargar. Comprueba tu conexión.'}}
+async function load(){let d;try{d=await fetchData()}catch(e){$('#list').textContent='No se pudo cargar. Comprueba tu conexión.';return}
+ D=d;$('#upd').textContent='Datos del '+D.updated+' · próximos 7 días · hora de España';
+ try{paint()}catch(e){$('#list').textContent='Error al mostrar los datos: '+e.message}}
 const cell=x=>`<td class="${x>=.7?'hi':x<=.3?'lo':''}">${pc(x)}</td>`;
 const tb=(t,hn,an)=>`<div class="tw"><table><tr><th></th>${t.lines.map(x=>`<th>${L(x)}</th>`).join('')}</tr><tr><td>${hn}</td>${t.h.map(cell).join('')}</tr><tr><td>${an}</td>${t.a.map(cell).join('')}</tr></table></div><div class="tot">Total del partido: ${t.tl.map((x,i)=>`${L(x)} <b>${pc(t.t[i])}</b>`).join(' · ')}</div>`;
 const otbl=(o,hd)=>`<div class="tw"><table><tr><th>Casa</th>${hd.map(x=>`<th>${x}</th>`).join('')}</tr>${Object.entries(o.books).map(([k,v])=>`<tr><td>${k}</td>${v.map((x,i)=>`<td class="${x===o.best[i]?'bst':''}">${n1(x.toFixed(2))}</td>`).join('')}</tr>`).join('')}<tr class="sm"><td><b>Mejor cuota</b></td>${o.best.map(x=>`<td><b>${n1(x.toFixed(2))}</b></td>`).join('')}</tr><tr class="sm"><td>Valor esperado*</td>${o.ev.map(x=>`<td class="${x>.05?'pos':x<0?'neg':''}">${x>0?'+':''}${Math.round(x*100)}%</td>`).join('')}</tr></table></div>`;
 const soc=m=>`<div class="sum">⚽ Goles esperados: <b>${n1(m.goals.exp)}</b> · Ambos marcan: <b>${pc(m.goals.btts)}</b></div>
-<h4>⚽ Goles por equipo</h4>${tb(m.tbl.goles,m.home,m.away)}
-<h4>🟨 Tarjetas por equipo</h4>${m.tbl.tarjetas?tb(m.tbl.tarjetas,m.home,m.away):'<p class="foot">Sin datos de tarjetas para esta competición.</p>'}
-<h4>🎯 Remates a puerta por equipo</h4>${m.tbl.remates?tb(m.tbl.remates,m.home,m.away):'<p class="foot">Sin datos de remates para esta competición.</p>'}`;
+<h4>⚽ Goles por equipo</h4>${m.tbl&&m.tbl.goles?tb(m.tbl.goles,m.home,m.away):'<p class="foot">Tabla no disponible: estos datos son de una versión anterior y se renovarán solos en la próxima hora.</p>'}
+<h4>🟨 Tarjetas por equipo</h4>${m.tbl&&m.tbl.tarjetas?tb(m.tbl.tarjetas,m.home,m.away):'<p class="foot">Sin datos de tarjetas para esta competición.</p>'}
+<h4>🎯 Remates a puerta por equipo</h4>${m.tbl&&m.tbl.remates?tb(m.tbl.remates,m.home,m.away):'<p class="foot">Sin datos de remates para esta competición.</p>'}`;
 const odd=m=>(m.odds?`<h4>💶 Cuotas ${m.p.length===3?'1X2':'de victoria'}</h4>${otbl(m.odds,m.p.length===3?['1','X','2']:['1','2'])}`:'')+(m.ou?`<h4>💶 Cuotas Más/Menos 2,5 goles</h4>${otbl(m.ou,['Más','Menos'])}`:'')+(m.odds||m.ou?'<p class="foot">*Valor esperado: ganancia media por cada 1 € apostado si las probabilidades del modelo fueran exactas. Es solo una estimación.</p>':`<h4>💶 Cuotas</h4><p class="foot">Sin cuotas de casas para este partido: la fuente gratuita solo las trae de las ligas nacionales.</p><div class="tw"><table><tr><th>Cuota justa del modelo</th>${m.p.map((x,i)=>`<th>${m.p.length===3?['1','X','2'][i]:['1','2'][i]}</th>`).join('')}</tr><tr><td>1 / probabilidad</td>${m.p.map(x=>`<td>${n1((1/Math.max(x,.01)).toFixed(2))}</td>`).join('')}</tr></table></div><p class="foot">Si una casa paga más que esta cuota, el modelo ve valor (con todas sus limitaciones).</p>`);
 const card=m=>{const two=m.p.length===2,nm=two?[m.home,m.away]:[m.home,'Empate',m.away],cl=two?['var(--c1)','var(--c3)']:['var(--c1)','var(--c2)','var(--c3)'];let det;
  if(m.pts)det=`<div class="g2"><div><b>🏀 Puntos esperados</b><br>${m.home}: ${n1(m.pts.home)}<br>${m.away}: ${n1(m.pts.away)}</div><div><b>Total</b><br>Esperado: ${n1(m.pts.total)}<br>Más de ${n1(m.pts.line)}: ${pc(m.pts.over)}</div></div>`;
@@ -75,9 +76,10 @@ const card=m=>{const two=m.p.length===2,nm=two?[m.home,m.away]:[m.home,'Empate',
 <div class="pick">Pronóstico: <b>${!two&&m.pick===1?'Empate':'Gana '+nm[m.pick]}</b>${m.value&&m.value.length?' · 💎 valor en '+m.value.map(i=>['1','X','2'][i]).join(', '):''}</div>
 ${m.odds?`<div class="mini">Mejor cuota: ${m.odds.best.map(x=>n1(x.toFixed(2))).join(' · ')}</div>`:''}
 <details><summary>Ver tablas y cuotas</summary>${m.nota?`<p class="foot">⚠️ ${m.nota}</p>`:''}${det}${odd(m)}</details></div>`};
+const sc=m=>{try{return card(m)}catch(e){return `<div class="card">⚠️ ${m.home} - ${m.away}: no se pudo mostrar (${e.message})</div>`}};
 function render(){const l=$('#lg').value,by={};let h='';
  list().filter(m=>!l||m.league===l).forEach(m=>(by[m.league]=by[m.league]||[]).push(m));
- for(const k of Object.keys(by).sort(cmp))h+=`<h2>${k} · ${by[k].length}</h2>`+by[k].map(card).join('');
+ for(const k of Object.keys(by).sort(cmp))h+=`<h2>${k} · ${by[k].length}</h2>`+by[k].map(sc).join('');
  $('#list').innerHTML=h||`<p class="foot">No hay partidos en los próximos 7 días (o aún no se ha ejecutado la primera actualización).<br>${(D.info||[]).join('<br>')}</p>`}
 $('#cats').onclick=e=>{const b=e.target.closest('button');if(b){CAT=b.dataset.k;$('#lg').value='';paint()}};
 $('#lg').onchange=render;$('#rf').onclick=()=>{$('#upd').textContent='Actualizando…';load()};setInterval(load,300000);load();
