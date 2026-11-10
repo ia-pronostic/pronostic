@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 02:11 UTC",
+ "updated": "2026-11-10 02:56 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260114-20260123",
   "ATP: 9 partidos (2906 resultados usados)",
-  "WTA: 16 partidos (4341 resultados usados)",
+  "WTA: 16 partidos (4342 resultados usados)",
   "Nations League (lista manual): 19 partidos añadidos"
  ],
  "matches": [
@@ -421,20 +421,20 @@
    "league": "WTA",
    "date": "2026-11-11",
    "time": "06:00",
-   "home": "Elina Svitolina",
-   "away": "Aryna Sabalenka",
+   "home": "Julia Grabher",
+   "away": "Irene Burillo",
    "p": [
-    0.449,
-    0.551
+    0.589,
+    0.411
    ],
-   "pick": 1,
+   "pick": 0,
    "elo": [
-    1598,
-    1634
+    1614,
+    1551
    ],
    "n": [
-    25,
-    24
+    34,
+    18
    ],
    "value": []
   },
@@ -442,6 +442,72 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-11",
+   "time": "21:00",
+   "home": "Karolina Muchova",
+   "away": "Elina Svitolina",
+   "p": [
+    0.574,
+    0.426
+   ],
+   "pick": 0,
+   "elo": [
+    1635,
+    1583
+   ],
+   "n": [
+    23,
+    26
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "22:30",
+   "home": "Mirra Andreeva",
+   "away": "Aryna Sabalenka",
+   "p": [
+    0.499,
+    0.501
+   ],
+   "pick": 1,
+   "elo": [
+    1633,
+    1634
+   ],
+   "n": [
+    22,
+    24
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-12",
+   "time": "06:00",
+   "home": "Elina Svitolina",
+   "away": "Aryna Sabalenka",
+   "p": [
+    0.428,
+    0.572
+   ],
+   "pick": 1,
+   "elo": [
+    1583,
+    1634
+   ],
+   "n": [
+    26,
+    24
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-12",
    "time": "06:00",
    "home": "Coco Gauff",
    "away": "Marta Kostyuk",
@@ -463,7 +529,7 @@
   {
    "cat": "tenis",
    "league": "WTA",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "time": "06:00",
    "home": "Linda Noskova",
    "away": "Jessica Pegula",
@@ -485,88 +551,22 @@
   {
    "cat": "tenis",
    "league": "WTA",
-   "date": "2026-11-11",
-   "time": "06:00",
-   "home": "Karolina Muchova",
-   "away": "Elina Svitolina",
-   "p": [
-    0.552,
-    0.448
-   ],
-   "pick": 0,
-   "elo": [
-    1635,
-    1598
-   ],
-   "n": [
-    23,
-    25
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "time": "06:00",
    "home": "Karolina Muchova",
    "away": "Mirra Andreeva",
    "p": [
-    0.525,
-    0.475
+    0.503,
+    0.497
    ],
    "pick": 0,
    "elo": [
     1635,
-    1618
+    1633
    ],
    "n": [
     23,
-    21
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-11",
-   "time": "06:00",
-   "home": "Mirra Andreeva",
-   "away": "Aryna Sabalenka",
-   "p": [
-    0.477,
-    0.523
-   ],
-   "pick": 1,
-   "elo": [
-    1618,
-    1634
-   ],
-   "n": [
-    21,
-    24
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-11",
-   "time": "06:00",
-   "home": "Julia Grabher",
-   "away": "Irene Burillo",
-   "p": [
-    0.589,
-    0.411
-   ],
-   "pick": 0,
-   "elo": [
-    1614,
-    1551
-   ],
-   "n": [
-    34,
-    18
+    22
    ],
    "value": []
   },
