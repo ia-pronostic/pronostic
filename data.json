@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 02:56 UTC",
+ "updated": "2026-11-10 09:59 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -17,7 +17,7 @@
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260114-20260123",
   "ATP: 9 partidos (2906 resultados usados)",
   "WTA: 16 partidos (4342 resultados usados)",
-  "Nations League (lista manual): 19 partidos añadidos"
+  "Nations League (lista manual): 52 partidos añadidos"
  ],
  "matches": [
   {
@@ -574,6 +574,56 @@
    "league": "Nations League",
    "date": "2026-11-12",
    "time": "18:00",
+   "home": "Armenia",
+   "away": "Cyprus",
+   "p": [
+    0.483,
+    0.248,
+    0.269
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.74,
+    "o25": 0.516,
+    "btts": 0.542
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.799,
+      0.477,
+      0.218
+     ],
+     "a": [
+      0.679,
+      0.314,
+      0.107
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.759,
+      0.516,
+      0.295
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-12",
+   "time": "18:00",
    "home": "Turkey",
    "away": "Belgium",
    "p": [
@@ -586,6 +636,35 @@
     "exp": 2.7,
     "o25": 0.507,
     "btts": 0.548
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.729,
+      0.375,
+      0.144
+     ],
+     "a": [
+      0.753,
+      0.407,
+      0.166
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.286
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
@@ -608,6 +687,35 @@
     "o25": 0.513,
     "btts": 0.545
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.691,
+      0.328,
+      0.115
+     ],
+     "a": [
+      0.788,
+      0.459,
+      0.204
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.756,
+      0.513,
+      0.292
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -628,6 +736,135 @@
     "exp": 3.15,
     "o25": 0.61,
     "btts": 0.485
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.533,
+      0.178,
+      0.042
+     ],
+     "a": [
+      0.909,
+      0.69,
+      0.428
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.823,
+      0.61,
+      0.387
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-12",
+   "time": "20:45",
+   "home": "Albania",
+   "away": "Finland",
+   "p": [
+    0.506,
+    0.243,
+    0.251
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.76,
+    "o25": 0.521,
+    "btts": 0.54
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.81,
+      0.495,
+      0.233
+     ],
+     "a": [
+      0.666,
+      0.3,
+      0.099
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.762,
+      0.521,
+      0.299
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-12",
+   "time": "20:45",
+   "home": "San Marino",
+   "away": "Belarus",
+   "p": [
+    0.1,
+    0.164,
+    0.736
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 3.15,
+    "o25": 0.61,
+    "btts": 0.485
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.533,
+      0.178,
+      0.042
+     ],
+     "a": [
+      0.909,
+      0.69,
+      0.428
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.823,
+      0.61,
+      0.387
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
@@ -650,6 +887,185 @@
     "o25": 0.546,
     "btts": 0.524
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.852,
+      0.569,
+      0.299
+     ],
+     "a": [
+      0.615,
+      0.248,
+      0.072
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.78,
+      0.546,
+      0.322
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-12",
+   "time": "20:45",
+   "home": "Montenegro",
+   "away": "Latvia",
+   "p": [
+    0.62,
+    0.212,
+    0.169
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.9,
+    "o25": 0.554,
+    "btts": 0.519
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.861,
+      0.588,
+      0.317
+     ],
+     "a": [
+      0.602,
+      0.236,
+      0.067
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.785,
+      0.554,
+      0.33
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "18:00",
+   "home": "Moldova",
+   "away": "Kazakhstan",
+   "p": [
+    0.289,
+    0.252,
+    0.46
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.73,
+    "o25": 0.513,
+    "btts": 0.545
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.691,
+      0.328,
+      0.115
+     ],
+     "a": [
+      0.788,
+      0.459,
+      0.204
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.756,
+      0.513,
+      0.292
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Slovenia",
+   "away": "Switzerland",
+   "p": [
+    0.251,
+    0.243,
+    0.506
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.76,
+    "o25": 0.521,
+    "btts": 0.54
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.666,
+      0.3,
+      0.099
+     ],
+     "a": [
+      0.81,
+      0.495,
+      0.233
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.762,
+      0.521,
+      0.299
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -670,6 +1086,135 @@
     "exp": 3.15,
     "o25": 0.61,
     "btts": 0.485
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.909,
+      0.69,
+      0.428
+     ],
+     "a": [
+      0.533,
+      0.178,
+      0.042
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.823,
+      0.61,
+      0.387
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Andorra",
+   "away": "Gibraltar",
+   "p": [
+    0.449,
+    0.253,
+    0.298
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.72,
+    "o25": 0.511,
+    "btts": 0.546
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.782,
+      0.45,
+      0.197
+     ],
+     "a": [
+      0.698,
+      0.336,
+      0.12
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.755,
+      0.511,
+      0.29
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Luxembourg",
+   "away": "Estonia",
+   "p": [
+    0.506,
+    0.243,
+    0.251
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.76,
+    "o25": 0.521,
+    "btts": 0.54
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.81,
+      0.495,
+      0.233
+     ],
+     "a": [
+      0.666,
+      0.3,
+      0.099
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.762,
+      0.521,
+      0.299
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
@@ -692,6 +1237,235 @@
     "o25": 0.523,
     "btts": 0.538
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.66,
+      0.293,
+      0.095
+     ],
+     "a": [
+      0.816,
+      0.504,
+      0.24
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.764,
+      0.523,
+      0.301
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Scotland",
+   "away": "North Macedonia",
+   "p": [
+    0.631,
+    0.208,
+    0.162
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.92,
+    "o25": 0.558,
+    "btts": 0.516
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.866,
+      0.597,
+      0.326
+     ],
+     "a": [
+      0.596,
+      0.23,
+      0.064
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.788,
+      0.558,
+      0.334
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Slovakia",
+   "away": "Faroe Islands",
+   "p": [
+    0.726,
+    0.169,
+    0.106
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 3.13,
+    "o25": 0.604,
+    "btts": 0.488
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.905,
+      0.681,
+      0.417
+     ],
+     "a": [
+      0.539,
+      0.182,
+      0.044
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.819,
+      0.604,
+      0.381
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Liechtenstein",
+   "away": "Azerbaijan",
+   "p": [
+    0.176,
+    0.215,
+    0.608
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.88,
+    "o25": 0.55,
+    "btts": 0.521
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.609,
+      0.242,
+      0.069
+     ],
+     "a": [
+      0.857,
+      0.578,
+      0.308
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.782,
+      0.55,
+      0.326
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-13",
+   "time": "20:45",
+   "home": "Bulgaria",
+   "away": "Iceland",
+   "p": [
+    0.35,
+    0.258,
+    0.393
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.729,
+      0.375,
+      0.144
+     ],
+     "a": [
+      0.753,
+      0.407,
+      0.166
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.286
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -699,19 +1473,48 @@
   {
    "league": "Nations League",
    "date": "2026-11-14",
-   "time": "18:00",
-   "home": "Norway",
-   "away": "Wales",
+   "time": "15:00",
+   "home": "Kosovo",
+   "away": "Israel",
    "p": [
-    0.608,
-    0.215,
-    0.176
+    0.426,
+    0.256,
+    0.318
    ],
    "pick": 0,
    "goals": {
-    "exp": 2.88,
-    "o25": 0.55,
-    "btts": 0.521
+    "exp": 2.71,
+    "o25": 0.509,
+    "btts": 0.547
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.771,
+      0.433,
+      0.184
+     ],
+     "a": [
+      0.71,
+      0.351,
+      0.129
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.753,
+      0.509,
+      0.288
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
@@ -734,6 +1537,135 @@
     "o25": 0.507,
     "btts": 0.548
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.729,
+      0.375,
+      0.144
+     ],
+     "a": [
+      0.753,
+      0.407,
+      0.166
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.286
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-14",
+   "time": "18:00",
+   "home": "Norway",
+   "away": "Wales",
+   "p": [
+    0.608,
+    0.215,
+    0.176
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.88,
+    "o25": 0.55,
+    "btts": 0.521
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.857,
+      0.578,
+      0.308
+     ],
+     "a": [
+      0.609,
+      0.242,
+      0.069
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.782,
+      0.55,
+      0.326
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-14",
+   "time": "20:45",
+   "home": "Austria",
+   "away": "Republic of Ireland",
+   "p": [
+    0.653,
+    0.2,
+    0.148
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.96,
+    "o25": 0.567,
+    "btts": 0.511
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.875,
+      0.616,
+      0.346
+     ],
+     "a": [
+      0.583,
+      0.219,
+      0.059
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.794,
+      0.567,
+      0.343
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -755,6 +1687,185 @@
     "o25": 0.554,
     "btts": 0.519
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.861,
+      0.588,
+      0.317
+     ],
+     "a": [
+      0.602,
+      0.236,
+      0.067
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.785,
+      0.554,
+      0.33
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-14",
+   "time": "20:45",
+   "home": "Northern Ireland",
+   "away": "Ukraine",
+   "p": [
+    0.26,
+    0.246,
+    0.494
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.75,
+    "o25": 0.518,
+    "btts": 0.541
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.672,
+      0.307,
+      0.103
+     ],
+     "a": [
+      0.805,
+      0.486,
+      0.225
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.76,
+      0.518,
+      0.297
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-14",
+   "time": "20:45",
+   "home": "Sweden",
+   "away": "Bosnia and Herzegovina",
+   "p": [
+    0.54,
+    0.236,
+    0.224
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.79,
+    "o25": 0.529,
+    "btts": 0.535
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.826,
+      0.522,
+      0.256
+     ],
+     "a": [
+      0.647,
+      0.279,
+      0.088
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.768,
+      0.529,
+      0.306
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-14",
+   "time": "20:45",
+   "home": "Romania",
+   "away": "Poland",
+   "p": [
+    0.393,
+    0.258,
+    0.35
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.753,
+      0.407,
+      0.166
+     ],
+     "a": [
+      0.729,
+      0.375,
+      0.144
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.286
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -762,19 +1873,198 @@
   {
    "league": "Nations League",
    "date": "2026-11-15",
-   "time": "20:45",
-   "home": "Belgium",
-   "away": "Italy",
+   "time": "15:00",
+   "home": "Latvia",
+   "away": "Armenia",
    "p": [
-    0.404,
-    0.257,
-    0.339
+    0.36,
+    0.258,
+    0.382
    ],
-   "pick": 0,
+   "pick": 2,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.506,
+    "btts": 0.549
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.735,
+      0.383,
+      0.149
+     ],
+     "a": [
+      0.747,
+      0.399,
+      0.16
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.751,
+      0.506,
+      0.286
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "home": "Cyprus",
+   "away": "Montenegro",
+   "p": [
+    0.339,
+    0.257,
+    0.404
+   ],
+   "pick": 2,
    "goals": {
     "exp": 2.7,
     "o25": 0.507,
     "btts": 0.548
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.722,
+      0.367,
+      0.139
+     ],
+     "a": [
+      0.759,
+      0.416,
+      0.172
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.287
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "home": "Finland",
+   "away": "San Marino",
+   "p": [
+    0.9,
+    0.072,
+    0.028
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 3.97,
+    "o25": 0.758,
+    "btts": 0.398
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.968,
+      0.858,
+      0.668
+     ],
+     "a": [
+      0.411,
+      0.099,
+      0.017
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.906,
+      0.758,
+      0.561
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "home": "Belarus",
+   "away": "Albania",
+   "p": [
+    0.318,
+    0.256,
+    0.426
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.71,
+    "o25": 0.509,
+    "btts": 0.547
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.71,
+      0.351,
+      0.129
+     ],
+     "a": [
+      0.771,
+      0.433,
+      0.184
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.753,
+      0.509,
+      0.288
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
@@ -797,6 +2087,35 @@
     "o25": 0.623,
     "btts": 0.477
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.916,
+      0.708,
+      0.45
+     ],
+     "a": [
+      0.521,
+      0.168,
+      0.039
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.83,
+      0.623,
+      0.4
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -805,18 +2124,47 @@
    "league": "Nations League",
    "date": "2026-11-15",
    "time": "20:45",
-   "home": "Spain",
-   "away": "England",
+   "home": "Belgium",
+   "away": "Italy",
    "p": [
-    0.586,
-    0.223,
-    0.191
+    0.404,
+    0.257,
+    0.339
    ],
    "pick": 0,
    "goals": {
-    "exp": 2.85,
-    "o25": 0.542,
-    "btts": 0.526
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.759,
+      0.416,
+      0.172
+     ],
+     "a": [
+      0.722,
+      0.367,
+      0.139
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.287
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
@@ -839,6 +2187,335 @@
     "o25": 0.554,
     "btts": 0.519
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.861,
+      0.588,
+      0.317
+     ],
+     "a": [
+      0.602,
+      0.236,
+      0.067
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.785,
+      0.554,
+      0.33
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-15",
+   "time": "20:45",
+   "home": "Spain",
+   "away": "England",
+   "p": [
+    0.586,
+    0.223,
+    0.191
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.85,
+    "o25": 0.542,
+    "btts": 0.526
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.847,
+      0.56,
+      0.29
+     ],
+     "a": [
+      0.621,
+      0.254,
+      0.075
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.777,
+      0.542,
+      0.319
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "16:00",
+   "home": "Kazakhstan",
+   "away": "Slovakia",
+   "p": [
+    0.289,
+    0.252,
+    0.46
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.73,
+    "o25": 0.513,
+    "btts": 0.545
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.691,
+      0.328,
+      0.115
+     ],
+     "a": [
+      0.788,
+      0.459,
+      0.204
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.756,
+      0.513,
+      0.292
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "16:00",
+   "home": "Faroe Islands",
+   "away": "Moldova",
+   "p": [
+    0.506,
+    0.243,
+    0.251
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.76,
+    "o25": 0.521,
+    "btts": 0.54
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.81,
+      0.495,
+      0.233
+     ],
+     "a": [
+      0.666,
+      0.3,
+      0.099
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.762,
+      0.521,
+      0.299
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "18:00",
+   "home": "Estonia",
+   "away": "Bulgaria",
+   "p": [
+    0.308,
+    0.254,
+    0.437
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.71,
+    "o25": 0.51,
+    "btts": 0.546
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.704,
+      0.343,
+      0.124
+     ],
+     "a": [
+      0.776,
+      0.441,
+      0.191
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.754,
+      0.51,
+      0.289
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "18:00",
+   "home": "Lithuania",
+   "away": "Liechtenstein",
+   "p": [
+    0.755,
+    0.155,
+    0.09
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 3.21,
+    "o25": 0.623,
+    "btts": 0.477
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.916,
+      0.708,
+      0.45
+     ],
+     "a": [
+      0.521,
+      0.168,
+      0.039
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.83,
+      0.623,
+      0.4
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "18:00",
+   "home": "Iceland",
+   "away": "Luxembourg",
+   "p": [
+    0.642,
+    0.204,
+    0.155
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.94,
+    "o25": 0.563,
+    "btts": 0.513
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.871,
+      0.606,
+      0.336
+     ],
+     "a": [
+      0.59,
+      0.224,
+      0.061
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.791,
+      0.563,
+      0.339
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -860,6 +2537,35 @@
     "o25": 0.509,
     "btts": 0.547
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.771,
+      0.433,
+      0.184
+     ],
+     "a": [
+      0.71,
+      0.351,
+      0.129
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.753,
+      0.509,
+      0.288
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -868,18 +2574,47 @@
    "league": "Nations League",
    "date": "2026-11-16",
    "time": "20:45",
-   "home": "Greece",
-   "away": "Serbia",
+   "home": "Gibraltar",
+   "away": "Malta",
    "p": [
-    0.404,
-    0.257,
-    0.339
+    0.289,
+    0.252,
+    0.46
    ],
-   "pick": 0,
+   "pick": 2,
    "goals": {
-    "exp": 2.7,
-    "o25": 0.507,
-    "btts": 0.548
+    "exp": 2.73,
+    "o25": 0.513,
+    "btts": 0.545
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.691,
+      0.328,
+      0.115
+     ],
+     "a": [
+      0.788,
+      0.459,
+      0.204
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.756,
+      0.513,
+      0.292
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
@@ -902,6 +2637,135 @@
     "o25": 0.529,
     "btts": 0.535
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.826,
+      0.522,
+      0.256
+     ],
+     "a": [
+      0.647,
+      0.279,
+      0.088
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.768,
+      0.529,
+      0.306
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "20:45",
+   "home": "North Macedonia",
+   "away": "Slovenia",
+   "p": [
+    0.393,
+    0.258,
+    0.35
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.753,
+      0.407,
+      0.166
+     ],
+     "a": [
+      0.729,
+      0.375,
+      0.144
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.286
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-16",
+   "time": "20:45",
+   "home": "Greece",
+   "away": "Serbia",
+   "p": [
+    0.404,
+    0.257,
+    0.339
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.759,
+      0.416,
+      0.172
+     ],
+     "a": [
+      0.722,
+      0.367,
+      0.139
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.287
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -922,6 +2786,85 @@
     "exp": 2.73,
     "o25": 0.514,
     "btts": 0.544
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.794,
+      0.468,
+      0.211
+     ],
+     "a": [
+      0.685,
+      0.321,
+      0.111
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.757,
+      0.514,
+      0.293
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "home": "Bosnia and Herzegovina",
+   "away": "Romania",
+   "p": [
+    0.393,
+    0.258,
+    0.35
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.7,
+    "o25": 0.507,
+    "btts": 0.548
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.753,
+      0.407,
+      0.166
+     ],
+     "a": [
+      0.729,
+      0.375,
+      0.144
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.752,
+      0.507,
+      0.286
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
@@ -944,6 +2887,135 @@
     "o25": 0.563,
     "btts": 0.513
    },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.59,
+      0.224,
+      0.061
+     ],
+     "a": [
+      0.871,
+      0.606,
+      0.336
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.791,
+      0.563,
+      0.339
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "home": "Republic of Ireland",
+   "away": "Kosovo",
+   "p": [
+    0.506,
+    0.243,
+    0.251
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.76,
+    "o25": 0.521,
+    "btts": 0.54
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.81,
+      0.495,
+      0.233
+     ],
+     "a": [
+      0.666,
+      0.3,
+      0.099
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.762,
+      0.521,
+      0.299
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "home": "Ukraine",
+   "away": "Georgia",
+   "p": [
+    0.586,
+    0.223,
+    0.191
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.85,
+    "o25": 0.542,
+    "btts": 0.526
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.847,
+      0.56,
+      0.29
+     ],
+     "a": [
+      0.621,
+      0.254,
+      0.075
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.777,
+      0.542,
+      0.319
+     ]
+    }
+   },
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -964,6 +3036,135 @@
     "exp": 2.9,
     "o25": 0.554,
     "btts": 0.519
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.861,
+      0.588,
+      0.317
+     ],
+     "a": [
+      0.602,
+      0.236,
+      0.067
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.785,
+      0.554,
+      0.33
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "home": "Poland",
+   "away": "Sweden",
+   "p": [
+    0.471,
+    0.25,
+    0.279
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.73,
+    "o25": 0.514,
+    "btts": 0.544
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.794,
+      0.468,
+      0.211
+     ],
+     "a": [
+      0.685,
+      0.321,
+      0.111
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.757,
+      0.514,
+      0.293
+     ]
+    }
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "home": "Israel",
+   "away": "Austria",
+   "p": [
+    0.233,
+    0.238,
+    0.529
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.78,
+    "o25": 0.526,
+    "btts": 0.536
+   },
+   "tbl": {
+    "goles": {
+     "lines": [
+      0.5,
+      1.5,
+      2.5
+     ],
+     "h": [
+      0.653,
+      0.286,
+      0.092
+     ],
+     "a": [
+      0.821,
+      0.513,
+      0.248
+     ],
+     "tl": [
+      1.5,
+      2.5,
+      3.5
+     ],
+     "t": [
+      0.765,
+      0.526,
+      0.304
+     ]
+    }
    },
    "value": [],
    "cat": "selecciones",
