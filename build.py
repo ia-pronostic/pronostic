@@ -169,27 +169,42 @@ def parse(ev):
     return dict(when=pd.Timestamp(ev["date"]), HomeTeam=h["team"]["displayName"], AwayTeam=a["team"]["displayName"],
                 hs=h.get("score"), as_=a.get("score"), done=bool(st.get("completed")) or st.get("state") == "post", odds=espn_odds(c))
 
-# --- UEFA Nations League (masculina), noviembre 2026. Horas de España (hora de México +7 h).
-# Fuente: calendario de ClaroSports y de ESPN Deportes. Son los partidos principales: si ESPN funciona, añadirá el resto.
-NL_MANUAL = [
- ("2026-11-12", "18:00", "Turkey", "Belgium"), ("2026-11-12", "20:45", "Italy", "France"),
- ("2026-11-12", "20:45", "Czechia", "Spain"), ("2026-11-12", "20:45", "England", "Croatia"),
- ("2026-11-13", "20:45", "Netherlands", "Greece"), ("2026-11-13", "20:45", "Serbia", "Germany"),
- ("2026-11-14", "18:00", "Norway", "Wales"), ("2026-11-14", "18:00", "Georgia", "Hungary"),
- ("2026-11-14", "20:45", "Portugal", "Denmark"),
- ("2026-11-15", "20:45", "Belgium", "Italy"), ("2026-11-15", "20:45", "France", "Turkey"),
- ("2026-11-15", "20:45", "Spain", "England"), ("2026-11-15", "20:45", "Croatia", "Czechia"),
- ("2026-11-16", "20:45", "Germany", "Netherlands"), ("2026-11-16", "20:45", "Greece", "Serbia"),
- ("2026-11-16", "20:45", "Switzerland", "Scotland"),
- ("2026-11-17", "20:45", "Denmark", "Norway"), ("2026-11-17", "20:45", "Wales", "Portugal"),
- ("2026-11-17", "20:45", "Hungary", "Northern Ireland"),
-]
+# --- UEFA Nations League (masculina), jornadas 5 y 6 (12-17 nov 2026). Horas de España (la fuente usa hora de México: +7 h).
+# Fuente: calendario de Infobae con los grupos oficiales de la UEFA. Si ESPN funciona, sus datos prevalecen sobre esta lista.
+_NL = {
+ "2026-11-12": [("18:00", "Armenia", "Cyprus"), ("18:00", "Turkey", "Belgium"), ("20:45", "Italy", "France"), ("20:45", "Czechia", "Spain"),
+                ("20:45", "Albania", "Finland"), ("20:45", "San Marino", "Belarus"), ("20:45", "England", "Croatia"), ("20:45", "Montenegro", "Latvia")],
+ "2026-11-13": [("18:00", "Moldova", "Kazakhstan"), ("20:45", "Slovenia", "Switzerland"), ("20:45", "Netherlands", "Greece"),
+                ("20:45", "Andorra", "Gibraltar"), ("20:45", "Luxembourg", "Estonia"), ("20:45", "Serbia", "Germany"),
+                ("20:45", "Scotland", "North Macedonia"), ("20:45", "Slovakia", "Faroe Islands"), ("20:45", "Liechtenstein", "Azerbaijan"),
+                ("20:45", "Bulgaria", "Iceland")],
+ "2026-11-14": [("15:00", "Kosovo", "Israel"), ("18:00", "Georgia", "Hungary"), ("18:00", "Norway", "Wales"),
+                ("20:45", "Austria", "Republic of Ireland"), ("20:45", "Portugal", "Denmark"), ("20:45", "Northern Ireland", "Ukraine"),
+                ("20:45", "Sweden", "Bosnia and Herzegovina"), ("20:45", "Romania", "Poland")],
+ "2026-11-15": [("15:00", "Latvia", "Armenia"), ("15:00", "Cyprus", "Montenegro"), ("18:00", "Finland", "San Marino"), ("18:00", "Belarus", "Albania"),
+                ("20:45", "France", "Turkey"), ("20:45", "Belgium", "Italy"), ("20:45", "Croatia", "Czechia"), ("20:45", "Spain", "England")],
+ "2026-11-16": [("16:00", "Kazakhstan", "Slovakia"), ("16:00", "Faroe Islands", "Moldova"), ("18:00", "Estonia", "Bulgaria"),
+                ("18:00", "Lithuania", "Liechtenstein"), ("18:00", "Iceland", "Luxembourg"), ("20:45", "Germany", "Netherlands"),
+                ("20:45", "Gibraltar", "Malta"), ("20:45", "Switzerland", "Scotland"), ("20:45", "North Macedonia", "Slovenia"), ("20:45", "Greece", "Serbia")],
+ "2026-11-17": [("20:45", "Denmark", "Norway"), ("20:45", "Bosnia and Herzegovina", "Romania"), ("20:45", "Wales", "Portugal"),
+                ("20:45", "Republic of Ireland", "Kosovo"), ("20:45", "Ukraine", "Georgia"), ("20:45", "Hungary", "Northern Ireland"),
+                ("20:45", "Poland", "Sweden"), ("20:45", "Israel", "Austria")],
+}
+NL_MANUAL = [(d, t, h, a) for d, ms in _NL.items() for t, h, a in ms]
 # Nivel aproximado de cada selección (estimación propia, NO es un dato oficial). Solo se usa si no hay resultados reales.
-NL_ELO = {"Spain": 2150, "France": 2080, "England": 2030, "Portugal": 2000, "Netherlands": 1980, "Germany": 1960, "Italy": 1930,
-          "Croatia": 1900, "Belgium": 1890, "Denmark": 1850, "Switzerland": 1840, "Norway": 1830, "Turkey": 1800, "Serbia": 1760,
-          "Scotland": 1760, "Czechia": 1750, "Hungary": 1730, "Greece": 1720, "Wales": 1690, "Georgia": 1640, "Northern Ireland": 1580}
+NL_ELO = {"Spain": 2150, "France": 2080, "England": 2030, "Portugal": 2000, "Netherlands": 1980, "Germany": 1960, "Italy": 1930, "Croatia": 1900,
+          "Belgium": 1890, "Denmark": 1850, "Switzerland": 1840, "Austria": 1830, "Norway": 1830, "Turkey": 1800, "Serbia": 1760, "Scotland": 1760,
+          "Ukraine": 1760, "Poland": 1750, "Czechia": 1750, "Hungary": 1730, "Sweden": 1730, "Greece": 1720, "Romania": 1700, "Wales": 1690,
+          "Slovakia": 1650, "Republic of Ireland": 1650, "Bosnia and Herzegovina": 1650, "Slovenia": 1650, "Georgia": 1640, "Israel": 1620,
+          "Albania": 1620, "Iceland": 1620, "North Macedonia": 1600, "Kosovo": 1600, "Northern Ireland": 1580, "Finland": 1570, "Montenegro": 1550,
+          "Bulgaria": 1530, "Belarus": 1500, "Kazakhstan": 1500, "Armenia": 1480, "Cyprus": 1450, "Luxembourg": 1450, "Latvia": 1400,
+          "Estonia": 1400, "Faroe Islands": 1400, "Lithuania": 1380, "Azerbaijan": 1380, "Moldova": 1350, "Malta": 1250, "San Marino": 1100,
+          "Gibraltar": 1100, "Andorra": 1100, "Liechtenstein": 1100}
+ALIAS = {"turkiye": "turkey", "czech republic": "czechia", "ireland": "republic of ireland", "bosnia-herzegovina": "bosnia and herzegovina"}
 
-def norm(x): return unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode().lower()
+def norm(x):
+    x = unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode().lower().strip()
+    return re.sub(r"[^a-z]", "", ALIAS.get(x, x))
 
 def elo_goals(h, a):
     x = (NL_ELO.get(h, 1700) + 70 - NL_ELO.get(a, 1700)) / 400  # +70 por jugar en casa
@@ -198,7 +213,7 @@ def elo_goals(h, a):
 def nl_manual(today, have):
     out = []
     for d, t, h, a in NL_MANUAL:
-        if not (str(today) <= d <= str(today + dt.timedelta(days=WINDOW))) or (d, norm(h)[:4], norm(a)[:4]) in have: continue
+        if not (str(today) <= d <= str(today + dt.timedelta(days=WINDOW))) or (d, norm(h)[:6], norm(a)[:6]) in have: continue
         m = build_match(pd.Series({"HomeTeam": h, "AwayTeam": a}), elo_goals, None, None, league="Nations League", when=(d, t))
         m["cat"] = "selecciones"
         m["nota"] = "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
@@ -307,6 +322,12 @@ def tennis(today, info):  # Elo sencillo con los resultados de los últimos 150 
         info.append(f"{name}: {len(out) - n0} partidos ({sum(1 for m in ms if m['done'])} resultados usados)")
     return out
 
+def clean(o):
+    if isinstance(o, float) and (math.isnan(o) or math.isinf(o)): return None
+    if isinstance(o, dict): return {k: clean(v) for k, v in o.items()}
+    if isinstance(o, list): return [clean(v) for v in o]
+    return o
+
 def main():
     today = dt.date.today(); end = today + dt.timedelta(days=WINDOW); info, out = [], []
     try:
@@ -330,7 +351,7 @@ def main():
                      (nba, (today, info)), (tennis, (today, info))):
         try: out += fn(*args)
         except Exception as e: info.append(f"{fn.__name__}: error {e}")
-    have = {(m["date"], norm(m["home"])[:4], norm(m["away"])[:4]) for m in out if m.get("cat") == "selecciones"}
+    have = {(m["date"], norm(m["home"])[:6], norm(m["away"])[:6]) for m in out if m.get("cat") == "selecciones"}
     extra = nl_manual(today, have)
     out += extra
     info.append(f"Nations League (lista manual): {len(extra)} partidos añadidos")
@@ -342,7 +363,7 @@ def main():
     except Exception: old = {}
     same = json.dumps(old.get("matches"), sort_keys=True) == json.dumps(out, sort_keys=True)
     upd = old["updated"] if same and old.get("updated") else dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    json.dump({"updated": upd, "info": info, "matches": out}, open("data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(clean({"updated": upd, "info": info, "matches": out}), open("data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1, allow_nan=False)
     print(len(out), "partidos", info)
 
 if __name__ == "__main__":
