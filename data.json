@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 01:08 UTC",
+ "updated": "2026-11-10 02:11 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260114-20260123",
   "ATP: 9 partidos (2906 resultados usados)",
-  "WTA: 17 partidos (4340 resultados usados)",
+  "WTA: 16 partidos (4341 resultados usados)",
   "Nations League (lista manual): 19 partidos añadidos"
  ],
  "matches": [
@@ -215,28 +215,6 @@
    "n": [
     20,
     29
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-10",
-   "time": "17:30",
-   "home": "Leolia Jeanjean",
-   "away": "Jazmin Ortenzi",
-   "p": [
-    0.648,
-    0.352
-   ],
-   "pick": 0,
-   "elo": [
-    1597,
-    1491
-   ],
-   "n": [
-    30,
-    16
    ],
    "value": []
   },
@@ -446,17 +424,17 @@
    "home": "Elina Svitolina",
    "away": "Aryna Sabalenka",
    "p": [
-    0.474,
-    0.526
+    0.449,
+    0.551
    ],
    "pick": 1,
    "elo": [
     1598,
-    1616
+    1634
    ],
    "n": [
     25,
-    23
+    24
    ],
    "value": []
   },
@@ -512,16 +490,16 @@
    "home": "Karolina Muchova",
    "away": "Elina Svitolina",
    "p": [
-    0.577,
-    0.423
+    0.552,
+    0.448
    ],
    "pick": 0,
    "elo": [
-    1653,
+    1635,
     1598
    ],
    "n": [
-    22,
+    23,
     25
    ],
    "value": []
@@ -534,16 +512,16 @@
    "home": "Karolina Muchova",
    "away": "Mirra Andreeva",
    "p": [
-    0.55,
-    0.45
+    0.525,
+    0.475
    ],
    "pick": 0,
    "elo": [
-    1653,
+    1635,
     1618
    ],
    "n": [
-    22,
+    23,
     21
    ],
    "value": []
@@ -556,17 +534,17 @@
    "home": "Mirra Andreeva",
    "away": "Aryna Sabalenka",
    "p": [
-    0.502,
-    0.498
+    0.477,
+    0.523
    ],
-   "pick": 0,
+   "pick": 1,
    "elo": [
     1618,
-    1616
+    1634
    ],
    "n": [
     21,
-    23
+    24
    ],
    "value": []
   },
