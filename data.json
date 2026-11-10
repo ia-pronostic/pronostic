@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-09 23:46 UTC",
+ "updated": "2026-11-10 01:08 UTC",
  "info": [
-  "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
+  "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Europa League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Conference League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -14,112 +14,12 @@
   "Clasificación Mundial (UEFA): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
-  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260113-20260122",
+  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260114-20260123",
   "ATP: 9 partidos (2906 resultados usados)",
-  "WTA: 19 partidos (4340 resultados usados)",
-  "Nations League (lista manual): 16 partidos añadidos"
+  "WTA: 17 partidos (4340 resultados usados)",
+  "Nations League (lista manual): 19 partidos añadidos"
  ],
  "matches": [
-  {
-   "league": "LaLiga 2",
-   "date": "2026-11-09",
-   "time": "20:30",
-   "home": "Sabadell",
-   "away": "Sociedad B",
-   "p": [
-    0.548,
-    0.237,
-    0.215
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.73,
-    "o25": 0.513,
-    "btts": 0.518
-   },
-   "sot": {
-    "home": 5.9,
-    "away": 3.2,
-    "o85": 0.553
-   },
-   "cards": {
-    "home": 2.8,
-    "away": 3.2,
-    "o35": 0.847,
-    "o45": 0.712
-   },
-   "odds": {
-    "books": {
-     "Bet365": [
-      1.68,
-      3.6,
-      4.75
-     ],
-     "Betway": [
-      1.68,
-      3.4,
-      4.75
-     ]
-    },
-    "best": [
-     1.7,
-     3.7,
-     5.0
-    ],
-    "ev": [
-     -0.068,
-     -0.124,
-     0.075
-    ]
-   },
-   "value": [
-    2
-   ]
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "21:15",
-   "home": "Karolina Muchova",
-   "away": "Aryna Sabalenka",
-   "p": [
-    0.552,
-    0.448
-   ],
-   "pick": 0,
-   "elo": [
-    1653,
-    1616
-   ],
-   "n": [
-    22,
-    23
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-09",
-   "time": "23:00",
-   "home": "Elina Svitolina",
-   "away": "Mirra Andreeva",
-   "p": [
-    0.472,
-    0.528
-   ],
-   "pick": 1,
-   "elo": [
-    1598,
-    1618
-   ],
-   "n": [
-    25,
-    21
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "ATP",
@@ -1023,6 +923,69 @@
     "exp": 2.79,
     "o25": 0.529,
     "btts": 0.535
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "home": "Denmark",
+   "away": "Norway",
+   "p": [
+    0.471,
+    0.25,
+    0.279
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.73,
+    "o25": 0.514,
+    "btts": 0.544
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "home": "Wales",
+   "away": "Portugal",
+   "p": [
+    0.155,
+    0.204,
+    0.642
+   ],
+   "pick": 2,
+   "goals": {
+    "exp": 2.94,
+    "o25": 0.563,
+    "btts": 0.513
+   },
+   "value": [],
+   "cat": "selecciones",
+   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "league": "Nations League",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "home": "Hungary",
+   "away": "Northern Ireland",
+   "p": [
+    0.62,
+    0.212,
+    0.169
+   ],
+   "pick": 0,
+   "goals": {
+    "exp": 2.9,
+    "o25": 0.554,
+    "btts": 0.519
    },
    "value": [],
    "cat": "selecciones",
