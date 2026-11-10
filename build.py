@@ -76,7 +76,34 @@ def fd_when(r):  # football-data da la hora de Reino Unido: la pasamos a hora de
     except Exception:
         return r.Date.strftime("%Y-%m-%d"), t
 
-def build_match(r, mg, ms, mc, league=None, when=None):
+def rows(a, b, lines, tl):  # probabilidad de superar cada línea: por equipo y total del partido
+    return {"lines": lines, "h": [round(over(a, x), 3) for x in lines], "a": [round(over(b, x), 3) for x in lines],
+            "tl": tl, "t": [round(over(a + b, x), 3) for x in tl]}
+
+def ou_odds(row):  # cuotas Más/Menos 2,5 goles de cada casa (columnas "B365>2.5" y "B365<2.5")
+    out = {}
+    for c in row.index:
+        if str(c).endswith(">2.5"):
+            p = str(c)[:-4]
+            try: t = [float(row[p + ">2.5"]), float(row[p + "<2.5"])]
+            except Exception: continue
+            if all(v > 1 for v in t): out[p] = t
+    return out
+
+def am(x):  # cuota americana -> decimal
+    try: v = float(str(x).replace("+", ""))
+    except Exception: return None
+    return round(1 + v / 100 if v > 0 else 1 + 100 / abs(v), 2) if v else None
+
+def espn_odds(c):  # cuotas que ESPN publica en algunos partidos (suele ser una sola casa)
+    for o in c.get("odds", []) or []:
+        try: h, a = am(o["homeTeamOdds"]["moneyLine"]), am(o["awayTeamOdds"]["moneyLine"])
+        except Exception: continue
+        d = am((o.get("drawOdds") or {}).get("moneyLine"))
+        if h and a: return {(o.get("provider") or {}).get("name", "ESPN"): [h, d, a] if d else [h, a]}
+    return None
+
+def build_match(r, mg, ms, mc, league=None, when=None, ext=None):
     d0, t0 = when or fd_when(r)
     lh, la = mg(r.HomeTeam, r.AwayTeam)
     M = np.outer(pois(lh, 12), pois(la, 12)); M /= M.sum()
@@ -85,11 +112,14 @@ def build_match(r, mg, ms, mc, league=None, when=None):
          "home": r.HomeTeam, "away": r.AwayTeam, "p": [round(x, 3) for x in p], "pick": int(np.argmax(p)),
          "goals": {"exp": round(lh + la, 2), "o25": round(over(lh + la, 2.5), 3),
                    "btts": round((1 - math.exp(-lh)) * (1 - math.exp(-la)), 3)}}
+    m["tbl"] = {"goles": rows(lh, la, [0.5, 1.5, 2.5], [1.5, 2.5, 3.5])}
     if ms:
         a, b = ms(r.HomeTeam, r.AwayTeam)
+        m["tbl"]["remates"] = rows(a, b, [1.5, 2.5, 3.5, 4.5], [6.5, 8.5, 10.5])
         m["sot"] = {"home": round(a, 1), "away": round(b, 1), "o85": round(over(a + b, 8.5), 3)}
     if mc:
         a, b = mc(r.HomeTeam, r.AwayTeam)
+        m["tbl"]["tarjetas"] = rows(a, b, [0.5, 1.5, 2.5], [2.5, 3.5, 4.5])
         m["cards"] = {"home": round(a, 1), "away": round(b, 1), "o35": round(over(a + b, 3.5), 3), "o45": round(over(a + b, 4.5), 3)}
     o = odds(r)
     if o:
@@ -98,6 +128,17 @@ def build_match(r, mg, ms, mc, league=None, when=None):
                      "best": best, "ev": [round(p[i] * best[i] - 1, 3) for i in range(3)]}
         m["value"] = [i for i in range(3) if m["odds"]["ev"][i] > 0.05]
     else: m["value"] = []
+    if not o and ext and len(next(iter(ext.values()))) == 3:
+        best = [max(v[i] for v in ext.values()) for i in range(3)]
+        m["odds"] = {"books": ext, "best": best, "ev": [round(p[i] * best[i] - 1, 3) for i in range(3)]}
+        m["value"] = [i for i in range(3) if m["odds"]["ev"][i] > 0.05]
+    ou = ou_odds(r)
+    if ou:
+        names = {**BOOKS, "P": "Pinnacle"}
+        best = [max(v[i] for v in ou.values()) for i in range(2)]
+        po = m["goals"]["o25"]
+        m["ou"] = {"books": {names.get(k, k): v for k, v in ou.items() if k not in ("Max", "Avg")}, "best": best,
+                   "ev": [round(po * best[0] - 1, 3), round((1 - po) * best[1] - 1, 3)]}
     return m
 
 def espn_events(path, d1, d2, step=10):  # path: "soccer/uefa.champions", "basketball/nba", "tennis/atp"
@@ -126,7 +167,7 @@ def parse(ev):
     a = next(t for t in c["competitors"] if t["homeAway"] == "away")
     st = ev.get("status", {}).get("type", {})
     return dict(when=pd.Timestamp(ev["date"]), HomeTeam=h["team"]["displayName"], AwayTeam=a["team"]["displayName"],
-                hs=h.get("score"), as_=a.get("score"), done=bool(st.get("completed")) or st.get("state") == "post")
+                hs=h.get("score"), as_=a.get("score"), done=bool(st.get("completed")) or st.get("state") == "post", odds=espn_odds(c))
 
 # --- UEFA Nations League (masculina), noviembre 2026. Horas de España (hora de México +7 h).
 # Fuente: calendario de ClaroSports y de ESPN Deportes. Son los partidos principales: si ESPN funciona, añadirá el resto.
@@ -195,7 +236,7 @@ def soccer_group(slugs, today, info, start, cat, label):  # solo modelo de goles
         if e["done"] or not in_window(w, today): continue
         try:
             m = build_match(pd.Series({"HomeTeam": e["HomeTeam"], "AwayTeam": e["AwayTeam"]}), mg, None, None,
-                            league=e["comp"], when=(w.strftime("%Y-%m-%d"), w.strftime("%H:%M")))
+                            league=e["comp"], when=(w.strftime("%Y-%m-%d"), w.strftime("%H:%M")), ext=e.get("odds"))
             m["cat"] = cat; out.append(m)
         except Exception as ex: print("error", e["HomeTeam"], ex)
     info.append(f"{label}: {len(out)} partidos ({len(done)} resultados usados)")
@@ -215,10 +256,15 @@ def nba(today, info):
         if e["done"] or not in_window(w, today): continue
         eh, ea = mg(e["HomeTeam"], e["AwayTeam"]); tot = eh + ea; line = math.floor(tot) + 0.5
         ph = phi((eh - ea) / 12.5)  # el margen típico en la NBA varía unos 12,5 puntos
-        out.append({"cat": "basket", "league": "NBA", "date": w.strftime("%Y-%m-%d"), "time": w.strftime("%H:%M"),
+        mm = ({"cat": "basket", "league": "NBA", "date": w.strftime("%Y-%m-%d"), "time": w.strftime("%H:%M"),
                     "home": e["HomeTeam"], "away": e["AwayTeam"], "p": [round(ph, 3), round(1 - ph, 3)], "pick": 0 if ph >= .5 else 1,
                     "pts": {"home": round(eh, 1), "away": round(ea, 1), "total": round(tot, 1), "line": line,
                             "over": round(1 - phi((line - tot) / 19), 3)}, "value": []})
+        ext = e.get("odds")
+        if ext and len(next(iter(ext.values()))) == 2:
+            best = [max(v[i] for v in ext.values()) for i in range(2)]
+            mm["odds"] = {"books": ext, "best": best, "ev": [round(mm["p"][i] * best[i] - 1, 3) for i in range(2)]}
+        out.append(mm)
     info.append(f"NBA: {len(out)} partidos ({len(done)} resultados usados)")
     return out
 
