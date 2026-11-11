@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 13:16 UTC",
+ "updated": "2026-11-11 15:57 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -46,7 +46,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-11",
-   "time": "14:30",
+   "time": "15:45",
    "home": "Cameron Norrie",
    "away": "Taylor Fritz",
    "p": [
@@ -90,29 +90,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-11",
-   "time": "16:00",
-   "home": "Jazmin Ortenzi",
-   "away": "Andrea Lazaro Garcia",
-   "p": [
-    0.426,
-    0.574
-   ],
-   "pick": 1,
-   "elo": [
-    1504,
-    1556
-   ],
-   "n": [
-    17,
-    18
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-11",
-   "time": "16:00",
+   "time": "16:05",
    "home": "Carole Monnet",
    "away": "Polona Hercog",
    "p": [
@@ -134,7 +112,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-11",
-   "time": "16:00",
+   "time": "16:05",
    "home": "Alice Tubello",
    "away": "Tatjana Maria",
    "p": [
@@ -149,6 +127,28 @@
    "n": [
     22,
     34
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-11",
+   "time": "16:10",
+   "home": "Jazmin Ortenzi",
+   "away": "Andrea Lazaro Garcia",
+   "p": [
+    0.426,
+    0.574
+   ],
+   "pick": 1,
+   "elo": [
+    1504,
+    1556
+   ],
+   "n": [
+    17,
+    18
    ],
    "value": []
   },
