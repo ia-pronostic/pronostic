@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 02:57 UTC",
+ "updated": "2026-11-11 05:06 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -347,50 +347,6 @@
    "n": [
     22,
     24
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-12",
-   "time": "06:00",
-   "home": "Elina Svitolina",
-   "away": "Aryna Sabalenka",
-   "p": [
-    0.428,
-    0.572
-   ],
-   "pick": 1,
-   "elo": [
-    1583,
-    1634
-   ],
-   "n": [
-    26,
-    24
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-12",
-   "time": "06:00",
-   "home": "Karolina Muchova",
-   "away": "Mirra Andreeva",
-   "p": [
-    0.503,
-    0.497
-   ],
-   "pick": 0,
-   "elo": [
-    1635,
-    1633
-   ],
-   "n": [
-    23,
-    22
    ],
    "value": []
   },
@@ -835,6 +791,50 @@
    "n": [
     27,
     31
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-13",
+   "time": "06:00",
+   "home": "Elina Svitolina",
+   "away": "Aryna Sabalenka",
+   "p": [
+    0.428,
+    0.572
+   ],
+   "pick": 1,
+   "elo": [
+    1583,
+    1634
+   ],
+   "n": [
+    26,
+    24
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-13",
+   "time": "06:00",
+   "home": "Karolina Muchova",
+   "away": "Mirra Andreeva",
+   "p": [
+    0.503,
+    0.497
+   ],
+   "pick": 0,
+   "elo": [
+    1635,
+    1633
+   ],
+   "n": [
+    23,
+    22
    ],
    "value": []
   },
