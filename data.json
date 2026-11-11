@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 17:59 UTC",
+ "updated": "2026-11-11 19:03 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,76 +16,10 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260115-20260124",
   "ATP: 4 partidos (2916 resultados usados)",
-  "WTA: 13 partidos (4354 resultados usados)",
+  "WTA: 11 partidos (4357 resultados usados)",
   "Nations League (lista manual): 52 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-11",
-   "time": "16:10",
-   "home": "Jazmin Ortenzi",
-   "away": "Andrea Lazaro Garcia",
-   "p": [
-    0.426,
-    0.574
-   ],
-   "pick": 1,
-   "elo": [
-    1504,
-    1556
-   ],
-   "n": [
-    17,
-    18
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-11",
-   "time": "17:25",
-   "home": "Sofia Costoulas",
-   "away": "Laura Samson",
-   "p": [
-    0.312,
-    0.688
-   ],
-   "pick": 1,
-   "elo": [
-    1442,
-    1579
-   ],
-   "n": [
-    17,
-    29
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-11",
-   "time": "17:55",
-   "home": "Elizabeth Mandlik",
-   "away": "Lucia Bronzetti",
-   "p": [
-    0.428,
-    0.572
-   ],
-   "pick": 1,
-   "elo": [
-    1483,
-    1534
-   ],
-   "n": [
-    15,
-    31
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "ATP",
@@ -112,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-11",
-   "time": "18:10",
+   "time": "18:35",
    "home": "Julia Grabher",
    "away": "Irene Burillo",
    "p": [
@@ -134,7 +68,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-11",
-   "time": "19:00",
+   "time": "18:50",
    "home": "Laura Pigossi",
    "away": "Bianca Andreescu",
    "p": [
@@ -156,7 +90,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-11",
-   "time": "19:25",
+   "time": "20:05",
    "home": "Marina Bassols Ribera",
    "away": "Maria Lourdes Carle",
    "p": [
@@ -178,7 +112,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-11",
-   "time": "19:30",
+   "time": "20:30",
    "home": "Holger Rune",
    "away": "Miomir Kecmanovic",
    "p": [
@@ -237,6 +171,28 @@
    "n": [
     22,
     24
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-12",
+   "time": "06:00",
+   "home": "Andrea Lazaro Garcia",
+   "away": "Elizabeth Mandlik",
+   "p": [
+    0.596,
+    0.404
+   ],
+   "pick": 0,
+   "elo": [
+    1570,
+    1502
+   ],
+   "n": [
+    19,
+    16
    ],
    "value": []
   },
