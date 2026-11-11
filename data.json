@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 01:11 UTC",
+ "updated": "2026-11-11 02:57 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -369,50 +369,6 @@
    "n": [
     26,
     24
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-12",
-   "time": "06:00",
-   "home": "Coco Gauff",
-   "away": "Marta Kostyuk",
-   "p": [
-    0.697,
-    0.303
-   ],
-   "pick": 0,
-   "elo": [
-    1706,
-    1562
-   ],
-   "n": [
-    29,
-    23
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-12",
-   "time": "06:00",
-   "home": "Linda Noskova",
-   "away": "Jessica Pegula",
-   "p": [
-    0.561,
-    0.439
-   ],
-   "pick": 0,
-   "elo": [
-    1704,
-    1661
-   ],
-   "n": [
-    27,
-    31
    ],
    "value": []
   },
@@ -837,6 +793,50 @@
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-12",
+   "time": "21:00",
+   "home": "Coco Gauff",
+   "away": "Marta Kostyuk",
+   "p": [
+    0.697,
+    0.303
+   ],
+   "pick": 0,
+   "elo": [
+    1706,
+    1562
+   ],
+   "n": [
+    29,
+    23
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-12",
+   "time": "22:30",
+   "home": "Linda Noskova",
+   "away": "Jessica Pegula",
+   "p": [
+    0.561,
+    0.439
+   ],
+   "pick": 0,
+   "elo": [
+    1704,
+    1661
+   ],
+   "n": [
+    27,
+    31
+   ],
+   "value": []
   },
   {
    "league": "Nations League",
