@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 15:57 UTC",
+ "updated": "2026-11-11 17:02 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,7 +15,7 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260115-20260124",
-  "ATP: 5 partidos (2913 resultados usados)",
+  "ATP: 5 partidos (2914 resultados usados)",
   "WTA: 14 partidos (4352 resultados usados)",
   "Nations League (lista manual): 52 partidos añadidos"
  ],
@@ -24,51 +24,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-11",
-   "time": "13:05",
-   "home": "Alejandro Tabilo",
-   "away": "Lorenzo Sonego",
-   "p": [
-    0.415,
-    0.585
-   ],
-   "pick": 1,
-   "elo": [
-    1471,
-    1531
-   ],
-   "n": [
-    23,
-    30
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-11",
-   "time": "15:45",
-   "home": "Cameron Norrie",
-   "away": "Taylor Fritz",
-   "p": [
-    0.268,
-    0.732
-   ],
-   "pick": 1,
-   "elo": [
-    1515,
-    1689
-   ],
-   "n": [
-    21,
-    42
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-11",
-   "time": "16:00",
+   "time": "16:05",
    "home": "Ugo Humbert",
    "away": "Borna Gojo",
    "p": [
@@ -149,6 +105,28 @@
    "n": [
     17,
     18
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-11",
+   "time": "16:20",
+   "home": "Cameron Norrie",
+   "away": "Taylor Fritz",
+   "p": [
+    0.268,
+    0.732
+   ],
+   "pick": 1,
+   "elo": [
+    1515,
+    1689
+   ],
+   "n": [
+    21,
+    42
    ],
    "value": []
   },
@@ -347,6 +325,28 @@
    "n": [
     22,
     24
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-12",
+   "time": "13:00",
+   "home": "Alejandro Tabilo",
+   "away": "Alex Michelsen",
+   "p": [
+    0.337,
+    0.663
+   ],
+   "pick": 1,
+   "elo": [
+    1490,
+    1607
+   ],
+   "n": [
+    24,
+    25
    ],
    "value": []
   },
