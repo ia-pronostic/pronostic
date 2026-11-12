@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 04:00 UTC",
+ "updated": "2026-11-12 13:20 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,7 +15,7 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260116-20260125",
-  "ATP: 4 partidos (2799 resultados usados)",
+  "ATP: 16 partidos (2799 resultados usados)",
   "WTA: 8 partidos (4153 resultados usados)",
   "Nations League (lista manual): 52 partidos añadidos"
  ],
@@ -24,7 +24,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-12",
-   "time": "13:00",
+   "time": "13:05",
    "home": "Alejandro Tabilo",
    "away": "Alex Michelsen",
    "p": [
@@ -1983,6 +1983,270 @@
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Arthur Fils",
+   "away": "Alexander Zverev",
+   "p": [
+    0.422,
+    0.578
+   ],
+   "pick": 1,
+   "elo": [
+    1637,
+    1692
+   ],
+   "n": [
+    29,
+    35
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Frances Tiafoe",
+   "away": "Flavio Cobolli",
+   "p": [
+    0.589,
+    0.411
+   ],
+   "pick": 0,
+   "elo": [
+    1609,
+    1547
+   ],
+   "n": [
+    29,
+    23
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Ben Shelton",
+   "away": "Alexander Zverev",
+   "p": [
+    0.476,
+    0.524
+   ],
+   "pick": 1,
+   "elo": [
+    1675,
+    1692
+   ],
+   "n": [
+    30,
+    35
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Rafael Jodar",
+   "away": "Alexander Zverev",
+   "p": [
+    0.384,
+    0.616
+   ],
+   "pick": 1,
+   "elo": [
+    1610,
+    1692
+   ],
+   "n": [
+    28,
+    35
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Arthur Fils",
+   "away": "Ben Shelton",
+   "p": [
+    0.445,
+    0.555
+   ],
+   "pick": 1,
+   "elo": [
+    1637,
+    1675
+   ],
+   "n": [
+    29,
+    30
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Rafael Jodar",
+   "away": "Ben Shelton",
+   "p": [
+    0.407,
+    0.593
+   ],
+   "pick": 1,
+   "elo": [
+    1610,
+    1675
+   ],
+   "n": [
+    28,
+    30
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Rafael Jodar",
+   "away": "Arthur Fils",
+   "p": [
+    0.461,
+    0.539
+   ],
+   "pick": 1,
+   "elo": [
+    1610,
+    1637
+   ],
+   "n": [
+    28,
+    29
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Daniil Medvedev",
+   "away": "Carlos Alcaraz",
+   "p": [
+    0.391,
+    0.609
+   ],
+   "pick": 1,
+   "elo": [
+    1685,
+    1761
+   ],
+   "n": [
+    36,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Flavio Cobolli",
+   "away": "Carlos Alcaraz",
+   "p": [
+    0.225,
+    0.775
+   ],
+   "pick": 1,
+   "elo": [
+    1547,
+    1761
+   ],
+   "n": [
+    23,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Frances Tiafoe",
+   "away": "Carlos Alcaraz",
+   "p": [
+    0.294,
+    0.706
+   ],
+   "pick": 1,
+   "elo": [
+    1609,
+    1761
+   ],
+   "n": [
+    29,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Flavio Cobolli",
+   "away": "Daniil Medvedev",
+   "p": [
+    0.311,
+    0.689
+   ],
+   "pick": 1,
+   "elo": [
+    1547,
+    1685
+   ],
+   "n": [
+    23,
+    36
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "06:00",
+   "home": "Frances Tiafoe",
+   "away": "Daniil Medvedev",
+   "p": [
+    0.393,
+    0.607
+   ],
+   "pick": 1,
+   "elo": [
+    1609,
+    1685
+   ],
+   "n": [
+    29,
+    36
+   ],
+   "value": []
   },
   {
    "league": "Nations League",
