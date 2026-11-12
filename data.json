@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 17:58 UTC",
+ "updated": "2026-11-12 19:01 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,29 +15,51 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260116-20260125",
-  "ATP: 15 partidos (2800 resultados usados)",
-  "WTA: 7 partidos (4155 resultados usados)",
+  "ATP: 14 partidos (2802 resultados usados)",
+  "WTA: 8 partidos (4153 resultados usados)",
   "Nations League (lista manual): 52 partidos añadidos"
  ],
  "matches": [
   {
    "cat": "tenis",
-   "league": "ATP",
+   "league": "WTA",
    "date": "2026-11-12",
-   "time": "15:20",
-   "home": "Aleksandr Shevchenko",
-   "away": "Thiago Agustin Tirante",
+   "time": "16:05",
+   "home": "Andrea Lazaro Garcia",
+   "away": "Elizabeth Mandlik",
+   "p": [
+    0.619,
+    0.381
+   ],
+   "pick": 0,
+   "elo": [
+    1576,
+    1492
+   ],
+   "n": [
+    18,
+    13
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-12",
+   "time": "16:05",
+   "home": "Irene Burillo",
+   "away": "Laura Samson",
    "p": [
     0.485,
     0.515
    ],
    "pick": 1,
    "elo": [
-    1508,
-    1518
+    1569,
+    1580
    ],
    "n": [
-    20,
+    19,
     26
    ],
    "value": []
@@ -46,7 +68,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-12",
-   "time": "17:45",
+   "time": "17:30",
    "home": "Polona Hercog",
    "away": "Alice Tubello",
    "p": [
@@ -61,6 +83,28 @@
    "n": [
     15,
     22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-12",
+   "time": "17:30",
+   "home": "Marina Bassols Ribera",
+   "away": "Bianca Andreescu",
+   "p": [
+    0.292,
+    0.708
+   ],
+   "pick": 1,
+   "elo": [
+    1543,
+    1697
+   ],
+   "n": [
+    28,
+    30
    ],
    "value": []
   },
@@ -166,53 +210,9 @@
   },
   {
    "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-12",
-   "time": "18:10",
-   "home": "Marina Bassols Ribera",
-   "away": "Bianca Andreescu",
-   "p": [
-    0.292,
-    0.708
-   ],
-   "pick": 1,
-   "elo": [
-    1543,
-    1697
-   ],
-   "n": [
-    28,
-    30
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-12",
-   "time": "18:30",
-   "home": "Holger Rune",
-   "away": "Taylor Fritz",
-   "p": [
-    0.275,
-    0.725
-   ],
-   "pick": 1,
-   "elo": [
-    1520,
-    1689
-   ],
-   "n": [
-    8,
-    39
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-12",
-   "time": "20:00",
+   "time": "20:15",
    "home": "Ugo Humbert",
    "away": "Lorenzo Musetti",
    "p": [
@@ -576,23 +576,23 @@
   },
   {
    "cat": "tenis",
-   "league": "WTA",
+   "league": "ATP",
    "date": "2026-11-13",
-   "time": "06:00",
-   "home": "Elizabeth Mandlik",
-   "away": "Laura Samson",
+   "time": "14:00",
+   "home": "Thiago Agustin Tirante",
+   "away": "Alejandro Tabilo",
    "p": [
-    0.382,
-    0.618
+    0.537,
+    0.463
    ],
-   "pick": 1,
+   "pick": 0,
    "elo": [
-    1512,
-    1595
+    1534,
+    1508
    ],
    "n": [
-    14,
-    27
+    27,
+    25
    ],
    "value": []
   },
