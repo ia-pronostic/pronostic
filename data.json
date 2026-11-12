@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 15:01 UTC",
+ "updated": "2026-11-12 16:08 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,7 +15,7 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260116-20260125",
-  "ATP: 16 partidos (2799 resultados usados)",
+  "ATP: 15 partidos (2800 resultados usados)",
   "WTA: 8 partidos (4153 resultados usados)",
   "Nations League (lista manual): 52 partidos añadidos"
  ],
@@ -24,29 +24,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-12",
-   "time": "13:05",
-   "home": "Alejandro Tabilo",
-   "away": "Alex Michelsen",
-   "p": [
-    0.336,
-    0.664
-   ],
-   "pick": 1,
-   "elo": [
-    1487,
-    1605
-   ],
-   "n": [
-    24,
-    25
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-12",
-   "time": "15:00",
+   "time": "15:20",
    "home": "Aleksandr Shevchenko",
    "away": "Thiago Agustin Tirante",
    "p": [
@@ -68,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-12",
-   "time": "16:00",
+   "time": "16:05",
    "home": "Andrea Lazaro Garcia",
    "away": "Elizabeth Mandlik",
    "p": [
@@ -90,7 +68,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-12",
-   "time": "16:00",
+   "time": "16:05",
    "home": "Irene Burillo",
    "away": "Laura Samson",
    "p": [
