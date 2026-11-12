@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 19:59 UTC",
+ "updated": "2026-11-12 20:56 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,32 +16,10 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260116-20260125",
   "ATP: 14 partidos (2802 resultados usados)",
-  "WTA: 7 partidos (4155 resultados usados)",
+  "WTA: 6 partidos (4156 resultados usados)",
   "Nations League (lista manual): 52 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-12",
-   "time": "17:45",
-   "home": "Polona Hercog",
-   "away": "Alice Tubello",
-   "p": [
-    0.319,
-    0.681
-   ],
-   "pick": 1,
-   "elo": [
-    1504,
-    1636
-   ],
-   "n": [
-    15,
-    22
-   ],
-   "value": []
-  },
   {
    "league": "Nations League",
    "date": "2026-11-12",
@@ -168,7 +146,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-12",
-   "time": "19:30",
+   "time": "20:15",
    "home": "Ugo Humbert",
    "away": "Lorenzo Musetti",
    "p": [
