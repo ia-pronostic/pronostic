@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 21:53 UTC",
+ "updated": "2026-11-12 22:54 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -446,7 +446,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-12",
-   "time": "21:15",
+   "time": "21:00",
    "home": "Coco Gauff",
    "away": "Marta Kostyuk",
    "p": [
