@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 18:59 UTC",
+ "updated": "2026-11-13 19:59 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 11 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,32 +16,10 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260117-20260126",
   "ATP: 13 partidos (2805 resultados usados)",
-  "WTA: 4 partidos (4160 resultados usados)",
+  "WTA: 4 partidos (4161 resultados usados)",
   "Nations League (lista manual): 44 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-13",
-   "time": "17:50",
-   "home": "Bianca Andreescu",
-   "away": "Polona Hercog",
-   "p": [
-    0.738,
-    0.262
-   ],
-   "pick": 0,
-   "elo": [
-    1706,
-    1526
-   ],
-   "n": [
-    31,
-    16
-   ],
-   "value": []
-  },
   {
    "league": "Nations League",
    "date": "2026-11-13",
@@ -709,19 +687,19 @@
    "league": "WTA",
    "date": "2026-11-13",
    "time": "21:00",
-   "home": "Karolina Muchova",
+   "home": "Diana Shnaider",
    "away": "Mirra Andreeva",
    "p": [
-    0.45,
-    0.55
+    0.55,
+    0.45
    ],
-   "pick": 1,
+   "pick": 0,
    "elo": [
-    1615,
+    1684,
     1649
    ],
    "n": [
-    24,
+    31,
     23
    ],
    "value": []
@@ -1159,6 +1137,28 @@
      -0.056
     ]
    }
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-14",
+   "time": "18:00",
+   "home": "Elizabeth Mandlik",
+   "away": "Bianca Andreescu",
+   "p": [
+    0.259,
+    0.741
+   ],
+   "pick": 1,
+   "elo": [
+    1532,
+    1714
+   ],
+   "n": [
+    15,
+    32
+   ],
+   "value": []
   },
   {
    "league": "Nations League",
