@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 21:53 UTC",
+ "updated": "2026-11-13 22:51 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 11 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260117-20260126",
   "ATP: 13 partidos (2805 resultados usados)",
-  "WTA: 4 partidos (4161 resultados usados)",
+  "WTA: 3 partidos (4162 resultados usados)",
   "Nations League (lista manual): 44 partidos añadidos"
  ],
  "matches": [
@@ -686,28 +686,6 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-13",
-   "time": "21:10",
-   "home": "Diana Shnaider",
-   "away": "Mirra Andreeva",
-   "p": [
-    0.55,
-    0.45
-   ],
-   "pick": 0,
-   "elo": [
-    1684,
-    1649
-   ],
-   "n": [
-    31,
-    23
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-13",
    "time": "22:30",
    "home": "Elina Svitolina",
    "away": "Aryna Sabalenka",
@@ -734,16 +712,16 @@
    "home": "Mirra Andreeva",
    "away": "Jessica Pegula",
    "p": [
-    0.457,
-    0.543
+    0.482,
+    0.518
    ],
    "pick": 1,
    "elo": [
-    1649,
+    1667,
     1679
    ],
    "n": [
-    23,
+    24,
     32
    ],
    "value": []
