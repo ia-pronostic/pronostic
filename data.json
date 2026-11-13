@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 17:00 UTC",
+ "updated": "2026-11-13 17:56 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 11 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,37 +16,15 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260117-20260126",
   "ATP: 13 partidos (2804 resultados usados)",
-  "WTA: 5 partidos (4159 resultados usados)",
+  "WTA: 4 partidos (4160 resultados usados)",
   "Nations League (lista manual): 44 partidos añadidos"
  ],
  "matches": [
   {
    "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-13",
-   "time": "16:00",
-   "home": "Elizabeth Mandlik",
-   "away": "Laura Samson",
-   "p": [
-    0.382,
-    0.618
-   ],
-   "pick": 1,
-   "elo": [
-    1512,
-    1595
-   ],
-   "n": [
-    14,
-    27
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-13",
-   "time": "17:00",
+   "time": "17:05",
    "home": "Lorenzo Musetti",
    "away": "Taylor Fritz",
    "p": [
@@ -68,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-13",
-   "time": "17:30",
+   "time": "17:50",
    "home": "Bianca Andreescu",
    "away": "Polona Hercog",
    "p": [
