@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 15:55 UTC",
+ "updated": "2026-11-13 17:00 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 11 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,33 +15,11 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260117-20260126",
-  "ATP: 14 partidos (2803 resultados usados)",
+  "ATP: 13 partidos (2804 resultados usados)",
   "WTA: 5 partidos (4159 resultados usados)",
   "Nations League (lista manual): 44 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-13",
-   "time": "14:10",
-   "home": "Thiago Agustin Tirante",
-   "away": "Alejandro Tabilo",
-   "p": [
-    0.537,
-    0.463
-   ],
-   "pick": 0,
-   "elo": [
-    1534,
-    1508
-   ],
-   "n": [
-    27,
-    25
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "WTA",
