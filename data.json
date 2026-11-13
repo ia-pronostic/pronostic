@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 19:59 UTC",
+ "updated": "2026-11-13 21:53 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 11 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -686,7 +686,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-13",
-   "time": "21:00",
+   "time": "21:10",
    "home": "Diana Shnaider",
    "away": "Mirra Andreeva",
    "p": [
