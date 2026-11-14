@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 16:47 UTC",
+ "updated": "2026-11-14 19:49 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 10 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -389,28 +389,6 @@
    }
   },
   {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-14",
-   "time": "18:00",
-   "home": "Elizabeth Mandlik",
-   "away": "Bianca Andreescu",
-   "p": [
-    0.259,
-    0.741
-   ],
-   "pick": 1,
-   "elo": [
-    1532,
-    1714
-   ],
-   "n": [
-    15,
-    32
-   ],
-   "value": []
-  },
-  {
    "league": "Nations League",
    "date": "2026-11-14",
    "time": "18:00",
@@ -509,6 +487,28 @@
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-14",
+   "time": "18:10",
+   "home": "Elizabeth Mandlik",
+   "away": "Bianca Andreescu",
+   "p": [
+    0.259,
+    0.741
+   ],
+   "pick": 1,
+   "elo": [
+    1532,
+    1714
+   ],
+   "n": [
+    15,
+    32
+   ],
+   "value": []
   },
   {
    "league": "LaLiga 2",
