@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 02:09 UTC",
+ "updated": "2026-11-14 13:57 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 10 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -24,7 +24,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-14",
-   "time": "13:00",
+   "time": "13:10",
    "home": "Thiago Agustin Tirante",
    "away": "Taylor Fritz",
    "p": [
