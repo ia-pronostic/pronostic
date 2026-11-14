@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-13 22:51 UTC",
+ "updated": "2026-11-14 01:08 UTC",
  "info": [
-  "Ligas nacionales (football-data.co.uk): 11 partidos en el rango",
-  "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
+  "Ligas nacionales (football-data.co.uk): 10 partidos en el rango",
+  "Champions League: no disponible (<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>)",
   "Europa League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Conference League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Clubes UEFA: 0 partidos (0 resultados usados)",
@@ -14,696 +14,12 @@
   "Clasificación Mundial (UEFA): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
-  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260117-20260126",
+  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260118-20260127",
   "ATP: 13 partidos (2805 resultados usados)",
-  "WTA: 3 partidos (4162 resultados usados)",
-  "Nations League (lista manual): 44 partidos añadidos"
+  "WTA: 2 partidos (4162 resultados usados)",
+  "Nations League (lista manual): 34 partidos añadidos"
  ],
  "matches": [
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "18:00",
-   "home": "Moldova",
-   "away": "Kazakhstan",
-   "p": [
-    0.289,
-    0.252,
-    0.46
-   ],
-   "pick": 2,
-   "goals": {
-    "exp": 2.73,
-    "o25": 0.513,
-    "btts": 0.545
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.691,
-      0.328,
-      0.115
-     ],
-     "a": [
-      0.788,
-      0.459,
-      0.204
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.756,
-      0.513,
-      0.292
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "LaLiga 2",
-   "date": "2026-11-13",
-   "time": "20:30",
-   "home": "Leganes",
-   "away": "Burgos",
-   "p": [
-    0.26,
-    0.289,
-    0.451
-   ],
-   "pick": 2,
-   "goals": {
-    "exp": 2.14,
-    "o25": 0.362,
-    "btts": 0.42
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.586,
-      0.221,
-      0.06
-     ],
-     "a": [
-      0.716,
-      0.359,
-      0.134
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.631,
-      0.362,
-      0.169
-     ]
-    },
-    "remates": {
-     "lines": [
-      1.5,
-      2.5,
-      3.5,
-      4.5
-     ],
-     "h": [
-      0.954,
-      0.862,
-      0.713,
-      0.532
-     ],
-     "a": [
-      0.865,
-      0.68,
-      0.464,
-      0.276
-     ],
-     "tl": [
-      6.5,
-      8.5,
-      10.5
-     ],
-     "t": [
-      0.728,
-      0.456,
-      0.22
-     ]
-    },
-    "tarjetas": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.971,
-      0.869,
-      0.688
-     ],
-     "a": [
-      0.911,
-      0.696,
-      0.435
-     ],
-     "tl": [
-      2.5,
-      3.5,
-      4.5
-     ],
-     "t": [
-      0.936,
-      0.846,
-      0.71
-     ]
-    }
-   },
-   "sot": {
-    "home": 4.8,
-    "away": 3.5,
-    "o85": 0.456
-   },
-   "cards": {
-    "home": 3.5,
-    "away": 2.4,
-    "o35": 0.846,
-    "o45": 0.71
-   },
-   "odds": {
-    "books": {
-     "Bet365": [
-      2.35,
-      3.1,
-      3.0
-     ],
-     "Betway": [
-      2.4,
-      3.1,
-      2.8
-     ]
-    },
-    "best": [
-     2.45,
-     3.15,
-     3.05
-    ],
-    "ev": [
-     -0.364,
-     -0.09,
-     0.377
-    ]
-   },
-   "value": [
-    2
-   ],
-   "ou": {
-    "books": {
-     "Bet365": [
-      2.25,
-      1.62
-     ],
-     "BFE": [
-      2.34,
-      1.72
-     ]
-    },
-    "best": [
-     2.34,
-     1.72
-    ],
-    "ev": [
-     -0.153,
-     0.097
-    ]
-   }
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Slovenia",
-   "away": "Switzerland",
-   "p": [
-    0.251,
-    0.243,
-    0.506
-   ],
-   "pick": 2,
-   "goals": {
-    "exp": 2.76,
-    "o25": 0.521,
-    "btts": 0.54
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.666,
-      0.3,
-      0.099
-     ],
-     "a": [
-      0.81,
-      0.495,
-      0.233
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.762,
-      0.521,
-      0.299
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Netherlands",
-   "away": "Greece",
-   "p": [
-    0.736,
-    0.164,
-    0.1
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 3.15,
-    "o25": 0.61,
-    "btts": 0.485
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.909,
-      0.69,
-      0.428
-     ],
-     "a": [
-      0.533,
-      0.178,
-      0.042
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.823,
-      0.61,
-      0.387
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Andorra",
-   "away": "Gibraltar",
-   "p": [
-    0.449,
-    0.253,
-    0.298
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.72,
-    "o25": 0.511,
-    "btts": 0.546
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.782,
-      0.45,
-      0.197
-     ],
-     "a": [
-      0.698,
-      0.336,
-      0.12
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.755,
-      0.511,
-      0.29
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Luxembourg",
-   "away": "Estonia",
-   "p": [
-    0.506,
-    0.243,
-    0.251
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.76,
-    "o25": 0.521,
-    "btts": 0.54
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.81,
-      0.495,
-      0.233
-     ],
-     "a": [
-      0.666,
-      0.3,
-      0.099
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.762,
-      0.521,
-      0.299
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Serbia",
-   "away": "Germany",
-   "p": [
-    0.242,
-    0.241,
-    0.517
-   ],
-   "pick": 2,
-   "goals": {
-    "exp": 2.77,
-    "o25": 0.523,
-    "btts": 0.538
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.66,
-      0.293,
-      0.095
-     ],
-     "a": [
-      0.816,
-      0.504,
-      0.24
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.764,
-      0.523,
-      0.301
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Scotland",
-   "away": "North Macedonia",
-   "p": [
-    0.631,
-    0.208,
-    0.162
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.92,
-    "o25": 0.558,
-    "btts": 0.516
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.866,
-      0.597,
-      0.326
-     ],
-     "a": [
-      0.596,
-      0.23,
-      0.064
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.788,
-      0.558,
-      0.334
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Slovakia",
-   "away": "Faroe Islands",
-   "p": [
-    0.726,
-    0.169,
-    0.106
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 3.13,
-    "o25": 0.604,
-    "btts": 0.488
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.905,
-      0.681,
-      0.417
-     ],
-     "a": [
-      0.539,
-      0.182,
-      0.044
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.819,
-      0.604,
-      0.381
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Liechtenstein",
-   "away": "Azerbaijan",
-   "p": [
-    0.176,
-    0.215,
-    0.608
-   ],
-   "pick": 2,
-   "goals": {
-    "exp": 2.88,
-    "o25": 0.55,
-    "btts": 0.521
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.609,
-      0.242,
-      0.069
-     ],
-     "a": [
-      0.857,
-      0.578,
-      0.308
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.782,
-      0.55,
-      0.326
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-13",
-   "time": "20:45",
-   "home": "Bulgaria",
-   "away": "Iceland",
-   "p": [
-    0.35,
-    0.258,
-    0.393
-   ],
-   "pick": 2,
-   "goals": {
-    "exp": 2.7,
-    "o25": 0.507,
-    "btts": 0.548
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.729,
-      0.375,
-      0.144
-     ],
-     "a": [
-      0.753,
-      0.407,
-      0.166
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.752,
-      0.507,
-      0.286
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-13",
-   "time": "22:30",
-   "home": "Elina Svitolina",
-   "away": "Aryna Sabalenka",
-   "p": [
-    0.476,
-    0.524
-   ],
-   "pick": 1,
-   "elo": [
-    1602,
-    1619
-   ],
-   "n": [
-    27,
-    25
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "WTA",
@@ -755,7 +71,7 @@
    "home": "Valladolid",
    "away": "Castellon",
    "p": [
-    0.295,
+    0.296,
     0.25,
     0.454
    ],
@@ -881,7 +197,7 @@
      2.25
     ],
     "ev": [
-     -0.114,
+     -0.113,
      -0.099,
      0.022
     ]
@@ -979,14 +295,14 @@
       2.5
      ],
      "h": [
-      0.688,
+      0.689,
       0.325,
       0.113
      ],
      "a": [
       0.769,
-      0.431,
-      0.183
+      0.43,
+      0.182
      ],
      "tl": [
       1.5,
@@ -1089,7 +405,7 @@
     "ev": [
      -0.247,
      -0.16,
-     0.277
+     0.276
     ]
    },
    "value": [
@@ -1373,7 +689,7 @@
     "ev": [
      -0.024,
      -0.141,
-     0.049
+     0.05
     ]
    },
    "value": [],
@@ -1454,8 +770,8 @@
      ],
      "a": [
       0.875,
-      0.698,
-      0.486,
+      0.699,
+      0.487,
       0.295
      ],
      "tl": [
@@ -1493,7 +809,7 @@
      "t": [
       0.909,
       0.794,
-      0.636
+      0.637
      ]
     }
    },
@@ -1506,7 +822,7 @@
     "home": 2.6,
     "away": 2.8,
     "o35": 0.794,
-    "o45": 0.636
+    "o45": 0.637
    },
    "odds": {
     "books": {
@@ -1527,9 +843,9 @@
      3.75
     ],
     "ev": [
-     0.239,
+     0.238,
      -0.192,
-     -0.389
+     -0.388
     ]
    },
    "value": [
@@ -1832,13 +1148,13 @@
      ],
      "h": [
       0.67,
-      0.304,
-      0.101
+      0.305,
+      0.102
      ],
      "a": [
-      0.636,
+      0.637,
       0.269,
-      0.082
+      0.083
      ],
      "tl": [
       1.5,
@@ -1848,7 +1164,7 @@
      "t": [
       0.626,
       0.356,
-      0.165
+      0.166
      ]
     },
     "remates": {
@@ -1860,7 +1176,7 @@
      ],
      "h": [
       0.947,
-      0.845,
+      0.846,
       0.687,
       0.501
      ],
@@ -1889,7 +1205,7 @@
      ],
      "h": [
       0.977,
-      0.89,
+      0.889,
       0.725
      ],
      "a": [
@@ -1996,7 +1312,7 @@
       0.3
      ],
      "a": [
-      0.569,
+      0.57,
       0.207,
       0.054
      ],
@@ -2022,7 +1338,7 @@
       0.909,
       0.763,
       0.568,
-      0.372
+      0.373
      ],
      "a": [
       0.749,
@@ -2036,7 +1352,7 @@
       10.5
      ],
      "t": [
-      0.503,
+      0.504,
       0.232,
       0.078
      ]
@@ -2064,7 +1380,7 @@
      ],
      "t": [
       0.942,
-      0.858,
+      0.857,
       0.728
      ]
     }
@@ -2077,7 +1393,7 @@
    "cards": {
     "home": 2.6,
     "away": 3.5,
-    "o35": 0.858,
+    "o35": 0.857,
     "o45": 0.728
    },
    "odds": {
@@ -2278,7 +1594,7 @@
      "t": [
       0.824,
       0.613,
-      0.39
+      0.389
      ]
     },
     "remates": {
@@ -2306,7 +1622,7 @@
       10.5
      ],
      "t": [
-      0.748,
+      0.749,
       0.483,
       0.242
      ]
@@ -2318,9 +1634,9 @@
       2.5
      ],
      "h": [
-      0.855,
+      0.856,
       0.576,
-      0.305
+      0.306
      ],
      "a": [
       0.911,
@@ -2335,7 +1651,7 @@
      "t": [
       0.809,
       0.632,
-      0.439
+      0.44
      ]
     }
    },
@@ -2348,7 +1664,7 @@
     "home": 1.9,
     "away": 2.4,
     "o35": 0.632,
-    "o45": 0.439
+    "o45": 0.44
    },
    "odds": {
     "books": {
@@ -2370,7 +1686,7 @@
     ],
     "ev": [
      -0.167,
-     -0.155,
+     -0.154,
      0.391
     ]
    },
@@ -2511,7 +1827,7 @@
    ],
    "pick": 0,
    "goals": {
-    "exp": 2.93,
+    "exp": 2.92,
     "o25": 0.56,
     "btts": 0.525
    },
@@ -2524,7 +1840,7 @@
      ],
      "h": [
       0.863,
-      0.591,
+      0.59,
       0.32
      ],
      "a": [
@@ -2557,9 +1873,9 @@
       0.551
      ],
      "a": [
-      0.782,
+      0.783,
       0.55,
-      0.326,
+      0.327,
       0.165
      ],
      "tl": [
@@ -2596,7 +1912,7 @@
      ],
      "t": [
       0.846,
-      0.687,
+      0.688,
       0.502
      ]
     }
@@ -2609,7 +1925,7 @@
    "cards": {
     "home": 1.6,
     "away": 3.1,
-    "o35": 0.687,
+    "o35": 0.688,
     "o45": 0.502
    },
    "odds": {
@@ -2632,8 +1948,8 @@
     ],
     "ev": [
      0.02,
-     -0.156,
-     -0.061
+     -0.155,
+     -0.06
     ]
    },
    "value": [],
@@ -2685,10 +2001,10 @@
      "h": [
       0.7,
       0.339,
-      0.121
+      0.122
      ],
      "a": [
-      0.587,
+      0.588,
       0.222,
       0.06
      ],
@@ -2700,7 +2016,7 @@
      "t": [
       0.618,
       0.348,
-      0.159
+      0.16
      ]
     },
     "remates": {
@@ -3381,7 +2697,7 @@
       2.5
      ],
      "h": [
-      0.837,
+      0.836,
       0.54,
       0.272
      ],
@@ -3412,7 +2728,7 @@
       0.965,
       0.888,
       0.756,
-      0.587
+      0.586
      ],
      "a": [
       0.914,
@@ -3428,7 +2744,7 @@
      "t": [
       0.814,
       0.575,
-      0.323
+      0.322
      ]
     },
     "tarjetas": {
