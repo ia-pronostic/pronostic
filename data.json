@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 20:46 UTC",
+ "updated": "2026-11-14 21:43 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 10 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260118-20260127",
   "ATP: 12 partidos (2806 resultados usados)",
-  "WTA: 2 partidos (4164 resultados usados)",
+  "WTA: 6 partidos (4164 resultados usados)",
   "Nations League (lista manual): 34 partidos añadidos"
  ],
  "matches": [
@@ -1220,7 +1220,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-14",
-   "time": "21:00",
+   "time": "21:10",
    "home": "Mirra Andreeva",
    "away": "Jessica Pegula",
    "p": [
@@ -1531,6 +1531,50 @@
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
   },
   {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-15",
+   "time": "15:30",
+   "home": "Alexandra Osborne",
+   "away": "Diletta Cherubini",
+   "p": [
+    0.485,
+    0.515
+   ],
+   "pick": 1,
+   "elo": [
+    1466,
+    1477
+   ],
+   "n": [
+    2,
+    6
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-15",
+   "time": "15:30",
+   "home": "Samantha Alvarez",
+   "away": "Martina Trevisan",
+   "p": [
+    0.451,
+    0.549
+   ],
+   "pick": 1,
+   "elo": [
+    1500,
+    1534
+   ],
+   "n": [
+    0,
+    12
+   ],
+   "value": []
+  },
+  {
    "league": "LaLiga 2",
    "date": "2026-11-15",
    "time": "16:15",
@@ -1691,6 +1735,50 @@
      -0.226
     ]
    }
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "home": "Valeriya Strakhova",
+   "away": "Zhibek Kulambayeva",
+   "p": [
+    0.531,
+    0.469
+   ],
+   "pick": 0,
+   "elo": [
+    1519,
+    1498
+   ],
+   "n": [
+    7,
+    10
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "home": "Camila Rodero Contreras",
+   "away": "Ariana Geerlings",
+   "p": [
+    0.398,
+    0.602
+   ],
+   "pick": 1,
+   "elo": [
+    1500,
+    1572
+   ],
+   "n": [
+    0,
+    6
+   ],
+   "value": []
   },
   {
    "league": "Nations League",
