@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 22:46 UTC",
+ "updated": "2026-11-15 23:52 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 5 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260119-20260128",
   "ATP: 10 partidos (2808 resultados usados)",
-  "WTA: 17 partidos (4170 resultados usados)",
+  "WTA: 16 partidos (4171 resultados usados)",
   "Nations League (lista manual): 26 partidos añadidos"
  ],
  "matches": [
@@ -1049,28 +1049,6 @@
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-15",
-   "time": "21:10",
-   "home": "Mirra Andreeva",
-   "away": "Elina Svitolina",
-   "p": [
-    0.565,
-    0.435
-   ],
-   "pick": 0,
-   "elo": [
-    1683,
-    1638
-   ],
-   "n": [
-    25,
-    29
-   ],
-   "value": []
   },
   {
    "cat": "tenis",
