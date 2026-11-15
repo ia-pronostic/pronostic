@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 02:56 UTC",
+ "updated": "2026-11-15 05:00 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 5 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -20,28 +20,6 @@
   "Nations League (lista manual): 26 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-15",
-   "time": "06:00",
-   "home": "Mirra Andreeva",
-   "away": "Elina Svitolina",
-   "p": [
-    0.565,
-    0.435
-   ],
-   "pick": 0,
-   "elo": [
-    1683,
-    1638
-   ],
-   "n": [
-    25,
-    29
-   ],
-   "value": []
-  },
   {
    "league": "LaLiga 2",
    "date": "2026-11-15",
@@ -1203,6 +1181,28 @@
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-15",
+   "time": "21:00",
+   "home": "Mirra Andreeva",
+   "away": "Elina Svitolina",
+   "p": [
+    0.565,
+    0.435
+   ],
+   "pick": 0,
+   "elo": [
+    1683,
+    1638
+   ],
+   "n": [
+    25,
+    29
+   ],
+   "value": []
   },
   {
    "cat": "tenis",
