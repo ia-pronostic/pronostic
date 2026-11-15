@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 14:51 UTC",
+ "updated": "2026-11-15 15:47 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 5 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,7 +15,7 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260119-20260128",
-  "ATP: 12 partidos (2806 resultados usados)",
+  "ATP: 11 partidos (2807 resultados usados)",
   "WTA: 17 partidos (4166 resultados usados)",
   "Nations League (lista manual): 26 partidos añadidos"
  ],
@@ -167,28 +167,6 @@
      -0.112
     ]
    }
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-15",
-   "time": "14:25",
-   "home": "Rafael Jodar",
-   "away": "Alexander Zverev",
-   "p": [
-    0.384,
-    0.616
-   ],
-   "pick": 1,
-   "elo": [
-    1610,
-    1692
-   ],
-   "n": [
-    28,
-    35
-   ],
-   "value": []
   },
   {
    "league": "Nations League",
@@ -2178,17 +2156,17 @@
    "home": "Arthur Fils",
    "away": "Alexander Zverev",
    "p": [
-    0.422,
-    0.578
+    0.404,
+    0.596
    ],
    "pick": 1,
    "elo": [
     1637,
-    1692
+    1704
    ],
    "n": [
     29,
-    35
+    36
    ],
    "value": []
   },
@@ -2288,16 +2266,16 @@
    "home": "Rafael Jodar",
    "away": "Arthur Fils",
    "p": [
-    0.461,
-    0.539
+    0.443,
+    0.557
    ],
    "pick": 1,
    "elo": [
-    1610,
+    1597,
     1637
    ],
    "n": [
-    28,
+    29,
     29
    ],
    "value": []
@@ -2310,16 +2288,16 @@
    "home": "Rafael Jodar",
    "away": "Ben Shelton",
    "p": [
-    0.407,
-    0.593
+    0.39,
+    0.61
    ],
    "pick": 1,
    "elo": [
-    1610,
+    1597,
     1675
    ],
    "n": [
-    28,
+    29,
     30
    ],
    "value": []
@@ -2332,17 +2310,17 @@
    "home": "Ben Shelton",
    "away": "Alexander Zverev",
    "p": [
-    0.476,
-    0.524
+    0.458,
+    0.542
    ],
    "pick": 1,
    "elo": [
     1675,
-    1692
+    1704
    ],
    "n": [
     30,
-    35
+    36
    ],
    "value": []
   },
