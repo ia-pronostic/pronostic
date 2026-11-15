@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 07:10 UTC",
+ "updated": "2026-11-15 13:58 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 5 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -172,7 +172,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-15",
-   "time": "14:00",
+   "time": "14:25",
    "home": "Rafael Jodar",
    "away": "Alexander Zverev",
    "p": [
@@ -1206,50 +1206,6 @@
   },
   {
    "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-16",
-   "time": "06:00",
-   "home": "Flavio Cobolli",
-   "away": "Carlos Alcaraz",
-   "p": [
-    0.225,
-    0.775
-   ],
-   "pick": 1,
-   "elo": [
-    1547,
-    1761
-   ],
-   "n": [
-    23,
-    22
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-16",
-   "time": "06:00",
-   "home": "Frances Tiafoe",
-   "away": "Flavio Cobolli",
-   "p": [
-    0.589,
-    0.411
-   ],
-   "pick": 0,
-   "elo": [
-    1609,
-    1547
-   ],
-   "n": [
-    29,
-    23
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-16",
    "time": "06:00",
@@ -2242,6 +2198,28 @@
    "date": "2026-11-17",
    "time": "06:00",
    "home": "Frances Tiafoe",
+   "away": "Flavio Cobolli",
+   "p": [
+    0.589,
+    0.411
+   ],
+   "pick": 0,
+   "elo": [
+    1609,
+    1547
+   ],
+   "n": [
+    29,
+    23
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-17",
+   "time": "06:00",
+   "home": "Frances Tiafoe",
    "away": "Daniil Medvedev",
    "p": [
     0.393,
@@ -2255,6 +2233,28 @@
    "n": [
     29,
     36
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-17",
+   "time": "06:00",
+   "home": "Flavio Cobolli",
+   "away": "Carlos Alcaraz",
+   "p": [
+    0.225,
+    0.775
+   ],
+   "pick": 1,
+   "elo": [
+    1547,
+    1761
+   ],
+   "n": [
+    23,
+    22
    ],
    "value": []
   },
