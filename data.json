@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 01:31 UTC",
+ "updated": "2026-11-16 15:12 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,38 +15,16 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260120-20260129",
-  "ATP: 10 partidos (2808 resultados usados)",
+  "ATP: 9 partidos (2809 resultados usados)",
   "WTA: 16 partidos (4171 resultados usados)",
   "Nations League (lista manual): 18 partidos añadidos"
  ],
  "matches": [
   {
    "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-16",
-   "time": "14:00",
-   "home": "Frances Tiafoe",
-   "away": "Carlos Alcaraz",
-   "p": [
-    0.294,
-    0.706
-   ],
-   "pick": 1,
-   "elo": [
-    1609,
-    1761
-   ],
-   "n": [
-    29,
-    22
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-16",
-   "time": "15:00",
+   "time": "15:05",
    "home": "Anastasia Zolotareva",
    "away": "Katrina Scott",
    "p": [
@@ -68,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-16",
-   "time": "15:00",
+   "time": "15:05",
    "home": "Diletta Cherubini",
    "away": "Rebeka Masarova",
    "p": [
@@ -431,14 +409,14 @@
    "home": "Albacete",
    "away": "Celta B",
    "p": [
-    0.498,
-    0.23,
-    0.271
+    0.497,
+    0.231,
+    0.272
    ],
    "pick": 0,
    "goals": {
     "exp": 3.09,
-    "o25": 0.597,
+    "o25": 0.596,
     "btts": 0.604
    },
    "tbl": {
@@ -450,12 +428,12 @@
      ],
      "h": [
       0.836,
-      0.54,
-      0.272
+      0.539,
+      0.271
      ],
      "a": [
-      0.722,
-      0.366,
+      0.723,
+      0.367,
       0.139
      ],
      "tl": [
@@ -465,8 +443,8 @@
      ],
      "t": [
       0.814,
-      0.597,
-      0.373
+      0.596,
+      0.372
      ]
     },
     "remates": {
@@ -484,8 +462,8 @@
      ],
      "a": [
       0.914,
-      0.773,
-      0.582,
+      0.774,
+      0.583,
       0.387
      ],
      "tl": [
@@ -496,7 +474,7 @@
      "t": [
       0.814,
       0.575,
-      0.322
+      0.323
      ]
     },
     "tarjetas": {
@@ -506,14 +484,14 @@
       2.5
      ],
      "h": [
-      0.879,
-      0.623,
-      0.353
+      0.88,
+      0.625,
+      0.355
      ],
      "a": [
-      0.938,
-      0.765,
-      0.525
+      0.937,
+      0.764,
+      0.523
      ],
      "tl": [
       2.5,
@@ -521,9 +499,9 @@
       4.5
      ],
      "t": [
-      0.866,
+      0.865,
       0.719,
-      0.54
+      0.539
      ]
     }
    },
@@ -536,7 +514,7 @@
     "home": 2.1,
     "away": 2.8,
     "o35": 0.719,
-    "o45": 0.54
+    "o45": 0.539
    },
    "odds": {
     "books": {
@@ -557,9 +535,9 @@
      5.0
     ],
     "ev": [
-     -0.163,
-     -0.022,
-     0.357
+     -0.165,
+     -0.02,
+     0.362
     ]
    },
    "value": [
@@ -577,8 +555,8 @@
      2.38
     ],
     "ev": [
-     -0.033,
-     -0.041
+     -0.034,
+     -0.038
     ]
    }
   },
@@ -895,50 +873,6 @@
    "n": [
     7,
     11
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-17",
-   "time": "06:00",
-   "home": "Frances Tiafoe",
-   "away": "Daniil Medvedev",
-   "p": [
-    0.393,
-    0.607
-   ],
-   "pick": 1,
-   "elo": [
-    1609,
-    1685
-   ],
-   "n": [
-    29,
-    36
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-17",
-   "time": "06:00",
-   "home": "Frances Tiafoe",
-   "away": "Flavio Cobolli",
-   "p": [
-    0.589,
-    0.411
-   ],
-   "pick": 0,
-   "elo": [
-    1609,
-    1547
-   ],
-   "n": [
-    29,
-    23
    ],
    "value": []
   },
@@ -1589,20 +1523,64 @@
    "league": "ATP",
    "date": "2026-11-18",
    "time": "06:00",
+   "home": "Frances Tiafoe",
+   "away": "Flavio Cobolli",
+   "p": [
+    0.576,
+    0.424
+   ],
+   "pick": 0,
+   "elo": [
+    1600,
+    1547
+   ],
+   "n": [
+    30,
+    23
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Frances Tiafoe",
+   "away": "Daniil Medvedev",
+   "p": [
+    0.38,
+    0.62
+   ],
+   "pick": 1,
+   "elo": [
+    1600,
+    1685
+   ],
+   "n": [
+    30,
+    36
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-18",
+   "time": "06:00",
    "home": "Flavio Cobolli",
    "away": "Carlos Alcaraz",
    "p": [
-    0.225,
-    0.775
+    0.216,
+    0.784
    ],
    "pick": 1,
    "elo": [
     1547,
-    1761
+    1771
    ],
    "n": [
     23,
-    22
+    23
    ],
    "value": []
   },
@@ -1614,17 +1592,17 @@
    "home": "Daniil Medvedev",
    "away": "Carlos Alcaraz",
    "p": [
-    0.391,
-    0.609
+    0.379,
+    0.621
    ],
    "pick": 1,
    "elo": [
     1685,
-    1761
+    1771
    ],
    "n": [
     36,
-    22
+    23
    ],
    "value": []
   },
