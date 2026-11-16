@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 19:01 UTC",
+ "updated": "2026-11-16 20:02 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260120-20260129",
   "ATP: 9 partidos (2809 resultados usados)",
-  "WTA: 14 partidos (4173 resultados usados)",
+  "WTA: 13 partidos (4175 resultados usados)",
   "Nations League (lista manual): 18 partidos añadidos"
  ],
  "matches": [
@@ -119,72 +119,6 @@
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "16:50",
-   "home": "Nuria Brancaccio",
-   "away": "Sofia Costoulas",
-   "p": [
-    0.588,
-    0.412
-   ],
-   "pick": 0,
-   "elo": [
-    1494,
-    1432
-   ],
-   "n": [
-    15,
-    18
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "17:10",
-   "home": "Martina Trevisan",
-   "away": "Guiomar Maristany Zuleta De Reales",
-   "p": [
-    0.44,
-    0.56
-   ],
-   "pick": 1,
-   "elo": [
-    1549,
-    1591
-   ],
-   "n": [
-    13,
-    17
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "18:00",
-   "home": "Carole Monnet",
-   "away": "Victoria Jimenez Kasintseva",
-   "p": [
-    0.671,
-    0.329
-   ],
-   "pick": 0,
-   "elo": [
-    1537,
-    1413
-   ],
-   "n": [
-    28,
-    11
-   ],
-   "value": []
   },
   {
    "league": "Nations League",
@@ -340,7 +274,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-16",
-   "time": "18:30",
+   "time": "18:40",
    "home": "Ipek Oz",
    "away": "Leyre Romero Gormaz",
    "p": [
@@ -355,6 +289,28 @@
    "n": [
     6,
     30
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-16",
+   "time": "18:45",
+   "home": "Carole Monnet",
+   "away": "Victoria Jimenez Kasintseva",
+   "p": [
+    0.671,
+    0.329
+   ],
+   "pick": 0,
+   "elo": [
+    1537,
+    1413
+   ],
+   "n": [
+    28,
+    11
    ],
    "value": []
   },
@@ -1581,6 +1537,28 @@
    "n": [
     29,
     31
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Sofia Costoulas",
+   "away": "Guiomar Maristany Zuleta De Reales",
+   "p": [
+    0.291,
+    0.709
+   ],
+   "pick": 1,
+   "elo": [
+    1450,
+    1605
+   ],
+   "n": [
+    19,
+    18
    ],
    "value": []
   }
