@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 20:02 UTC",
+ "updated": "2026-11-16 21:55 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260120-20260129",
   "ATP: 9 partidos (2809 resultados usados)",
-  "WTA: 13 partidos (4175 resultados usados)",
+  "WTA: 11 partidos (4177 resultados usados)",
   "Nations League (lista manual): 18 partidos añadidos"
  ],
  "matches": [
@@ -271,50 +271,6 @@
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
   },
   {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "18:40",
-   "home": "Ipek Oz",
-   "away": "Leyre Romero Gormaz",
-   "p": [
-    0.36,
-    0.64
-   ],
-   "pick": 1,
-   "elo": [
-    1501,
-    1601
-   ],
-   "n": [
-    6,
-    30
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "18:45",
-   "home": "Carole Monnet",
-   "away": "Victoria Jimenez Kasintseva",
-   "p": [
-    0.671,
-    0.329
-   ],
-   "pick": 0,
-   "elo": [
-    1537,
-    1413
-   ],
-   "n": [
-    28,
-    11
-   ],
-   "value": []
-  },
-  {
    "league": "LaLiga 2",
    "date": "2026-11-16",
    "time": "20:30",
@@ -471,28 +427,6 @@
      -0.038
     ]
    }
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-16",
-   "time": "20:30",
-   "home": "Flavio Cobolli",
-   "away": "Daniil Medvedev",
-   "p": [
-    0.311,
-    0.689
-   ],
-   "pick": 1,
-   "elo": [
-    1547,
-    1685
-   ],
-   "n": [
-    23,
-    36
-   ],
-   "value": []
   },
   {
    "league": "Nations League",
@@ -743,6 +677,28 @@
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-16",
+   "time": "20:55",
+   "home": "Flavio Cobolli",
+   "away": "Daniil Medvedev",
+   "p": [
+    0.311,
+    0.689
+   ],
+   "pick": 1,
+   "elo": [
+    1547,
+    1685
+   ],
+   "n": [
+    23,
+    36
+   ],
+   "value": []
   },
   {
    "cat": "tenis",
