@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 15:12 UTC",
+ "updated": "2026-11-16 19:01 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 1 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,54 +16,10 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260120-20260129",
   "ATP: 9 partidos (2809 resultados usados)",
-  "WTA: 16 partidos (4171 resultados usados)",
+  "WTA: 14 partidos (4173 resultados usados)",
   "Nations League (lista manual): 18 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "15:05",
-   "home": "Anastasia Zolotareva",
-   "away": "Katrina Scott",
-   "p": [
-    0.585,
-    0.415
-   ],
-   "pick": 0,
-   "elo": [
-    1483,
-    1423
-   ],
-   "n": [
-    1,
-    12
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "15:05",
-   "home": "Diletta Cherubini",
-   "away": "Rebeka Masarova",
-   "p": [
-    0.547,
-    0.453
-   ],
-   "pick": 0,
-   "elo": [
-    1492,
-    1459
-   ],
-   "n": [
-    7,
-    21
-   ],
-   "value": []
-  },
   {
    "league": "Nations League",
    "date": "2026-11-16",
@@ -168,29 +124,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-16",
-   "time": "16:30",
-   "home": "Martina Trevisan",
-   "away": "Guiomar Maristany Zuleta De Reales",
-   "p": [
-    0.44,
-    0.56
-   ],
-   "pick": 1,
-   "elo": [
-    1549,
-    1591
-   ],
-   "n": [
-    13,
-    17
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "16:30",
+   "time": "16:50",
    "home": "Nuria Brancaccio",
    "away": "Sofia Costoulas",
    "p": [
@@ -205,6 +139,28 @@
    "n": [
     15,
     18
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-16",
+   "time": "17:10",
+   "home": "Martina Trevisan",
+   "away": "Guiomar Maristany Zuleta De Reales",
+   "p": [
+    0.44,
+    0.56
+   ],
+   "pick": 1,
+   "elo": [
+    1549,
+    1591
+   ],
+   "n": [
+    13,
+    17
    ],
    "value": []
   },
@@ -227,28 +183,6 @@
    "n": [
     28,
     11
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-16",
-   "time": "18:00",
-   "home": "Ipek Oz",
-   "away": "Leyre Romero Gormaz",
-   "p": [
-    0.36,
-    0.64
-   ],
-   "pick": 1,
-   "elo": [
-    1501,
-    1601
-   ],
-   "n": [
-    6,
-    30
    ],
    "value": []
   },
@@ -401,6 +335,28 @@
    "value": [],
    "cat": "selecciones",
    "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-16",
+   "time": "18:30",
+   "home": "Ipek Oz",
+   "away": "Leyre Romero Gormaz",
+   "p": [
+    0.36,
+    0.64
+   ],
+   "pick": 1,
+   "elo": [
+    1501,
+    1601
+   ],
+   "n": [
+    6,
+    30
+   ],
+   "value": []
   },
   {
    "league": "LaLiga 2",
@@ -881,20 +837,20 @@
    "league": "WTA",
    "date": "2026-11-17",
    "time": "06:00",
-   "home": "Andrea Lazaro Garcia",
-   "away": "Barbara Gatica",
+   "home": "Antonia Vergara Rivera",
+   "away": "Fernanda Labrana",
    "p": [
-    0.58,
-    0.42
+    0.488,
+    0.512
    ],
-   "pick": 0,
+   "pick": 1,
    "elo": [
-    1556,
-    1500
+    1473,
+    1482
    ],
    "n": [
-    19,
-    0
+    4,
+    3
    ],
    "value": []
   },
@@ -925,64 +881,20 @@
    "league": "WTA",
    "date": "2026-11-17",
    "time": "06:00",
-   "home": "Alicia Herrero Linana",
-   "away": "Lucia Bronzetti",
+   "home": "Andrea Lazaro Garcia",
+   "away": "Barbara Gatica",
    "p": [
-    0.632,
-    0.368
+    0.58,
+    0.42
    ],
    "pick": 0,
    "elo": [
-    1594,
-    1501
+    1556,
+    1500
    ],
    "n": [
-    18,
-    27
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "06:00",
-   "home": "Laura Samson",
-   "away": "Despina Papamichail",
-   "p": [
-    0.673,
-    0.327
-   ],
-   "pick": 0,
-   "elo": [
-    1576,
-    1451
-   ],
-   "n": [
-    28,
-    14
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "06:00",
-   "home": "Darja Semenistaja",
-   "away": "Irene Burillo",
-   "p": [
-    0.323,
-    0.677
-   ],
-   "pick": 1,
-   "elo": [
-    1426,
-    1554
-   ],
-   "n": [
-    16,
-    20
+    19,
+    0
    ],
    "value": []
   },
@@ -1013,28 +925,6 @@
    "league": "WTA",
    "date": "2026-11-17",
    "time": "06:00",
-   "home": "Antonia Vergara Rivera",
-   "away": "Fernanda Labrana",
-   "p": [
-    0.488,
-    0.512
-   ],
-   "pick": 1,
-   "elo": [
-    1473,
-    1482
-   ],
-   "n": [
-    4,
-    3
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "06:00",
    "home": "Miriam Bulgaru",
    "away": "Polona Hercog",
    "p": [
@@ -1049,6 +939,72 @@
    "n": [
     14,
     17
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-17",
+   "time": "06:00",
+   "home": "Darja Semenistaja",
+   "away": "Irene Burillo",
+   "p": [
+    0.323,
+    0.677
+   ],
+   "pick": 1,
+   "elo": [
+    1426,
+    1554
+   ],
+   "n": [
+    16,
+    20
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-17",
+   "time": "06:00",
+   "home": "Laura Samson",
+   "away": "Despina Papamichail",
+   "p": [
+    0.673,
+    0.327
+   ],
+   "pick": 0,
+   "elo": [
+    1576,
+    1451
+   ],
+   "n": [
+    28,
+    14
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-17",
+   "time": "06:00",
+   "home": "Alicia Herrero Linana",
+   "away": "Lucia Bronzetti",
+   "p": [
+    0.632,
+    0.368
+   ],
+   "pick": 0,
+   "elo": [
+    1594,
+    1501
+   ],
+   "n": [
+    18,
+    27
    ],
    "value": []
   },
