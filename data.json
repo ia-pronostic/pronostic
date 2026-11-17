@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17 16:02 UTC",
+ "updated": "2026-11-17 17:11 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,11 +15,33 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260121-20260130",
-  "ATP: 7 partidos (2811 resultados usados)",
+  "ATP: 8 partidos (2810 resultados usados)",
   "WTA: 9 partidos (4179 resultados usados)",
   "Nations League (lista manual): 8 partidos añadidos"
  ],
  "matches": [
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-17",
+   "time": "14:10",
+   "home": "Rafael Jodar",
+   "away": "Arthur Fils",
+   "p": [
+    0.464,
+    0.536
+   ],
+   "pick": 1,
+   "elo": [
+    1597,
+    1623
+   ],
+   "n": [
+    29,
+    30
+   ],
+   "value": []
+  },
   {
    "cat": "tenis",
    "league": "WTA",
@@ -692,16 +714,16 @@
    "home": "Arthur Fils",
    "away": "Alexander Zverev",
    "p": [
-    0.405,
-    0.595
+    0.385,
+    0.615
    ],
    "pick": 1,
    "elo": [
-    1637,
+    1623,
     1704
    ],
    "n": [
-    31,
+    30,
     36
    ],
    "value": []
@@ -758,16 +780,16 @@
    "home": "Rafael Jodar",
    "away": "Ben Shelton",
    "p": [
-    0.351,
-    0.649
+    0.371,
+    0.629
    ],
    "pick": 1,
    "elo": [
-    1583,
+    1597,
     1689
    ],
    "n": [
-    30,
+    29,
     31
    ],
    "value": []
