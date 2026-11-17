@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17 17:11 UTC",
+ "updated": "2026-11-17 18:08 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,104 +15,16 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260121-20260130",
-  "ATP: 8 partidos (2810 resultados usados)",
-  "WTA: 9 partidos (4179 resultados usados)",
+  "ATP: 7 partidos (2811 resultados usados)",
+  "WTA: 9 partidos (4181 resultados usados)",
   "Nations League (lista manual): 8 partidos añadidos"
  ],
  "matches": [
   {
    "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-17",
-   "time": "14:10",
-   "home": "Rafael Jodar",
-   "away": "Arthur Fils",
-   "p": [
-    0.464,
-    0.536
-   ],
-   "pick": 1,
-   "elo": [
-    1597,
-    1623
-   ],
-   "n": [
-    29,
-    30
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-17",
-   "time": "15:05",
-   "home": "Darja Semenistaja",
-   "away": "Irene Burillo",
-   "p": [
-    0.323,
-    0.677
-   ],
-   "pick": 1,
-   "elo": [
-    1426,
-    1554
-   ],
-   "n": [
-    16,
-    20
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "15:05",
-   "home": "Varvara Lepchenko",
-   "away": "Nadia Podoroska",
-   "p": [
-    0.346,
-    0.654
-   ],
-   "pick": 1,
-   "elo": [
-    1427,
-    1538
-   ],
-   "n": [
-    20,
-    17
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "16:30",
-   "home": "Miriam Bulgaru",
-   "away": "Polona Hercog",
-   "p": [
-    0.448,
-    0.552
-   ],
-   "pick": 1,
-   "elo": [
-    1481,
-    1518
-   ],
-   "n": [
-    14,
-    17
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "16:30",
+   "time": "16:50",
    "home": "Alicia Herrero Linana",
    "away": "Lucia Bronzetti",
    "p": [
@@ -134,7 +46,29 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-17",
-   "time": "18:00",
+   "time": "17:20",
+   "home": "Miriam Bulgaru",
+   "away": "Polona Hercog",
+   "p": [
+    0.448,
+    0.552
+   ],
+   "pick": 1,
+   "elo": [
+    1481,
+    1518
+   ],
+   "n": [
+    14,
+    17
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-17",
+   "time": "18:30",
    "home": "Veronika Erjavec",
    "away": "Maria Lourdes Carle",
    "p": [
@@ -645,6 +579,50 @@
    "league": "WTA",
    "date": "2026-11-18",
    "time": "06:00",
+   "home": "Nadia Podoroska",
+   "away": "Leyre Romero Gormaz",
+   "p": [
+    0.409,
+    0.591
+   ],
+   "pick": 1,
+   "elo": [
+    1549,
+    1612
+   ],
+   "n": [
+    18,
+    31
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Irene Burillo",
+   "away": "Anastasia Zolotareva",
+   "p": [
+    0.597,
+    0.403
+   ],
+   "pick": 0,
+   "elo": [
+    1564,
+    1496
+   ],
+   "n": [
+    21,
+    2
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
    "home": "Sofia Costoulas",
    "away": "Guiomar Maristany Zuleta De Reales",
    "p": [
@@ -714,16 +692,16 @@
    "home": "Arthur Fils",
    "away": "Alexander Zverev",
    "p": [
-    0.385,
-    0.615
+    0.405,
+    0.595
    ],
    "pick": 1,
    "elo": [
-    1623,
+    1637,
     1704
    ],
    "n": [
-    30,
+    31,
     36
    ],
    "value": []
@@ -780,16 +758,16 @@
    "home": "Rafael Jodar",
    "away": "Ben Shelton",
    "p": [
-    0.371,
-    0.629
+    0.351,
+    0.649
    ],
    "pick": 1,
    "elo": [
-    1597,
+    1583,
     1689
    ],
    "n": [
-    29,
+    30,
     31
    ],
    "value": []
