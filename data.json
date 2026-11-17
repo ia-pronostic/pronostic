@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17 19:08 UTC",
+ "updated": "2026-11-17 20:12 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260121-20260130",
   "ATP: 7 partidos (2811 resultados usados)",
-  "WTA: 9 partidos (4180 resultados usados)",
+  "WTA: 9 partidos (4183 resultados usados)",
   "Nations League (lista manual): 8 partidos añadidos"
  ],
  "matches": [
@@ -24,73 +24,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-17",
-   "time": "15:05",
-   "home": "Varvara Lepchenko",
-   "away": "Nadia Podoroska",
-   "p": [
-    0.346,
-    0.654
-   ],
-   "pick": 1,
-   "elo": [
-    1427,
-    1538
-   ],
-   "n": [
-    20,
-    17
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "16:50",
-   "home": "Alicia Herrero Linana",
-   "away": "Lucia Bronzetti",
-   "p": [
-    0.632,
-    0.368
-   ],
-   "pick": 0,
-   "elo": [
-    1594,
-    1501
-   ],
-   "n": [
-    18,
-    27
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "17:10",
-   "home": "Miriam Bulgaru",
-   "away": "Polona Hercog",
-   "p": [
-    0.448,
-    0.552
-   ],
-   "pick": 1,
-   "elo": [
-    1481,
-    1518
-   ],
-   "n": [
-    14,
-    17
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-17",
-   "time": "18:00",
+   "time": "19:35",
    "home": "Veronika Erjavec",
    "away": "Maria Lourdes Carle",
    "p": [
@@ -593,6 +527,72 @@
    "n": [
     4,
     3
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Polona Hercog",
+   "away": "Rebeka Masarova",
+   "p": [
+    0.579,
+    0.421
+   ],
+   "pick": 0,
+   "elo": [
+    1532,
+    1477
+   ],
+   "n": [
+    18,
+    22
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Carole Monnet",
+   "away": "Lucia Bronzetti",
+   "p": [
+    0.538,
+    0.462
+   ],
+   "pick": 0,
+   "elo": [
+    1547,
+    1521
+   ],
+   "n": [
+    29,
+    28
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Nadia Podoroska",
+   "away": "Leyre Romero Gormaz",
+   "p": [
+    0.409,
+    0.591
+   ],
+   "pick": 1,
+   "elo": [
+    1549,
+    1612
+   ],
+   "n": [
+    18,
+    31
    ],
    "value": []
   },
