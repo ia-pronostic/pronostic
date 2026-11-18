@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 18:02 UTC",
+ "updated": "2026-11-18 19:02 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260122-20260131",
   "ATP: 5 partidos (2813 resultados usados)",
-  "WTA: 8 partidos (4187 resultados usados)",
+  "WTA: 7 partidos (4188 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
@@ -24,29 +24,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-18",
-   "time": "15:40",
-   "home": "Sofia Costoulas",
-   "away": "Guiomar Maristany Zuleta De Reales",
-   "p": [
-    0.291,
-    0.709
-   ],
-   "pick": 1,
-   "elo": [
-    1450,
-    1605
-   ],
-   "n": [
-    19,
-    18
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-18",
-   "time": "17:10",
+   "time": "17:50",
    "home": "Polona Hercog",
    "away": "Rebeka Masarova",
    "p": [
@@ -68,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-18",
-   "time": "18:30",
+   "time": "19:10",
    "home": "Nadia Podoroska",
    "away": "Leyre Romero Gormaz",
    "p": [
@@ -135,6 +113,28 @@
    "league": "WTA",
    "date": "2026-11-19",
    "time": "06:00",
+   "home": "Veronika Erjavec",
+   "away": "Valeriya Strakhova",
+   "p": [
+    0.358,
+    0.642
+   ],
+   "pick": 1,
+   "elo": [
+    1445,
+    1546
+   ],
+   "n": [
+    17,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-19",
+   "time": "06:00",
    "home": "Andrea Lazaro Garcia",
    "away": "Fernanda Labrana",
    "p": [
@@ -193,28 +193,6 @@
    "n": [
     29,
     28
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "06:00",
-   "home": "Veronika Erjavec",
-   "away": "Valeriya Strakhova",
-   "p": [
-    0.358,
-    0.642
-   ],
-   "pick": 1,
-   "elo": [
-    1445,
-    1546
-   ],
-   "n": [
-    17,
-    9
    ],
    "value": []
   },
