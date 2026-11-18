@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 22:58 UTC",
+ "updated": "2026-11-18 23:56 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -23,8 +23,8 @@
   {
    "cat": "tenis",
    "league": "WTA",
-   "date": "2026-11-18",
-   "time": "23:30",
+   "date": "2026-11-19",
+   "time": "00:00",
    "home": "Laura Samson",
    "away": "Ariana Geerlings",
    "p": [
