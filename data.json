@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 16:08 UTC",
+ "updated": "2026-11-18 17:15 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,33 +15,11 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260122-20260131",
-  "ATP: 6 partidos (2812 resultados usados)",
+  "ATP: 5 partidos (2813 resultados usados)",
   "WTA: 8 partidos (4187 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-18",
-   "time": "14:10",
-   "home": "Daniil Medvedev",
-   "away": "Carlos Alcaraz",
-   "p": [
-    0.392,
-    0.608
-   ],
-   "pick": 1,
-   "elo": [
-    1695,
-    1771
-   ],
-   "n": [
-    37,
-    23
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "WTA",
@@ -292,17 +270,17 @@
    "home": "Frances Tiafoe",
    "away": "Daniil Medvedev",
    "p": [
-    0.367,
-    0.633
+    0.384,
+    0.616
    ],
    "pick": 1,
    "elo": [
     1600,
-    1695
+    1682
    ],
    "n": [
     30,
-    37
+    38
    ],
    "value": []
   },
@@ -314,17 +292,17 @@
    "home": "Flavio Cobolli",
    "away": "Carlos Alcaraz",
    "p": [
-    0.206,
-    0.794
+    0.195,
+    0.805
    ],
    "pick": 1,
    "elo": [
     1537,
-    1771
+    1783
    ],
    "n": [
     24,
-    23
+    24
    ],
    "value": []
   }
