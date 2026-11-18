@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17 23:56 UTC",
+ "updated": "2026-11-18 01:24 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -14,431 +14,31 @@
   "Clasificación Mundial (UEFA): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
-  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260121-20260130",
+  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260122-20260131",
   "ATP: 6 partidos (2812 resultados usados)",
-  "WTA: 9 partidos (4185 resultados usados)",
-  "Nations League (lista manual): 8 partidos añadidos"
+  "WTA: 6 partidos (4184 resultados usados)",
+  "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
   {
-   "league": "Nations League",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "home": "Denmark",
-   "away": "Norway",
-   "p": [
-    0.471,
-    0.25,
-    0.279
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.73,
-    "o25": 0.514,
-    "btts": 0.544
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.794,
-      0.468,
-      0.211
-     ],
-     "a": [
-      0.685,
-      0.321,
-      0.111
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.757,
-      0.514,
-      0.293
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "home": "Bosnia and Herzegovina",
-   "away": "Romania",
-   "p": [
-    0.393,
-    0.258,
-    0.35
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.7,
-    "o25": 0.507,
-    "btts": 0.548
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.753,
-      0.407,
-      0.166
-     ],
-     "a": [
-      0.729,
-      0.375,
-      0.144
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.752,
-      0.507,
-      0.286
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "home": "Wales",
-   "away": "Portugal",
-   "p": [
-    0.155,
-    0.204,
-    0.642
-   ],
-   "pick": 2,
-   "goals": {
-    "exp": 2.94,
-    "o25": 0.563,
-    "btts": 0.513
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.59,
-      0.224,
-      0.061
-     ],
-     "a": [
-      0.871,
-      0.606,
-      0.336
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.791,
-      0.563,
-      0.339
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "home": "Republic of Ireland",
-   "away": "Kosovo",
-   "p": [
-    0.506,
-    0.243,
-    0.251
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.76,
-    "o25": 0.521,
-    "btts": 0.54
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.81,
-      0.495,
-      0.233
-     ],
-     "a": [
-      0.666,
-      0.3,
-      0.099
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.762,
-      0.521,
-      0.299
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "home": "Ukraine",
-   "away": "Georgia",
-   "p": [
-    0.586,
-    0.223,
-    0.191
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.85,
-    "o25": 0.542,
-    "btts": 0.526
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.847,
-      0.56,
-      0.29
-     ],
-     "a": [
-      0.621,
-      0.254,
-      0.075
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.777,
-      0.542,
-      0.319
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "home": "Hungary",
-   "away": "Northern Ireland",
-   "p": [
-    0.62,
-    0.212,
-    0.169
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.9,
-    "o25": 0.554,
-    "btts": 0.519
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.861,
-      0.588,
-      0.317
-     ],
-     "a": [
-      0.602,
-      0.236,
-      0.067
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.785,
-      0.554,
-      0.33
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "home": "Poland",
-   "away": "Sweden",
-   "p": [
-    0.471,
-    0.25,
-    0.279
-   ],
-   "pick": 0,
-   "goals": {
-    "exp": 2.73,
-    "o25": 0.514,
-    "btts": 0.544
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.794,
-      0.468,
-      0.211
-     ],
-     "a": [
-      0.685,
-      0.321,
-      0.111
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.757,
-      0.514,
-      0.293
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
-   "league": "Nations League",
-   "date": "2026-11-17",
-   "time": "20:45",
-   "home": "Israel",
-   "away": "Austria",
-   "p": [
-    0.233,
-    0.238,
-    0.529
-   ],
-   "pick": 2,
-   "goals": {
-    "exp": 2.78,
-    "o25": 0.526,
-    "btts": 0.536
-   },
-   "tbl": {
-    "goles": {
-     "lines": [
-      0.5,
-      1.5,
-      2.5
-     ],
-     "h": [
-      0.653,
-      0.286,
-      0.092
-     ],
-     "a": [
-      0.821,
-      0.513,
-      0.248
-     ],
-     "tl": [
-      1.5,
-      2.5,
-      3.5
-     ],
-     "t": [
-      0.765,
-      0.526,
-      0.304
-     ]
-    }
-   },
-   "value": [],
-   "cat": "selecciones",
-   "nota": "Pronóstico orientativo: el nivel de los equipos es una estimación a mano, sin resultados recientes."
-  },
-  {
    "cat": "tenis",
    "league": "WTA",
-   "date": "2026-11-17",
-   "time": "22:30",
-   "home": "Andrea Lazaro Garcia",
-   "away": "Barbara Gatica",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Polona Hercog",
+   "away": "Rebeka Masarova",
    "p": [
-    0.58,
-    0.42
+    0.579,
+    0.421
    ],
    "pick": 0,
    "elo": [
-    1556,
-    1500
+    1532,
+    1477
    ],
    "n": [
-    19,
-    0
+    18,
+    22
    ],
    "value": []
   },
@@ -446,21 +46,109 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-18",
-   "time": "00:15",
-   "home": "Antonia Vergara Rivera",
-   "away": "Fernanda Labrana",
+   "time": "06:00",
+   "home": "Carole Monnet",
+   "away": "Lucia Bronzetti",
    "p": [
-    0.488,
-    0.512
+    0.538,
+    0.462
+   ],
+   "pick": 0,
+   "elo": [
+    1547,
+    1521
+   ],
+   "n": [
+    29,
+    28
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Veronika Erjavec",
+   "away": "Valeriya Strakhova",
+   "p": [
+    0.358,
+    0.642
    ],
    "pick": 1,
    "elo": [
-    1473,
-    1482
+    1445,
+    1546
    ],
    "n": [
-    4,
-    3
+    17,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Nadia Podoroska",
+   "away": "Leyre Romero Gormaz",
+   "p": [
+    0.409,
+    0.591
+   ],
+   "pick": 1,
+   "elo": [
+    1549,
+    1612
+   ],
+   "n": [
+    18,
+    31
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Irene Burillo",
+   "away": "Anastasia Zolotareva",
+   "p": [
+    0.597,
+    0.403
+   ],
+   "pick": 0,
+   "elo": [
+    1564,
+    1496
+   ],
+   "n": [
+    21,
+    2
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-18",
+   "time": "06:00",
+   "home": "Sofia Costoulas",
+   "away": "Guiomar Maristany Zuleta De Reales",
+   "p": [
+    0.291,
+    0.709
+   ],
+   "pick": 1,
+   "elo": [
+    1450,
+    1605
+   ],
+   "n": [
+    19,
+    18
    ],
    "value": []
   },
@@ -488,72 +176,6 @@
   },
   {
    "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-18",
-   "time": "15:30",
-   "home": "Sofia Costoulas",
-   "away": "Guiomar Maristany Zuleta De Reales",
-   "p": [
-    0.291,
-    0.709
-   ],
-   "pick": 1,
-   "elo": [
-    1450,
-    1605
-   ],
-   "n": [
-    19,
-    18
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-18",
-   "time": "17:00",
-   "home": "Polona Hercog",
-   "away": "Rebeka Masarova",
-   "p": [
-    0.579,
-    0.421
-   ],
-   "pick": 0,
-   "elo": [
-    1532,
-    1477
-   ],
-   "n": [
-    18,
-    22
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-18",
-   "time": "18:30",
-   "home": "Nadia Podoroska",
-   "away": "Leyre Romero Gormaz",
-   "p": [
-    0.409,
-    0.591
-   ],
-   "pick": 1,
-   "elo": [
-    1549,
-    1612
-   ],
-   "n": [
-    18,
-    31
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-18",
    "time": "20:30",
@@ -571,94 +193,6 @@
    "n": [
     30,
     24
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-18",
-   "time": "23:30",
-   "home": "Laura Samson",
-   "away": "Ariana Geerlings",
-   "p": [
-    0.485,
-    0.515
-   ],
-   "pick": 1,
-   "elo": [
-    1586,
-    1597
-   ],
-   "n": [
-    29,
-    8
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "06:00",
-   "home": "Irene Burillo",
-   "away": "Anastasia Zolotareva",
-   "p": [
-    0.597,
-    0.403
-   ],
-   "pick": 0,
-   "elo": [
-    1564,
-    1496
-   ],
-   "n": [
-    21,
-    2
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "06:00",
-   "home": "Carole Monnet",
-   "away": "Lucia Bronzetti",
-   "p": [
-    0.538,
-    0.462
-   ],
-   "pick": 0,
-   "elo": [
-    1547,
-    1521
-   ],
-   "n": [
-    29,
-    28
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "06:00",
-   "home": "Veronika Erjavec",
-   "away": "Valeriya Strakhova",
-   "p": [
-    0.358,
-    0.642
-   ],
-   "pick": 1,
-   "elo": [
-    1445,
-    1546
-   ],
-   "n": [
-    17,
-    9
    ],
    "value": []
   },
