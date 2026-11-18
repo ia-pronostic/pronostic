@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 21:57 UTC",
+ "updated": "2026-11-18 22:58 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,33 +15,11 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260122-20260131",
-  "ATP: 5 partidos (2813 resultados usados)",
+  "ATP: 4 partidos (2814 resultados usados)",
   "WTA: 5 partidos (4190 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-18",
-   "time": "20:40",
-   "home": "Frances Tiafoe",
-   "away": "Flavio Cobolli",
-   "p": [
-    0.59,
-    0.41
-   ],
-   "pick": 0,
-   "elo": [
-    1600,
-    1537
-   ],
-   "n": [
-    30,
-    24
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "WTA",
@@ -61,94 +39,6 @@
    "n": [
     29,
     8
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "06:00",
-   "home": "Veronika Erjavec",
-   "away": "Valeriya Strakhova",
-   "p": [
-    0.358,
-    0.642
-   ],
-   "pick": 1,
-   "elo": [
-    1445,
-    1546
-   ],
-   "n": [
-    17,
-    9
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "06:00",
-   "home": "Andrea Lazaro Garcia",
-   "away": "Fernanda Labrana",
-   "p": [
-    0.602,
-    0.398
-   ],
-   "pick": 0,
-   "elo": [
-    1570,
-    1498
-   ],
-   "n": [
-    20,
-    4
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "06:00",
-   "home": "Irene Burillo",
-   "away": "Anastasia Zolotareva",
-   "p": [
-    0.597,
-    0.403
-   ],
-   "pick": 0,
-   "elo": [
-    1564,
-    1496
-   ],
-   "n": [
-    21,
-    2
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "06:00",
-   "home": "Carole Monnet",
-   "away": "Lucia Bronzetti",
-   "p": [
-    0.538,
-    0.462
-   ],
-   "pick": 0,
-   "elo": [
-    1547,
-    1521
-   ],
-   "n": [
-    29,
-    28
    ],
    "value": []
   },
@@ -176,6 +66,72 @@
   },
   {
    "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "home": "Carole Monnet",
+   "away": "Lucia Bronzetti",
+   "p": [
+    0.538,
+    0.462
+   ],
+   "pick": 0,
+   "elo": [
+    1547,
+    1521
+   ],
+   "n": [
+    29,
+    28
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-19",
+   "time": "17:00",
+   "home": "Veronika Erjavec",
+   "away": "Valeriya Strakhova",
+   "p": [
+    0.358,
+    0.642
+   ],
+   "pick": 1,
+   "elo": [
+    1445,
+    1546
+   ],
+   "n": [
+    17,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "home": "Irene Burillo",
+   "away": "Anastasia Zolotareva",
+   "p": [
+    0.597,
+    0.403
+   ],
+   "pick": 0,
+   "elo": [
+    1564,
+    1496
+   ],
+   "n": [
+    21,
+    2
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-19",
    "time": "20:30",
@@ -198,23 +154,23 @@
   },
   {
    "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-20",
-   "time": "06:00",
-   "home": "Frances Tiafoe",
-   "away": "Daniil Medvedev",
+   "league": "WTA",
+   "date": "2026-11-19",
+   "time": "23:00",
+   "home": "Andrea Lazaro Garcia",
+   "away": "Fernanda Labrana",
    "p": [
-    0.384,
-    0.616
+    0.602,
+    0.398
    ],
-   "pick": 1,
+   "pick": 0,
    "elo": [
-    1600,
-    1682
+    1570,
+    1498
    ],
    "n": [
-    30,
-    38
+    20,
+    4
    ],
    "value": []
   },
@@ -222,21 +178,43 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-20",
-   "time": "06:00",
+   "time": "14:00",
    "home": "Flavio Cobolli",
    "away": "Carlos Alcaraz",
    "p": [
-    0.195,
-    0.805
+    0.183,
+    0.817
    ],
    "pick": 1,
    "elo": [
-    1537,
+    1524,
     1783
    ],
    "n": [
-    24,
+    25,
     24
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-20",
+   "time": "20:30",
+   "home": "Frances Tiafoe",
+   "away": "Daniil Medvedev",
+   "p": [
+    0.402,
+    0.598
+   ],
+   "pick": 1,
+   "elo": [
+    1613,
+    1682
+   ],
+   "n": [
+    31,
+    38
    ],
    "value": []
   }
