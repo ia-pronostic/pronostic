@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 15:04 UTC",
+ "updated": "2026-11-19 16:09 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -46,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-19",
-   "time": "15:30",
+   "time": "15:35",
    "home": "Carole Monnet",
    "away": "Lucia Bronzetti",
    "p": [
