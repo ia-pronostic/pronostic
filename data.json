@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 22:56 UTC",
+ "updated": "2026-11-19 23:52 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -24,7 +24,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-19",
-   "time": "23:00",
+   "time": "23:05",
    "home": "Andrea Lazaro Garcia",
    "away": "Fernanda Labrana",
    "p": [
@@ -39,72 +39,6 @@
    "n": [
     20,
     4
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-20",
-   "time": "06:00",
-   "home": "Irene Burillo",
-   "away": "Leyre Romero Gormaz",
-   "p": [
-    0.429,
-    0.571
-   ],
-   "pick": 1,
-   "elo": [
-    1577,
-    1626
-   ],
-   "n": [
-    22,
-    32
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-20",
-   "time": "06:00",
-   "home": "Valeriya Strakhova",
-   "away": "Lucia Bronzetti",
-   "p": [
-    0.53,
-    0.47
-   ],
-   "pick": 0,
-   "elo": [
-    1558,
-    1537
-   ],
-   "n": [
-    10,
-    29
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-20",
-   "time": "06:00",
-   "home": "Laura Samson",
-   "away": "Rebeka Masarova",
-   "p": [
-    0.65,
-    0.35
-   ],
-   "pick": 0,
-   "elo": [
-    1602,
-    1494
-   ],
-   "n": [
-    30,
-    23
    ],
    "value": []
   },
@@ -132,6 +66,50 @@
   },
   {
    "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "home": "Irene Burillo",
+   "away": "Leyre Romero Gormaz",
+   "p": [
+    0.429,
+    0.571
+   ],
+   "pick": 1,
+   "elo": [
+    1577,
+    1626
+   ],
+   "n": [
+    22,
+    32
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-20",
+   "time": "17:30",
+   "home": "Valeriya Strakhova",
+   "away": "Lucia Bronzetti",
+   "p": [
+    0.53,
+    0.47
+   ],
+   "pick": 0,
+   "elo": [
+    1558,
+    1537
+   ],
+   "n": [
+    10,
+    29
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-20",
    "time": "20:30",
@@ -149,6 +127,28 @@
    "n": [
     26,
     35
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-20",
+   "time": "23:00",
+   "home": "Laura Samson",
+   "away": "Rebeka Masarova",
+   "p": [
+    0.65,
+    0.35
+   ],
+   "pick": 0,
+   "elo": [
+    1602,
+    1494
+   ],
+   "n": [
+    30,
+    23
    ],
    "value": []
   }
