@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 23:56 UTC",
+ "updated": "2026-11-19 01:20 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -14,56 +14,12 @@
   "Clasificación Mundial (UEFA): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
-  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260122-20260131",
-  "ATP: 4 partidos (2814 resultados usados)",
-  "WTA: 5 partidos (4190 resultados usados)",
+  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260123-20260201",
+  "ATP: error IncompleteRead(2705178 bytes read)",
+  "WTA: 4 partidos (4056 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "00:00",
-   "home": "Laura Samson",
-   "away": "Ariana Geerlings",
-   "p": [
-    0.485,
-    0.515
-   ],
-   "pick": 1,
-   "elo": [
-    1586,
-    1597
-   ],
-   "n": [
-    29,
-    8
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-19",
-   "time": "14:00",
-   "home": "Rafael Jodar",
-   "away": "Ben Shelton",
-   "p": [
-    0.371,
-    0.629
-   ],
-   "pick": 1,
-   "elo": [
-    1583,
-    1674
-   ],
-   "n": [
-    30,
-    32
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "WTA",
@@ -72,16 +28,16 @@
    "home": "Carole Monnet",
    "away": "Lucia Bronzetti",
    "p": [
-    0.538,
-    0.462
+    0.539,
+    0.461
    ],
    "pick": 0,
    "elo": [
     1547,
-    1521
+    1520
    ],
    "n": [
-    29,
+    27,
     28
    ],
    "value": []
@@ -94,16 +50,16 @@
    "home": "Veronika Erjavec",
    "away": "Valeriya Strakhova",
    "p": [
-    0.358,
-    0.642
+    0.37,
+    0.63
    ],
    "pick": 1,
    "elo": [
-    1445,
+    1453,
     1546
    ],
    "n": [
-    17,
+    16,
     9
    ],
    "value": []
@@ -116,8 +72,8 @@
    "home": "Irene Burillo",
    "away": "Anastasia Zolotareva",
    "p": [
-    0.597,
-    0.403
+    0.596,
+    0.404
    ],
    "pick": 0,
    "elo": [
@@ -127,28 +83,6 @@
    "n": [
     21,
     2
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-19",
-   "time": "20:30",
-   "home": "Arthur Fils",
-   "away": "Alexander Zverev",
-   "p": [
-    0.384,
-    0.616
-   ],
-   "pick": 1,
-   "elo": [
-    1637,
-    1719
-   ],
-   "n": [
-    31,
-    37
    ],
    "value": []
   },
@@ -165,56 +99,12 @@
    ],
    "pick": 0,
    "elo": [
-    1570,
+    1569,
     1498
    ],
    "n": [
     20,
     4
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-20",
-   "time": "14:00",
-   "home": "Flavio Cobolli",
-   "away": "Carlos Alcaraz",
-   "p": [
-    0.183,
-    0.817
-   ],
-   "pick": 1,
-   "elo": [
-    1524,
-    1783
-   ],
-   "n": [
-    25,
-    24
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-20",
-   "time": "20:30",
-   "home": "Frances Tiafoe",
-   "away": "Daniil Medvedev",
-   "p": [
-    0.402,
-    0.598
-   ],
-   "pick": 1,
-   "elo": [
-    1613,
-    1682
-   ],
-   "n": [
-    31,
-    38
    ],
    "value": []
   }
