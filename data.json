@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 20:58 UTC",
+ "updated": "2026-11-20 21:56 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 111 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -347,7 +347,7 @@
    "cat": "tenis",
    "league": "ATP",
    "date": "2026-11-20",
-   "time": "20:30",
+   "time": "20:40",
    "home": "Frances Tiafoe",
    "away": "Daniil Medvedev",
    "p": [
