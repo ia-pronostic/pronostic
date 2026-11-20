@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 19:07 UTC",
+ "updated": "2026-11-20 20:07 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 111 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,10 +16,32 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260124-20260202",
   "ATP: 1 partidos (2256 resultados usados)",
-  "WTA: 3 partidos (3540 resultados usados)",
+  "WTA: 3 partidos (3539 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-20",
+   "time": "18:25",
+   "home": "Valeriya Strakhova",
+   "away": "Lucia Bronzetti",
+   "p": [
+    0.537,
+    0.463
+   ],
+   "pick": 0,
+   "elo": [
+    1559,
+    1533
+   ],
+   "n": [
+    10,
+    26
+   ],
+   "value": []
+  },
   {
    "league": "Bundesliga",
    "date": "2026-11-20",
@@ -893,28 +915,6 @@
    "n": [
     29,
     19
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-21",
-   "time": "06:00",
-   "home": "Lucia Bronzetti",
-   "away": "Leyre Romero Gormaz",
-   "p": [
-    0.365,
-    0.635
-   ],
-   "pick": 1,
-   "elo": [
-    1550,
-    1646
-   ],
-   "n": [
-    27,
-    32
    ],
    "value": []
   },
