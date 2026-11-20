@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 15:02 UTC",
+ "updated": "2026-11-20 16:03 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 111 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,33 +15,11 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260124-20260202",
-  "ATP: 2 partidos (2255 resultados usados)",
+  "ATP: 1 partidos (2256 resultados usados)",
   "WTA: 4 partidos (3538 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-20",
-   "time": "14:10",
-   "home": "Flavio Cobolli",
-   "away": "Carlos Alcaraz",
-   "p": [
-    0.173,
-    0.827
-   ],
-   "pick": 1,
-   "elo": [
-    1503,
-    1775
-   ],
-   "n": [
-    19,
-    24
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "WTA",
