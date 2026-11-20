@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 22:55 UTC",
+ "updated": "2026-11-20 23:55 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 111 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -855,8 +855,8 @@
   {
    "cat": "tenis",
    "league": "WTA",
-   "date": "2026-11-20",
-   "time": "23:10",
+   "date": "2026-11-21",
+   "time": "00:00",
    "home": "Laura Samson",
    "away": "Rebeka Masarova",
    "p": [
