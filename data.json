@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 23:52 UTC",
+ "updated": "2026-11-20 01:14 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 0 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -14,34 +14,12 @@
   "Clasificación Mundial (UEFA): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
-  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260123-20260201",
-  "ATP: 2 partidos (2733 resultados usados)",
-  "WTA: 4 partidos (4060 resultados usados)",
+  "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260124-20260202",
+  "ATP: 2 partidos (2255 resultados usados)",
+  "WTA: 3 partidos (3537 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-19",
-   "time": "23:05",
-   "home": "Andrea Lazaro Garcia",
-   "away": "Fernanda Labrana",
-   "p": [
-    0.602,
-    0.398
-   ],
-   "pick": 0,
-   "elo": [
-    1569,
-    1498
-   ],
-   "n": [
-    20,
-    4
-   ],
-   "value": []
-  },
   {
    "cat": "tenis",
    "league": "ATP",
@@ -50,16 +28,16 @@
    "home": "Flavio Cobolli",
    "away": "Carlos Alcaraz",
    "p": [
-    0.189,
-    0.811
+    0.173,
+    0.827
    ],
    "pick": 1,
    "elo": [
-    1526,
-    1779
+    1503,
+    1775
    ],
    "n": [
-    24,
+    19,
     24
    ],
    "value": []
@@ -72,17 +50,17 @@
    "home": "Irene Burillo",
    "away": "Leyre Romero Gormaz",
    "p": [
-    0.429,
-    0.571
+    0.422,
+    0.578
    ],
    "pick": 1,
    "elo": [
-    1577,
-    1626
+    1578,
+    1633
    ],
    "n": [
     22,
-    32
+    31
    ],
    "value": []
   },
@@ -94,17 +72,17 @@
    "home": "Valeriya Strakhova",
    "away": "Lucia Bronzetti",
    "p": [
-    0.53,
-    0.47
+    0.537,
+    0.463
    ],
    "pick": 0,
    "elo": [
-    1558,
-    1537
+    1559,
+    1533
    ],
    "n": [
     10,
-    29
+    26
    ],
    "value": []
   },
@@ -116,17 +94,17 @@
    "home": "Frances Tiafoe",
    "away": "Daniil Medvedev",
    "p": [
-    0.375,
-    0.625
+    0.374,
+    0.626
    ],
    "pick": 1,
    "elo": [
-    1588,
-    1676
+    1577,
+    1667
    ],
    "n": [
-    26,
-    35
+    23,
+    32
    ],
    "value": []
   },
@@ -138,17 +116,17 @@
    "home": "Laura Samson",
    "away": "Rebeka Masarova",
    "p": [
-    0.65,
-    0.35
+    0.657,
+    0.343
    ],
    "pick": 0,
    "elo": [
-    1602,
-    1494
+    1609,
+    1496
    ],
    "n": [
-    30,
-    23
+    29,
+    19
    ],
    "value": []
   }
