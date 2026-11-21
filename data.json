@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 16:54 UTC",
+ "updated": "2026-11-21 17:50 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 106 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,7 +15,7 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260125-20260203",
-  "ATP: 1 partidos (2736 resultados usados)",
+  "ATP: 2 partidos (2735 resultados usados)",
   "WTA: 2 partidos (4020 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
@@ -1474,6 +1474,28 @@
      -0.226
     ]
    }
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-21",
+   "time": "14:40",
+   "home": "Ben Shelton",
+   "away": "Carlos Alcaraz",
+   "p": [
+    0.352,
+    0.648
+   ],
+   "pick": 1,
+   "elo": [
+    1679,
+    1785
+   ],
+   "n": [
+    30,
+    25
+   ],
+   "value": []
   },
   {
    "league": "Serie A",
