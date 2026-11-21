@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 22:50 UTC",
+ "updated": "2026-11-21 23:46 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 106 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -15,8 +15,8 @@
   "Clasificación Mundial (CONMEBOL): no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260125-20260203",
-  "ATP: 1 partidos (2736 resultados usados)",
-  "WTA: 6 partidos (4020 resultados usados)",
+  "ATP: 1 partidos (2737 resultados usados)",
+  "WTA: 5 partidos (4021 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
@@ -9094,28 +9094,6 @@
    }
   },
   {
-   "cat": "tenis",
-   "league": "ATP",
-   "date": "2026-11-21",
-   "time": "20:45",
-   "home": "Daniil Medvedev",
-   "away": "Alexander Zverev",
-   "p": [
-    0.451,
-    0.549
-   ],
-   "pick": 1,
-   "elo": [
-    1688,
-    1723
-   ],
-   "n": [
-    36,
-    34
-   ],
-   "value": []
-  },
-  {
    "league": "Eredivisie",
    "date": "2026-11-21",
    "time": "21:00",
@@ -9931,30 +9909,8 @@
   {
    "cat": "tenis",
    "league": "WTA",
-   "date": "2026-11-21",
-   "time": "21:05",
-   "home": "Lucia Bronzetti",
-   "away": "Leyre Romero Gormaz",
-   "p": [
-    0.378,
-    0.622
-   ],
-   "pick": 1,
-   "elo": [
-    1554,
-    1640
-   ],
-   "n": [
-    30,
-    33
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-21",
-   "time": "22:30",
+   "date": "2026-11-22",
+   "time": "00:00",
    "home": "Rebeka Masarova",
    "away": "Guiomar Maristany Zuleta De Reales",
    "p": [
@@ -14738,6 +14694,28 @@
      0.032
     ]
    }
+  },
+  {
+   "cat": "tenis",
+   "league": "ATP",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "home": "Carlos Alcaraz",
+   "away": "Alexander Zverev",
+   "p": [
+    0.585,
+    0.415
+   ],
+   "pick": 0,
+   "elo": [
+    1797,
+    1737
+   ],
+   "n": [
+    26,
+    35
+   ],
+   "value": []
   },
   {
    "cat": "tenis",
