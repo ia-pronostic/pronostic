@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 18:56 UTC",
+ "updated": "2026-11-21 19:53 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 106 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260125-20260203",
   "ATP: 1 partidos (2736 resultados usados)",
-  "WTA: 2 partidos (4020 resultados usados)",
+  "WTA: 6 partidos (4020 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
@@ -13055,6 +13055,50 @@
    }
   },
   {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "home": "Camila Markus",
+   "away": "Josefina Estevez",
+   "p": [
+    0.5,
+    0.5
+   ],
+   "pick": 0,
+   "elo": [
+    1500,
+    1500
+   ],
+   "n": [
+    0,
+    0
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "home": "Alexandra Osborne",
+   "away": "Abigail Rencheli",
+   "p": [
+    0.43,
+    0.57
+   ],
+   "pick": 1,
+   "elo": [
+    1451,
+    1500
+   ],
+   "n": [
+    3,
+    0
+   ],
+   "value": []
+  },
+  {
    "league": "LaLiga",
    "date": "2026-11-22",
    "time": "16:15",
@@ -14349,6 +14393,28 @@
    }
   },
   {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-22",
+   "time": "17:30",
+   "home": "Marina Bulbarella",
+   "away": "Lourdes Ayala",
+   "p": [
+    0.482,
+    0.518
+   ],
+   "pick": 1,
+   "elo": [
+    1500,
+    1512
+   ],
+   "n": [
+    0,
+    3
+   ],
+   "value": []
+  },
+  {
    "league": "Super League griega",
    "date": "2026-11-22",
    "time": "18:00",
@@ -14672,6 +14738,28 @@
      0.032
     ]
    }
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "home": "Guadalupe Rondinoni",
+   "away": "Zhibek Kulambayeva",
+   "p": [
+    0.524,
+    0.476
+   ],
+   "pick": 0,
+   "elo": [
+    1500,
+    1483
+   ],
+   "n": [
+    0,
+    11
+   ],
+   "value": []
   },
   {
    "league": "Liga belga",
