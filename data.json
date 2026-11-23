@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 03:03 UTC",
+ "updated": "2026-11-23 15:13 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 6 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -46,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-23",
-   "time": "15:00",
+   "time": "15:05",
    "home": "Carole Monnet",
    "away": "Berta Bonardi",
    "p": [
@@ -232,19 +232,19 @@
    "date": "2026-11-23",
    "time": "16:30",
    "home": "Ipek Oz",
-   "away": "Polona Hercog",
+   "away": "Alexandra Osborne",
    "p": [
-    0.467,
-    0.533
+    0.575,
+    0.425
    ],
-   "pick": 1,
+   "pick": 0,
    "elo": [
     1490,
-    1513
+    1437
    ],
    "n": [
     7,
-    19
+    4
    ],
    "value": []
   },
@@ -1210,19 +1210,19 @@
    "date": "2026-11-24",
    "time": "06:00",
    "home": "Sofia Costoulas",
-   "away": "Rebeka Masarova",
+   "away": "Polona Hercog",
    "p": [
-    0.344,
-    0.656
+    0.396,
+    0.604
    ],
    "pick": 1,
    "elo": [
     1439,
-    1551
+    1513
    ],
    "n": [
     20,
-    23
+    19
    ],
    "value": []
   },
