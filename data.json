@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 15:11 UTC",
+ "updated": "2026-11-24 18:00 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 14 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260128-20260206",
   "ATP: 0 partidos (2738 resultados usados)",
-  "WTA: 10 partidos (4038 resultados usados)",
+  "WTA: 9 partidos (4040 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
@@ -24,51 +24,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-24",
-   "time": "15:05",
-   "home": "Laura Samson",
-   "away": "Victoria Bosio",
-   "p": [
-    0.644,
-    0.356
-   ],
-   "pick": 0,
-   "elo": [
-    1581,
-    1478
-   ],
-   "n": [
-    31,
-    5
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-24",
-   "time": "15:05",
-   "home": "Veronika Erjavec",
-   "away": "Zhibek Kulambayeva",
-   "p": [
-    0.416,
-    0.584
-   ],
-   "pick": 1,
-   "elo": [
-    1441,
-    1500
-   ],
-   "n": [
-    17,
-    12
-   ],
-   "value": []
-  },
-  {
-   "cat": "tenis",
-   "league": "WTA",
-   "date": "2026-11-24",
-   "time": "16:30",
+   "time": "16:45",
    "home": "Luna Maria Cinalli",
    "away": "Guiomar Maristany Zuleta De Reales",
    "p": [
@@ -90,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-24",
-   "time": "16:30",
+   "time": "16:55",
    "home": "Alicia Herrero Linana",
    "away": "Lucia Bronzetti",
    "p": [
@@ -1834,6 +1790,28 @@
    "n": [
     23,
     0
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-25",
+   "time": "06:00",
+   "home": "Veronika Erjavec",
+   "away": "Martina Trevisan",
+   "p": [
+    0.366,
+    0.634
+   ],
+   "pick": 1,
+   "elo": [
+    1460,
+    1555
+   ],
+   "n": [
+    18,
+    14
    ],
    "value": []
   },
