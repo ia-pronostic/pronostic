@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 10:23 UTC",
+ "updated": "2026-11-24 15:11 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 14 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -24,7 +24,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-24",
-   "time": "15:00",
+   "time": "15:05",
    "home": "Laura Samson",
    "away": "Victoria Bosio",
    "p": [
@@ -46,7 +46,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-24",
-   "time": "15:00",
+   "time": "15:05",
    "home": "Veronika Erjavec",
    "away": "Zhibek Kulambayeva",
    "p": [
