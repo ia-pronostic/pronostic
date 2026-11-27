@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 22:04 UTC",
+ "updated": "2026-11-27 23:05 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 120 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260131-20260209",
   "ATP: 0 partidos (2611 resultados usados)",
-  "WTA: 2 partidos (3930 resultados usados)",
+  "WTA: 3 partidos (3929 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
@@ -343,6 +343,28 @@
      0.021
     ]
    }
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-27",
+   "time": "19:05",
+   "home": "Laura Samson",
+   "away": "Varvara Lepchenko",
+   "p": [
+    0.707,
+    0.293
+   ],
+   "pick": 0,
+   "elo": [
+    1608,
+    1455
+   ],
+   "n": [
+    33,
+    23
+   ],
+   "value": []
   },
   {
    "league": "Eredivisie",
@@ -832,7 +854,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-27",
-   "time": "20:35",
+   "time": "20:30",
    "home": "Maria Lourdes Carle",
    "away": "Guiomar Maristany Zuleta De Reales",
    "p": [
@@ -1988,7 +2010,7 @@
    "cat": "tenis",
    "league": "WTA",
    "date": "2026-11-27",
-   "time": "22:25",
+   "time": "22:00",
    "home": "Julia Riera",
    "away": "Alicia Herrero Linana",
    "p": [
