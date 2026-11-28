@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28 17:53 UTC",
+ "updated": "2026-11-28 19:00 UTC",
  "info": [
   "Ligas nacionales (football-data.co.uk): 108 partidos en el rango",
   "Champions League: no disponible (HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\)",
@@ -16,7 +16,7 @@
   "Selecciones: 0 partidos (0 resultados usados)",
   "nba: error HTTP 400 b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\xff\\xaaVJ\\xceOIU\\xb2210\\xd0Q\\xcaM-.NL\\x07\\xf2\\x94\\xdc\\x123sRS\\x14J\\xf2\\x15\\xd2SK\\x14R\\xcbR\\xf3J\\x8a\\x15R\\xf3R\\n\\xf23\\xf3J\\xf4\\x94j\\x01\\x00\\x00\\x00\\xff\\xff\\x03\\x00\\xa0,\\x03\\xe47\\x00\\x00\\x00' url=https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260201-20260210",
   "ATP: 0 partidos (2611 resultados usados)",
-  "WTA: 1 partidos (3933 resultados usados)",
+  "WTA: 13 partidos (3933 resultados usados)",
   "Nations League (lista manual): 0 partidos añadidos"
  ],
  "matches": [
@@ -16217,6 +16217,270 @@
      0.14
     ]
    }
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Barbora Palicova",
+   "away": "Sonay Kartal",
+   "p": [
+    0.326,
+    0.674
+   ],
+   "pick": 1,
+   "elo": [
+    1457,
+    1583
+   ],
+   "n": [
+    12,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Diana Martynov",
+   "away": "Katarina Zavatska",
+   "p": [
+    0.485,
+    0.515
+   ],
+   "pick": 1,
+   "elo": [
+    1484,
+    1494
+   ],
+   "n": [
+    7,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Clara Burel",
+   "away": "Clervie Ngounoue",
+   "p": [
+    0.783,
+    0.217
+   ],
+   "pick": 0,
+   "elo": [
+    1677,
+    1454
+   ],
+   "n": [
+    23,
+    5
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Mariam Bolkvadze",
+   "away": "Veronika Podrez",
+   "p": [
+    0.586,
+    0.414
+   ],
+   "pick": 0,
+   "elo": [
+    1569,
+    1508
+   ],
+   "n": [
+    13,
+    11
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Weronika Falkowska",
+   "away": "Rositsa Dencheva",
+   "p": [
+    0.428,
+    0.572
+   ],
+   "pick": 1,
+   "elo": [
+    1549,
+    1599
+   ],
+   "n": [
+    19,
+    8
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Jessika Ponchet",
+   "away": "Darya Khamutsianskaya",
+   "p": [
+    0.418,
+    0.582
+   ],
+   "pick": 1,
+   "elo": [
+    1484,
+    1542
+   ],
+   "n": [
+    1,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Teodora Kostovic",
+   "away": "Manon Leonard",
+   "p": [
+    0.566,
+    0.434
+   ],
+   "pick": 0,
+   "elo": [
+    1546,
+    1500
+   ],
+   "n": [
+    25,
+    0
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Greet Minnen",
+   "away": "Lidia Encheva",
+   "p": [
+    0.494,
+    0.506
+   ],
+   "pick": 1,
+   "elo": [
+    1500,
+    1505
+   ],
+   "n": [
+    8,
+    4
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Liv Boulard",
+   "away": "Elsa Jacquemot",
+   "p": [
+    0.489,
+    0.511
+   ],
+   "pick": 1,
+   "elo": [
+    1501,
+    1509
+   ],
+   "n": [
+    2,
+    27
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Lisa Pigato",
+   "away": "Anna-Lena Friedsam",
+   "p": [
+    0.585,
+    0.415
+   ],
+   "pick": 0,
+   "elo": [
+    1552,
+    1492
+   ],
+   "n": [
+    13,
+    9
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Alice Soulie",
+   "away": "Aliona Falei",
+   "p": [
+    0.45,
+    0.55
+   ],
+   "pick": 1,
+   "elo": [
+    1500,
+    1535
+   ],
+   "n": [
+    0,
+    17
+   ],
+   "value": []
+  },
+  {
+   "cat": "tenis",
+   "league": "WTA",
+   "date": "2026-11-30",
+   "time": "06:00",
+   "home": "Valentina Ryser",
+   "away": "Elena Pridankina",
+   "p": [
+    0.424,
+    0.576
+   ],
+   "pick": 1,
+   "elo": [
+    1479,
+    1532
+   ],
+   "n": [
+    3,
+    26
+   ],
+   "value": []
   },
   {
    "league": "Süper Lig",
